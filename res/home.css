@@ -104,10 +104,9 @@ If so you could just re use 90% of the og code*/
         animation: imgMove 0.7s ease-in-out 0.1s forwards 1;
     }
     div.vflex p{
-        transform: translateY(-20px)
+        transform: translateY(-20px);
         width: 200px;
         font-size: 12px;
     }
 
-}
 }
