@@ -11,13 +11,13 @@ permalink: /
 </header>
 
 <div class="homeOverview">
-	<a href="{{ site.posts[1].url }}" class="box boxBlog">
+	<a href="{{ site.posts[0].url }}" class="box boxBlog">
 		<label class="boxTitle">Blog Posts</label>
 		<div>
-			<h1>{{ site.posts[1].title }}</h1>
-			{{ site.posts[1].excerpt | markdownify | strip_html }}
+			<h1>{{ site.posts[0].title }}</h1>
+			{{ site.posts[0].excerpt | markdownify | strip_html }}
 			<i class="postReadMore">Read more...</i>
-			<i class="postDate">{{ site.posts[1].date | date_to_string }}</i>
+			<i class="postDate">{{ site.posts[0].date | date_to_string }}</i>
 		</div>
 	</a>
 
