@@ -1,5 +1,5 @@
 priv
-**.sublime-project
+**.sublime**
 **.lock
 .bundle
 vendor
