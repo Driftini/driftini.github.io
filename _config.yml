@@ -1,4 +1,5 @@
 source: src
+destination: docs
 exclude: [priv/, FumoNet*]
 plugins: [jekyll-paginate-v2]
 
