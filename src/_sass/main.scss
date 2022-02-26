@@ -131,6 +131,15 @@ a {
     }
 }
 
+blockquote p {
+    padding-left: 10px;
+    font-style: italic;
+    border-left: 3px solid #555;
+
+    &:before { content: "\""; }
+    &:after { content: "\""; }
+}
+
 hr {
     width: 95%;
     border: none;

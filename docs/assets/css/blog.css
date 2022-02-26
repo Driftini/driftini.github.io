@@ -11,6 +11,12 @@ a { color: #6f9de6; text-decoration: none; }
 
 a:hover { text-decoration: underline; }
 
+blockquote p { padding-left: 10px; font-style: italic; border-left: 3px solid #555; }
+
+blockquote p:before { content: "\""; }
+
+blockquote p:after { content: "\""; }
+
 hr { width: 95%; border: none; border-top: 1px solid #0000008a; border-bottom: 1px solid #ffffff1a; }
 
 .separator { height: 40px; margin: 0 20px; border-left: 1px solid #ffffff1a; border-right: 1px solid #0000008a; }
