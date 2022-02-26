@@ -1,0 +1,54 @@
+---
+layout: default
+---
+<div class="allPosts">
+	{{ content }}
+
+	<!-- Thanks to Ankit R Gadiya: https://stackoverflow.com/a/44115360 -->
+	{% assign postsByYear = paginator.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+	{% for year in postsByYear %}
+
+	{% assign postsByMonth = year.items | group_by_exp:"post", "post.date | date: '%B'" %}
+	{% for month in postsByMonth %}
+
+	<h2>{{ month.name }} {{ year.name }}</h2>
+	<div class="monthPosts">
+		{% for post in month.items %}
+
+		<a href="{{ post.url }}" class="box">
+			<label class="boxTitle noPseudo">{{ post.title }}</label>
+
+			{% if page.pagination.collection == posts %}
+			<span>{{ post.excerpt }} <i class="postReadMore">Read more...</i></span>
+			{% endif %}
+
+			{% if post.thumbnail %}
+			<span class="imgShine">
+				<img src="{{ post.thumbnail }}">
+			</span>
+
+			{% elsif post.pictures %}
+			<span class="imgShine">
+				<img src="{{ post.pictures[0].thumbnail }}">
+			</span>
+			{% endif %}
+
+			<i class="postDate">{{ post.date | date_to_string }}</i>
+		</a>
+
+		{% endfor %}
+	</div>
+
+	{% endfor %}
+
+	{% endfor %}
+
+	{% if paginator.page_trail %}
+	<div class="pager">
+		<div class="box noPseudo">
+			{% for trail in paginator.page_trail %}<a href="{{ trail.path }}" class="pagerItem{% if page.url == trail.path %} pagerCurrent{% endif %}">{{ trail.num }}</a>{% endfor %}
+			<!-- inline to get rid of whitespace -->
+		</div>
+	</div>
+	{% endif %}
+</div>

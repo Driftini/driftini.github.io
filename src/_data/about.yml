@@ -1,0 +1,62 @@
+[
+    {
+      title: "[Drawing](/artwork)",
+      body: "One of my (if not **the**) absolute biggest hobbies.
+
+
+            I used to draw characters from old cartoons back in around 2018-19, then gradually started building my own artstyle
+            starting from 2020 and began drawing characters from Touhou and whatnot in the same year."
+    },
+    {
+      title: "Music",
+      body: "Definitely a huge part of my life as well, I listen to all kinds of stuff during most of the day.
+
+
+            I mainly enjoy \"old\" (2015 or older) mainstream music, Nujabes tracks (I particularly love the *Luv(sic.) Hexalogy*),
+            Eurobeat and amazing game soundtracks such as *Devil May Cry 5*, *Guilty Gear Strive* and *Metal Gear Rising:
+            Revengenance*'s to name a few.
+
+
+            Now that I've mentioned Eurobeat is among my favorite kinds of music, I'll also take advantage of the moment to say that
+            some of my favorite artists from this genre are Odyssey, Manuel and ACE."
+    },
+    {
+      title: "Gaming",
+      body: "Shouldn't come as a surprise. I'm a huge fan of character action/*hack and slash*es to the likes of *Devil May Cry*,
+            roguelikes such as *Dead Cells* and *Risk of Rain 1 & 2* and, from time to time, open-world games like *The Legend of
+            Zelda: Breath of The Wild*. I also play fancy Doom mods (**not** *Brutal Doom*) from time to time.
+
+
+            I used to be an enormous *Metroid* fan as well, but with the recent somewhat dead state of the franchise, my interest
+            for it has kind of died out.
+
+
+            The best game I've ever played is very likely *Katana ZERO*. I **very** strongly recommend playing it, more than anything else I've mentioned before."
+    },
+    {
+      title: "Tech",
+      body: "If it's related in any way to technology, I probably like it. What I do not like though, is who just can't help but brag
+            about their choice of Linux distro to use, **especially** if the latter is Arch.
+
+
+            With that said, I *do* admittedly dualboot Windows and Arch, but rather than bragging rights, my reason to use this
+            distribution is mostly the enormous amount of packages the AUR offer. That, and to have a blank canvas to build a fancy
+            setup upon.
+
+
+            I also spend a lot of time on web - and recently game - development, the former of the two blending really well with my
+            next interest in this list."
+    },
+    {
+      title: "Design",
+      body: "You might've guessed it from this website's visual direction - I enjoy designing and coding graphical interfaces making
+            use of the good old skeuomorphism we were *so* used to back in the days of Windows 7 and similar."
+    },
+    {
+      title: "Photography",
+      body: "I have kinda dropped this hobby with the arrival of the ongoing pandemic, but if I ever find myself outdoors and around
+            a cool scenery, more likely than not I am going to take a couple pictures of it.
+
+            The few pictures I take that I deem good enough make it to my desktop as wallpapers."
+    }
+]

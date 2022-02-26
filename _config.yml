@@ -1,0 +1,60 @@
+source: src
+exclude: [priv/, FumoNet*]
+plugins: [jekyll-paginate-v2]
+
+url: https://driftini.github.io
+
+permalink: /:categories/:year/:month/:day/:title
+
+collections:
+  posts:
+    layout: blogpost
+    stylesheet: blog
+    permalink: /blog/:name
+
+  artwork:
+    output: true
+    layout: picturepost
+    stylesheet: pictureblog
+
+  wallpapers:
+    output: true
+    layout: picturepost
+    stylesheet: pictureblog
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
+      stylesheet: home
+  -
+    scope:
+      path: "_posts"
+    values:
+      layout: blogpost
+      stylesheet: blog
+  -
+    scope:
+      path: "_artwork"
+    values:
+      layout: picturepost
+      stylesheet: pictureblog
+  -
+    scope:
+      path: "_wallpapers"
+    values:
+      layout: picturepost
+      stylesheet: pictureblog
+
+
+pagination:
+  enabled: true
+  per_page: 15
+  title: ":title - Page :num"
+  sort_reverse: true
+  trail:
+    before: 3
+    after: 3
+    

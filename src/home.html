@@ -1,0 +1,51 @@
+---
+layout: default
+title: Home
+stylesheet: home
+permalink: /
+---
+<header class="welcome">
+	<img src="assets/img/misc/fumo.png" class="fumo">
+	<h1>Welcome to FumoNet!</h1>
+	<p>You can find some recent stuff below...</p>
+</header>
+
+<div class="homeOverview">
+	<a href="{{ site.posts[1].url }}" class="box boxBlog">
+		<label class="boxTitle">Blog Posts</label>
+		<div>
+			<h1>{{ site.posts[1].title }}</h1>
+			{{ site.posts[1].excerpt | markdownify | strip_html }}
+			<i class="postReadMore">Read more...</i>
+			<i class="postDate">{{ site.posts[1].date | date_to_string }}</i>
+		</div>
+	</a>
+
+	{% assign latestArt = site.artwork | last %}
+	<a href="{{ latestArt.url }}" class="box boxArtwork">
+		<label class="boxTitle">Recent Artwork</label>
+		<div>
+			<h1>{{ latestArt.title }}</h1>
+			{{ latestArt.excerpt | markdownify | strip_html }}
+			<i class="postReadMore">Read more...</i>
+			<i class="postDate">{{ latestArt.date | date_to_string }}</i>
+		</div>
+		<img src="{{ latestArt.pictures[0].thumbnail }}">
+	</a>
+
+	{% assign latestWall = site.wallpapers | last %}
+	<a href="{{ latestWall.url }}" class="box boxWallpapers">
+		<label class="boxTitle">Latest Wallpaper</label>
+		<div>
+			<h1>{{ latestWall.title }}</h1>
+			{{ latestWall.excerpt | markdownify | strip_html }}
+			<i class="postReadMore">Read more...</i>
+			<i class="postDate">{{ latestWall.date | date_to_string }}</i>
+		</div>
+		<img src="{{ latestWall.pictures[0].thumbnail }}">
+	</a>
+
+	<!-- <a class="box boxProjects">
+		<label class="boxTitle">Featured Project</label>
+	</a> -->
+</div>

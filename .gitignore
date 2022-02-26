@@ -1,1 +1,8 @@
-ref/**
+priv
+**.sublime-project
+**.lock
+.bundle
+vendor
+.jekyll-cache
+_drafts
+_site

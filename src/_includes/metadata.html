@@ -1,0 +1,24 @@
+<meta name="theme-color" content="#777777">
+<meta name="color-scheme" content="dark light">
+
+<meta property="og:url" content="{{ site.url | append: page.url }}">
+
+<meta property="og:site_name" content="FumoNet">
+<meta property="og:title" content="{{ page.title }}">
+
+{% if page.layout == "picturepost" or page.layout == "blogpost" %}
+<meta property="og:type" content="article">
+<meta name="description" content="{{ page.excerpt | markdownify | strip_html }}">
+<meta property="og:description" content="{{ page.excerpt | markdownify | strip_html }}">
+{% else %}
+<meta property="og:type" content="website">
+<meta name="description" content="I'm Driftini, welcome to my website!">
+<meta property="og:description" content="I'm Driftini, welcome to my website!">
+{% endif %}
+
+{% if page.thumbnail %}
+<meta property="og:image" content="{{ site.url | append: page.thumbnail }}">
+{% elsif page.pictures %}
+<meta property="og:image" content="{{ site.url | append: page.pictures[0].thumbnail }}">
+{% endif %}
+<meta name="twitter:card" content="summary_large_image">

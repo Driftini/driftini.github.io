@@ -1,0 +1,14 @@
+- name: About Me
+  link: /about
+
+- name: Blog
+  link: /blog
+
+- name: Artwork
+  link: /artwork
+
+- name: Wallpapers
+  link: /wallpapers
+
+# - name: Projects
+#   link: /projects

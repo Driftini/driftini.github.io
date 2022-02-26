@@ -1,0 +1,8 @@
+<nav class="navbar">
+	<!-- The home is hardcoded because of terrible design -->
+	<a href="/" class="navbarItem{% if page.url == "/" %} navbarCurrent{% endif %}">FumoNet</a>
+	
+	{% for item in site.data.navbar %}
+	<a href="{{ item.link }}" class="navbarItem{% if page.url contains item.link %} navbarCurrent{% endif %}">{{ item.name }}</a>
+	{% endfor %}
+</nav>
