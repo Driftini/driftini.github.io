@@ -111,6 +111,6 @@ a.box .imgShine { margin: 10px 0; }
 
 .postDate { text-align: right; }
 
-@media only screen and (max-width: 800px) { .allPosts h2 { text-align: center; } .allPosts a.box { width: 100%; margin: 15px 0; } .postDiv header { flex-direction: column; align-items: flex-start; margin: 0; } .postDiv header .separator { display: none; } .postDiv header h1 { margin-bottom: 5px; } }
+@media only screen and (max-width: 800px) { .allPosts h2 { text-align: center; } .allPosts a.box { width: 100%; margin: 15px 0; } .postDiv header { flex-direction: column; align-items: flex-start; margin: 0; } .postDiv header .separator { display: none; } .postDiv header h1 { margin-bottom: 5px; } .postDiv img { max-width: 100%; } }
 
 /*# sourceMappingURL=blog.css.map */
