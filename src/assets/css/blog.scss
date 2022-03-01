@@ -13,7 +13,11 @@ a.box {
 	padding: 0 20px 10px;
 
 	.imgShine {
-		margin: 10px 0;
+		margin: 10px auto;
+
+		img {
+			max-height: 350px;
+		}
 	}
 }
 
@@ -70,11 +74,12 @@ a.box {
 	text-align: left;
 
 	p {
-		font-size: 18px;	
+		font-size: 18px;
 	}
 
 	img {
 		max-width: 800px;
+		max-height: 400px;
 	}
 
 	h1 {
