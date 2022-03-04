@@ -5,11 +5,11 @@ pictures: [
 	{
 		thumbnail: "/assets/img/posts/walls/thumbs/2021-12-04-desatberries.jpg",
 		lowres: {
-			file: "/assets/img/posts/walls/2021-12-04-desatberries.jpeg",
+			file: "/assets/img/posts/walls/2021-12-04-desatberries.jpg",
 			label: "HD (1280x720)"
 		},
 		maxres: {
-			file: "/assets/img/posts/walls/2021-12-04-desatberries_max.jpeg",
+			file: "/assets/img/posts/walls/2021-12-04-desatberries_max.jpg",
 			label: "Max res. (4624x2594)"
 		}
 	}
