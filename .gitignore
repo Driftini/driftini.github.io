@@ -5,5 +5,4 @@ priv
 vendor
 .jekyll-cache
 _drafts
-**.png
-**.jpg
+src/assets/img**
