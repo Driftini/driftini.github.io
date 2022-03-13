@@ -13,14 +13,14 @@ pictures: [
 		thumbnail: "/assets/img/posts/artwork/thumbs/2022-03-03-redpillmsoon_sketch1.jpg",
 		lowres: {
 			file: "/assets/img/posts/artwork/2022-03-03-redpillmsoon_sketch1.jpg",
-			label: "Initial Paper Sketch"
+			label: "Sketch #1"
 		}
 	},
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2022-03-03-redpillmsoon_sketch2.jpg",
 		lowres: {
 			file: "/assets/img/posts/artwork/2022-03-03-redpillmsoon_sketch2.png",
-			label: "Digital Sketch"
+			label: "Sketch #2"
 		}
 	}
 ]

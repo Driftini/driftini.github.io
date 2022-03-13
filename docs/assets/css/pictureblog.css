@@ -79,7 +79,7 @@ a.box { display: flex; flex-direction: column; justify-content: space-between; m
 
 a.box .imgShine { margin: 20px auto; }
 
-a.box .imgShine img { max-height: 310px; }
+a.box .imgShine img { max-width: 320px; }
 
 .allPosts { text-align: left; }
 
@@ -117,7 +117,7 @@ a.box .imgShine img { max-height: 310px; }
 
 .picPostAttachment { display: grid; grid-template-columns: auto 1fr auto auto; grid-template-rows: 1fr; place-items: center; margin: 15px 0; padding: 15px; }
 
-.picPostAttachment img { grid-row: 1 / 4; place-self: center; max-height: 143px; }
+.picPostAttachment img { grid-row: 1 / 4; place-self: center; max-width: 310px; max-height: 143px; }
 
 .picPostAttachment b { padding-left: 15px; justify-self: left; font-size: 19px; }
 
@@ -155,6 +155,6 @@ a.box .imgShine img { max-height: 310px; }
 
 .socialContainer .box { width: 90%; height: 25px; align-items: center; }
 
-@media only screen and (max-width: 800px) { .allPosts h2 { text-align: center; } .allPosts a.box { width: 100%; margin: 15px 0; } .postDiv header { flex-direction: column; align-items: flex-start; margin: 0; } .postDiv header .separator { display: none; } .postDiv header h1 { margin-bottom: 5px; } .picPostAttachment { grid-template-columns: 1fr 1fr; grid-template-rows: auto; } .picPostAttachment img { grid-column: 1 / 5; grid-row: unset; max-width: 100%; } .picPostAttachment b { grid-column: 1 / 5; justify-self: center; padding-left: none; padding-top: 15px; } .picPostAttachment hr { grid-column: 1 / 5; } .socialContainer .box { width: unset; } .pager .box .pagerItem { min-width: 35px; max-width: 35px; padding: 8px 0; font-size: 18px; } }
+@media only screen and (max-width: 800px) { .allPosts h2 { text-align: center; } .allPosts a.box { width: 100%; margin: 15px 0; } .postDiv header { flex-direction: column; align-items: flex-start; margin: 0; } .postDiv header .separator { display: none; } .postDiv header h1 { margin-bottom: 5px; } .picPostAttachment { grid-template-columns: 1fr 1fr; grid-template-rows: auto; } .picPostAttachment img { grid-column: 1 / 5; grid-row: unset; max-width: 100%; } .picPostAttachment b { grid-column: 1 / 5; justify-self: center; padding-left: 0; padding-top: 15px; } .picPostAttachment hr { grid-column: 1 / 5; } .socialContainer .box { width: unset; } .pager .box .pagerItem { min-width: 35px; max-width: 35px; padding: 8px 0; font-size: 18px; } }
 
 /*# sourceMappingURL=pictureblog.css.map */

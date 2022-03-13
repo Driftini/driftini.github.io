@@ -12,7 +12,6 @@ pictures: [
 ]
 ---
 > Let me be clear, Reimu.
->
 > **[I WILL NEVER PAY.](https://youtu.be/WykFCYIDSbQ?t=798)**
 
 Really felt like I needed to draw a Devil May Cry 5 scene with Youmu.

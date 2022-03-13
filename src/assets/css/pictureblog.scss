@@ -55,7 +55,7 @@ a.box {
 		margin: 20px auto;
 
 		img {
-  			max-height: 310px;
+			max-width: 320px;
 		}
 	}
 }
@@ -150,6 +150,7 @@ a.box {
 	img {
 		grid-row: 1 / 4;
 		place-self: center;
+		max-width: 310px;
 		max-height: 143px;
 	}
 
@@ -292,7 +293,7 @@ a.box {
 		b {
 			grid-column: 1 / 5;
 			justify-self: center;
-			padding-left: none;
+			padding-left: 0;
 			padding-top: 15px;
 		}
 
