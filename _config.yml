@@ -4,7 +4,7 @@ exclude: [priv/, FumoNet*]
 plugins: [jekyll-paginate-v2]
 
 url: https://driftini.github.io
-baseurl: "/driftini.github.io"
+#baseurl: "/driftini.github.io"
 
 permalink: /:categories/:year/:month/:day/:title
 
@@ -56,5 +56,5 @@ pagination:
   title: ":title - Page :num"
   sort_reverse: true
   trail:
-    before: 3
-    after: 3
+    before: 4
+    after: 4

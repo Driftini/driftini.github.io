@@ -16,4 +16,4 @@ I can't remember whether or not this was supposed to be a shitpost, but I am sur
 
 I had just realized I had that frog clip in a cabinet and figured it'd be fancy.
 
-I have taped this to a shelf in my room for no reason whatsoever, as seen in the attachment above.
+I also have taped this to a shelf in my room for no reason whatsoever.
