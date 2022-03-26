@@ -4,7 +4,7 @@ exclude: [priv/, FumoNet*]
 plugins: [jekyll-paginate-v2]
 
 url: https://driftini.github.io
-#baseurl: "/driftini.github.io"
+baseurl: "/driftini.github.io"
 
 permalink: /:categories/:year/:month/:day/:title
 
