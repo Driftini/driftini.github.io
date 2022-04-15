@@ -30,7 +30,13 @@ permalink: /
 			<i class="postReadMore">Read more...</i>
 			<i class="postDate">{{ latestArt.date | date_to_string }}</i>
 		</div>
-		<img src="{{ latestArt.pictures[0].thumbnail }}">
+		
+		{% if latestArt.thumbnail %}
+			<img src="{{ latestArt.thumbnail }}">
+
+		{% elsif latestArt.pictures %}
+			<img src="{{ latestArt.pictures[0].thumbnail }}">
+		{% endif %}
 	</a>
 
 	{% assign latestWall = site.wallpapers | last %}
