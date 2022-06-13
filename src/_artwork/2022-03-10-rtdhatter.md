@@ -4,9 +4,9 @@ title: Mad Hatter
 pictures: [
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2022-03-10-rtdhatter.jpg",
+		thumbpos: "0 -140px",
 		lowres: {
-			file: "/assets/img/posts/artwork/2022-03-10-rtdhatter.jpg",
-			label: "Original Resolution"
+			file: "/assets/img/posts/artwork/2022-03-10-rtdhatter.jpg"
 		}
 	}
 ]

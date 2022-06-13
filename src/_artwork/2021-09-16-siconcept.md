@@ -4,9 +4,9 @@ title: Skill Issue MC Concept
 pictures: [
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2021-09-16-siconcept.jpg",
+		thumbpos: "1px -20px",
 		lowres: {
-			file: "/assets/img/posts/artwork/2021-09-16-siconcept.jpg",
-			label: "Original Resolution"
+			file: "/assets/img/posts/artwork/2021-09-16-siconcept.jpg"
 		}
 	}
 ]

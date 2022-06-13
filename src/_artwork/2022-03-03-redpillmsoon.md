@@ -4,6 +4,7 @@ title: Redpilled Monsoon
 pictures: [
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2022-03-03-redpillmsoon.jpg",
+		thumbpos: "-60px -130px",
 		lowres: {
 			file: "/assets/img/posts/artwork/2022-03-03-redpillmsoon.png",
 			label: "Final Drawing"
@@ -11,6 +12,7 @@ pictures: [
 	},
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2022-03-03-redpillmsoon_sketch1.jpg",
+		thumbpos: "-90px -70px",
 		lowres: {
 			file: "/assets/img/posts/artwork/2022-03-03-redpillmsoon_sketch1.jpg",
 			label: "Sketch #1"
@@ -18,6 +20,7 @@ pictures: [
 	},
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2022-03-03-redpillmsoon_sketch2.jpg",
+		thumbpos: "0 -110px",
 		lowres: {
 			file: "/assets/img/posts/artwork/2022-03-03-redpillmsoon_sketch2.png",
 			label: "Sketch #2"

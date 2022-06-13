@@ -5,8 +5,7 @@ pictures: [
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2019-10-22-yeetingiso.jpg",
 		lowres: {
-			file: "/assets/img/posts/artwork/2019-10-22-yeetingiso.jpg",
-			label: "Original Resolution"
+			file: "/assets/img/posts/artwork/2019-10-22-yeetingiso.jpg"
 		}
 	}
 ]

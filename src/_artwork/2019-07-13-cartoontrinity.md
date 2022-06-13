@@ -11,6 +11,7 @@ pictures: [
 	},
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2019-07-13-cartoontrinity_gir.jpg",
+		thumbpos: "center -85px",
 		lowres: {
 			file: "/assets/img/posts/artwork/2019-07-13-cartoontrinity_gir.jpg",
 			label: "GIR Sketch"
@@ -18,6 +19,7 @@ pictures: [
 	},
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2019-07-13-cartoontrinity_ro.jpg",
+		thumbpos: "center -160px",
 		lowres: {
 			file: "/assets/img/posts/artwork/2019-07-13-cartoontrinity_ro.jpg",
 			label: "Robotboy Sketch"

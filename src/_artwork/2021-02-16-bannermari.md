@@ -4,6 +4,7 @@ title: Birthday banner Marisa
 pictures: [
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2021-02-16-bannermari.jpg",
+		thumbpos: "-60px -90px",
 		lowres: {
 			file: "/assets/img/posts/artwork/2021-02-16-bannermari.jpg",
 			label: "Final Drawing"
@@ -11,6 +12,7 @@ pictures: [
 	},
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2021-02-16-bannermari_sketch.jpg",
+		thumbpos: "-60px -30px",
 		lowres: {
 			file: "/assets/img/posts/artwork/2021-02-16-bannermari_sketch.jpg",
 			label: "Sketch"

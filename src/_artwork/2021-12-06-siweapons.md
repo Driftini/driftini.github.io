@@ -4,9 +4,9 @@ title: Skill Issue MC w/weapons
 pictures: [
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2021-12-06-siweapons.jpg",
+		thumbpos: "center -40px",
 		lowres: {
-			file: "/assets/img/posts/artwork/2021-12-06-siweapons.jpg",
-			label: "Original Resolution"
+			file: "/assets/img/posts/artwork/2021-12-06-siweapons.jpg"
 		}
 	}
 ]

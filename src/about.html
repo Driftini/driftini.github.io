@@ -1,16 +1,17 @@
 ---
 layout: default
 title: About Me
-stylesheet: about
+permalink: /about
 ---
-<div class="aboutDiv">
+<div class="padded">
 	<header>
 		<h1>{{ page.title }}</h1>
 	</header>
 
-	<div class="box noPseudo aboutTldr">
-		<img src="/assets/img/misc/tface.png" class="aboutBanner">
-		<img src="/assets/img/misc/pfp.png" class="box noPseudo aboutPfp">
+	<div class="box aboutTldr">
+		<!-- <img src="/assets/img/misc/tface.png" class="aboutBanner"> -->
+		<div class="aboutTldr--pfp"></div>
+
 		<p>
 			Hey there, I'm Driftini and welcome to my website!<br><br>
 
@@ -24,7 +25,7 @@ stylesheet: about
 
 	{% for paragraph in site.data.about %}
 
-	<div class="interestParagraph">
+	<div class="aboutParagraph">
 		<h3>{{ paragraph.title | markdownify }}</h3>
 		<p>{{ paragraph.body | markdownify }}</p>
 	</div>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The big FumoNet update - FumoNet</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="icon" href="/assets/img/misc/favicon.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#777777">
+<meta name="color-scheme" content="dark light">
+
+<meta property="og:url" content="https://driftini.github.io/blog/2022-06-13-smoothieupdate">
+
+<meta property="og:site_name" content="FumoNet">
+<meta property="og:title" content="The big FumoNet update">
+
+
+<meta property="og:type" content="website">
+<meta name="description" content="I'm Driftini, welcome to my website!">
+<meta property="og:description" content="I'm Driftini, welcome to my website!">
+
+
+
+<meta property="og:image" content="https://driftini.github.io/assets/img/posts/blog/thumbs/2022-06-13-smoothieupdate.png">
+
+<meta name="twitter:card" content="summary_large_image">
+
+</head>
+
+<body>
+    <nav>
+	<!-- The home is hardcoded because of terrible design -->
+	<a href="/" class="button button--glass">FumoNet</a>
+	
+	
+	<a href="/about" class="button button--glass">About Me</a>
+	
+	<a href="/blog" class="button button--glass button--pressed">Blog</a>
+	
+	<a href="/artwork" class="button button--glass">Artwork</a>
+	
+	<a href="/wallpapers" class="button button--glass">Wallpapers</a>
+	
+</nav>
+
+    <div class="content"> <div class="padded blogPost">
+	<header>
+		<h1>The big FumoNet update</h1>
+		<div class="vertSeparator"></div>
+		<i>13 Jun 2022</i>
+	</header>
+
+	
+
+	<p>About two months of work, finally coming to a close.
+Meet the new FumoNet.</p>
+
+<p>As it turns out, this website’s old stylesheets were a massive pain to work with and expand.
+So, I restarted from scratch with a new approach: a main stylesheet containing a ton of variables and SCSS mixins for UI components, and a separate stylesheet specifically made for FumoNet.</p>
+
+<p>I decided to do things this way to make porting the theme elsewhere a much easier job, and also to make future updates easily applicable to every port without having to hunt for dozens of different classes, each with their own tweaks.</p>
+
+<p>Enough about the internals, though.
+What does all this translate to on my website?
+Well, a pretty massive visual makeover.</p>
+
+<p><img src="/assets/img/posts/blog/2022-06-13-homeold.png" alt="" /></p>
+
+<p><img src="/assets/img/posts/blog/2022-06-13-homenew.png" alt="" /></p>
+
+<p>The homepage’s layout is still pretty similar to the old one, although properly animated now and showing a manually selected art post, instead of the latest one like before.</p>
+
+<p>What did change quite a bit is the Blog, Wallpapers and Artwork index pages: instead of a bunch of floating massive cards, now everything is contained in a compact box with the thumbnail (if any), some of the post’s body and the date.</p>
+
+<p>The pagination pill has also been replaced by a row of buttons below the posts.</p>
+
+<p><img src="/assets/img/posts/blog/2022-06-13-indexold.png" alt="" /></p>
+
+<p><img src="/assets/img/posts/blog/2022-06-13-indexnew.png" alt="" /></p>
+
+<p>Though, I believe one of the biggest improvements in this update lies in the post details page for the Artwork and Wallpaper archives.</p>
+
+<p>Now attachments don’t waste an stupidly enormous amount of screen space anymore, making posts with tons of pictures look way cleaner.</p>
+
+<p><img src="/assets/img/posts/blog/2022-06-13-detailsold.png" alt="" /></p>
+
+<p><img src="/assets/img/posts/blog/2022-06-13-detailsnew.png" alt="" /></p>
+
+<p>Oh, and attachments can be hovered on to expand them.
+In other words, the index pages now focus on showing as much content as possible in a clean-ish way, while the details pages finally focus on the actual pictures.</p>
+
+<p><img src="/assets/img/posts/blog/2022-06-13-detailshover.gif" alt="" /></p>
+
+<p>I believe there are still many rough edges in this update (the elephant in the room being the lack of a mobile stylesheet for now), but I will clean them up as time goes on… hopefully.</p>
+
+
+</div>
+ </div>
+    <footer>
+	<h3>Social media</h3>
+	<a href="https://www.youtube.com/channel/UC8eEbbyJ-_nJv_zSb9_Z0lA" target="_blank" class="imgButton scYT"></a>
+	<a href="https://discord.com/invite/VwAPkHd" target="_blank" class="imgButton scDC"></a>
+	<a href="https://twitter.com/Driftini" target="_blank" class="imgButton scTW"></a>
+	<a href="https://github.com/Driftini" target="_blank" class="imgButton scGH"></a>
+	<a href="https://last.fm/user/Driftini" target="_blank" class="imgButton scLF"></a>
+	<hr>
+	<p>Last update: 13/06/2022</p>
+</footer>
+
+</body>
+
+</html>

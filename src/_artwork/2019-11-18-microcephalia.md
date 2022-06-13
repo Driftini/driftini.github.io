@@ -4,9 +4,9 @@ title: Another failed Takumi attempt
 pictures: [
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2019-11-18-microcephalia.jpg",
+		thumbpos: "-88px -90px",
 		lowres: {
-			file: "/assets/img/posts/artwork/2019-11-18-microcephalia.jpg",
-			label: "Original Resolution"
+			file: "/assets/img/posts/artwork/2019-11-18-microcephalia.jpg"
 		}
 	}
 ]

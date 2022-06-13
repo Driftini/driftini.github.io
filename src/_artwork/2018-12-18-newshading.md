@@ -4,9 +4,9 @@ title: New shading technique sketch
 pictures: [
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2018-12-18-newshading.jpg",
+		thumbpos: "0 -140px",
 		lowres: {
-			file: "/assets/img/posts/artwork/2018-12-18-newshading.jpg",
-			label: "Original Resolution"
+			file: "/assets/img/posts/artwork/2018-12-18-newshading.jpg"
 		}
 	}
 ]

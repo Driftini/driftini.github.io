@@ -4,9 +4,9 @@ title: Youmu will never pay.
 pictures: [
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2021-10-14-yumwillneverpay.jpg",
+		thumbpos: "-70px -110px",
 		lowres: {
-			file: "/assets/img/posts/artwork/2021-10-14-yumwillneverpay.jpg",
-			label: "Original Resolution"
+			file: "/assets/img/posts/artwork/2021-10-14-yumwillneverpay.jpg"
 		}
 	}
 ]

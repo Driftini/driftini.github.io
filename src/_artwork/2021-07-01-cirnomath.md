@@ -4,9 +4,9 @@ title: Cirno math something
 pictures: [
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2021-07-01-cirnomath.jpg",
+		thumbpos: "1px -110px",
 		lowres: {
-			file: "/assets/img/posts/artwork/2021-07-01-cirnomath.jpg",
-			label: "Original Resolution"
+			file: "/assets/img/posts/artwork/2021-07-01-cirnomath.jpg"
 		}
 	}
 ]

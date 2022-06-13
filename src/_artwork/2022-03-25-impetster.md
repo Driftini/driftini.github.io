@@ -4,9 +4,9 @@ title: Lovely harmless pet
 pictures: [
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2022-03-25-impetster.jpg",
+		thumbpos: "-75px -30px",
 		lowres: {
-			file: "/assets/img/posts/artwork/2022-03-25-impetster.jpg",
-			label: "Original Resolution"
+			file: "/assets/img/posts/artwork/2022-03-25-impetster.jpg"
 		}
 	}
 ]

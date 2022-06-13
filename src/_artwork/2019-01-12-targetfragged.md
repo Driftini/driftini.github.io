@@ -4,9 +4,9 @@ title: Target Eliminated
 pictures: [
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2019-01-12-targetfragged.jpg",
+		thumbpos: "center -80px",
 		lowres: {
-			file: "/assets/img/posts/artwork/2019-01-12-targetfragged.jpg",
-			label: "Original Resolution"
+			file: "/assets/img/posts/artwork/2019-01-12-targetfragged.jpg"
 		}
 	}
 ]

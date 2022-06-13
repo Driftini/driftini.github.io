@@ -4,9 +4,9 @@ title: Random misc. sketches
 pictures: [
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2021-12-20-sisketches.jpg",
+		thumbpos: "1px -260px",
 		lowres: {
-			file: "/assets/img/posts/artwork/2021-12-20-sisketches.jpg",
-			label: "Original Resolution"
+			file: "/assets/img/posts/artwork/2021-12-20-sisketches.jpg"
 		}
 	}
 ]

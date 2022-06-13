@@ -5,8 +5,7 @@ pictures: [
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2021-06-23-sanaeclip.jpg",
 		lowres: {
-			file: "/assets/img/posts/artwork/2021-06-23-sanaeclip.jpg",
-			label: "Original Resolution"
+			file: "/assets/img/posts/artwork/2021-06-23-sanaeclip.jpg"
 		}
 	}
 ]

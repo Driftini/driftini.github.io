@@ -4,9 +4,9 @@ title: Respect the Rules
 pictures: [
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2019-02-24-respectdn.jpg",
+		thumbpos: "-10px -50px",
 		lowres: {
-			file: "/assets/img/posts/artwork/2019-02-24-respectdn.png",
-			label: "Original Resolution"
+			file: "/assets/img/posts/artwork/2019-02-24-respectdn.png"
 		}
 	}
 ]

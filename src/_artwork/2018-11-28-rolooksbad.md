@@ -4,9 +4,9 @@ title: Robotboy but it looks bad
 pictures: [
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2018-11-28-rolooksbad.jpg",
+		thumbpos: "center -100px",
 		lowres: {
-			file: "/assets/img/posts/artwork/2018-11-28-rolooksbad.jpg",
-			label: "Original Resolution"
+			file: "/assets/img/posts/artwork/2018-11-28-rolooksbad.jpg"
 		}
 	}
 ]

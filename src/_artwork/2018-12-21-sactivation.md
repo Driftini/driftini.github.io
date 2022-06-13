@@ -4,9 +4,9 @@ title: Superactivation Incoming
 pictures: [
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2018-12-21-sactivation.jpg",
+		thumbpos: "center -110px",
 		lowres: {
-			file: "/assets/img/posts/artwork/2018-12-21-sactivation.jpg",
-			label: "Original Resolution"
+			file: "/assets/img/posts/artwork/2018-12-21-sactivation.jpg"
 		}
 	}
 ]

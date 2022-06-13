@@ -6,7 +6,7 @@ pictures: [
 		thumbnail: "/assets/img/posts/artwork/thumbs/2022-01-21-skillintro.jpg",
 		lowres: {
 			file: "/assets/img/posts/artwork/2022-01-21-skillintro.gif",
-			label: "Original Resolution (Animated)"
+			label: "Animated, open in new tab"
 		}
 	}
 ]

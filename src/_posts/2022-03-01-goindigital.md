@@ -15,13 +15,13 @@ A couple weeks back, I decided to clean the dust off a stylus for touch screens 
 
 Let's just say the outcome was... not quite good.
 
-![](/assets/img/posts/blog/2022-03-01-goindigital_1.png){:class="box"}
+![](/assets/img/posts/blog/2022-03-01-goindigital_1.png)
 
 Yeah, pretty far from that.
 
 Though, after a couple hours of getting used to *(the right drawing has actually been made on the same day as this post, I just wanted to add more character variety in the pics here)*, I started getting some nice lineart and tried out coloring as well, this time with fairly good results.
 
-![](/assets/img/posts/blog/2022-03-01-goindigital_2.png){:class="box"}
+![](/assets/img/posts/blog/2022-03-01-goindigital_2.png)
 
 Speaking of colors, I find it seriously incredible how much they can change the simplest of doodles for the better. I can pretty much say the same about undoing mistakes and *having an eraser that actually deletes stuff*.
 
@@ -33,7 +33,7 @@ Another thing I've been doing these days is trying to bring some much-needed var
 
 As I've mentioned on Twitter a while ago, I'm working on a relatively large scale drawing - hopefully I'll get it nice and finished as soon as possible.
 
-![](/assets/img/posts/blog/2022-03-01-goindigital_3.png){:class="box"}
+![](/assets/img/posts/blog/2022-03-01-goindigital_3.png)
 
 I've made the very first basic sketches on paper (basically just the pose and general idea) roughly two weeks ago. So far, the base sketch is finished and what's left to make is the finalized lineart (which is almost half done) and obviously to color the whole thing. I am admittedly pretty curious to see how this is gonna turn out in the end.
 

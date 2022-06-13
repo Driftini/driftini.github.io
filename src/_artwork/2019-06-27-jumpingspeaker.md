@@ -4,9 +4,9 @@ title: A bouncing speaker...?
 pictures: [
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2019-06-27-jumpingspeaker.jpg",
+		thumbpos: "-75px -50px",
 		lowres: {
-			file: "/assets/img/posts/artwork/2019-06-27-jumpingspeaker.jpg",
-			label: "Original Resolution"
+			file: "/assets/img/posts/artwork/2019-06-27-jumpingspeaker.jpg"
 		}
 	}
 ]

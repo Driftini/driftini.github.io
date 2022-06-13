@@ -1,0 +1,75 @@
+---
+layout: default
+---
+{{ content }}
+
+<div class="box" style="padding-top: 30px; width: fit-content;">
+	<label class="box--label">Page {{ paginator.page }}</label>
+
+	<div class="postIndexGrid">
+		<!-- Thanks to Ankit R Gadiya: https://stackoverflow.com/a/44115360 -->
+		{% assign postsByYear = paginator.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+		{% for year in postsByYear %}
+
+		{% assign postsByMonth = year.items | group_by_exp:"post", "post.date | date: '%B'" %}
+		{% for month in postsByMonth %}
+
+		{% for post in month.items %}
+
+		<a href="{{ post.url }}" class="postEntry">
+
+		{% if post.thumbnail or post.pictures %}
+		
+			<span class="postEntry--image">
+				{% if post.thumbnail %}
+				<img src="{{ post.thumbnail }}">
+
+				{% elsif post.pictures %}
+				<img src="{{ post.pictures[0].thumbnail }}">
+
+				{% endif %}
+			</span>
+
+			<div class="vertSeparator"></div>
+
+		{% endif %}
+
+			<span class="postEntry--text">
+				<h2>{{ post.title }}</h2>
+				<p> {{ post.excerpt | markdownify | strip_html }} </p>
+			</span>
+
+			<label class="postEntry--date box--label">{{ post.date | date_to_string }}</label>
+		</a>
+
+		{% endfor %}
+
+		{% endfor %}
+
+		{% endfor %}
+	</div>
+
+	{% if paginator.page_trail %}
+	<div class="buttonRow">
+
+		{% for trail in paginator.page_trail %}
+
+		{% if trail == paginator.page_trail[0] and trail.num != paginator.first_page %}
+		<a href="{{ paginator.first_page_path }}" class="button">{{ paginator.first_page }}</a>
+		<div class="button button--blank">...</div>
+
+		{% elsif trail == paginator.page_trail[ 6
+		] and trail.num != paginator.last_page %}
+		<div class="button button--blank">...</div>
+		<a href="{{ paginator.last_page_path }}" class="button">{{ paginator.last_page }}</a>
+		{% else %}
+
+		<a href="{{ trail.path }}" class="button{% if page.url == trail.path %} button--pressed{% endif %}">{{ trail.num
+			}}</a>
+		{% endif %}
+
+		{% endfor %}
+	</div>
+	{% endif %}
+
+</div>

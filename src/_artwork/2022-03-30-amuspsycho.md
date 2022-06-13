@@ -4,9 +4,9 @@ title: There's an American Psycho Among Us.
 pictures: [
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2022-03-30-amuspsycho.jpg",
+		thumbpos: "-10px -93px",
 		lowres: {
-			file: "/assets/img/posts/artwork/2022-03-30-amuspsycho.jpg",
-			label: "Original Resolution"
+			file: "/assets/img/posts/artwork/2022-03-30-amuspsycho.jpg"
 		}
 	}
 ]

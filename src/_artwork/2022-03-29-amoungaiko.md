@@ -4,9 +4,9 @@ title: Another Aiko shitpost
 pictures: [
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2022-03-29-amoungaiko.jpg",
+		thumbpos: "-85px -118px",
 		lowres: {
-			file: "/assets/img/posts/artwork/2022-03-29-amoungaiko.jpg",
-			label: "Original Resolution"
+			file: "/assets/img/posts/artwork/2022-03-29-amoungaiko.jpg"
 		}
 	}
 ]

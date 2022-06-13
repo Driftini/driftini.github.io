@@ -4,9 +4,9 @@ title: Nitori Kawashiro
 pictures: [
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2021-05-24-nitorismoke.jpg",
+		thumbpos: "-40px -60px",
 		lowres: {
-			file: "/assets/img/posts/artwork/2021-05-24-nitorismoke.jpg",
-			label: "Original Resolution"
+			file: "/assets/img/posts/artwork/2021-05-24-nitorismoke.jpg"
 		}
 	}
 ]

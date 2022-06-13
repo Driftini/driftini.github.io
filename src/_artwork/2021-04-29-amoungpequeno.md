@@ -4,9 +4,9 @@ title: Amoung Pequeño
 pictures: [
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2021-04-29-amoungpequeno.jpg",
+		thumbpos: "-30px -110px",
 		lowres: {
-			file: "/assets/img/posts/artwork/2021-04-29-amoungpequeno.jpg",
-			label: "Original Resolution"
+			file: "/assets/img/posts/artwork/2021-04-29-amoungpequeno.jpg"
 		}
 	}
 ]

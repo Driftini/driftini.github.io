@@ -11,6 +11,7 @@ pictures: [
 	},
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2021-06-21-twohoesketches_2.jpg",
+		thumbpos: "1px -300px",
 		lowres: {
 			file: "/assets/img/posts/artwork/2021-06-21-twohoesketches_2.jpg",
 			label: "Sketches #2"

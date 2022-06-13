@@ -3,7 +3,7 @@
 
 <head>
     <title>About Me - FumoNet</title>
-    <link rel="stylesheet" href="/assets/css/about.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" href="/assets/img/misc/favicon.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,29 +27,30 @@
 </head>
 
 <body>
-    <nav class="navbar">
+    <nav>
 	<!-- The home is hardcoded because of terrible design -->
-	<a href="/" class="navbarItem">FumoNet</a>
+	<a href="/" class="button button--glass">FumoNet</a>
 	
 	
-	<a href="/about" class="navbarItem navbarCurrent">About Me</a>
+	<a href="/about" class="button button--glass button--pressed">About Me</a>
 	
-	<a href="/blog" class="navbarItem">Blog</a>
+	<a href="/blog" class="button button--glass">Blog</a>
 	
-	<a href="/artwork" class="navbarItem">Artwork</a>
+	<a href="/artwork" class="button button--glass">Artwork</a>
 	
-	<a href="/wallpapers" class="navbarItem">Wallpapers</a>
+	<a href="/wallpapers" class="button button--glass">Wallpapers</a>
 	
 </nav>
 
-    <div class="content"> <div class="aboutDiv">
+    <div class="content"> <div class="padded">
 	<header>
 		<h1>About Me</h1>
 	</header>
 
-	<div class="box noPseudo aboutTldr">
-		<img src="/assets/img/misc/tface.png" class="aboutBanner">
-		<img src="/assets/img/misc/pfp.png" class="box noPseudo aboutPfp">
+	<div class="box aboutTldr">
+		<!-- <img src="/assets/img/misc/tface.png" class="aboutBanner"> -->
+		<div class="aboutTldr--pfp"></div>
+
 		<p>
 			Hey there, I'm Driftini and welcome to my website!<br><br>
 
@@ -63,7 +64,7 @@
 
 	
 
-	<div class="interestParagraph">
+	<div class="aboutParagraph">
 		<h3><p><a href="/artwork">Drawing</a></p>
 </h3>
 		<p><p>This is likely the one hobby dearest to me out of all the ones listed here.</p>
@@ -74,20 +75,28 @@
 
 	
 
-	<div class="interestParagraph">
-		<h3><p>Music</p>
+	<div class="aboutParagraph">
+		<h3><p><a href="https://last.fm/user/driftini">Music</a></p>
 </h3>
 		<p><p>Definitely a huge part of my life as well, I listen to all kinds of stuff during most of the day.</p>
 
-<p>I mainly enjoy “old” (2015 or older) mainstream music, Nujabes tracks (I particularly love the <em>Luv(sic.) Hexalogy</em>), Eurobeat and amazing game soundtracks such as <em>Devil May Cry 5</em>, <em>Guilty Gear Strive</em> and <em>Metal Gear Rising: Revengenance</em>’s to name a few.</p>
+<p>I mainly enjoy “old” (2015 or older) mainstream music and hip-hop, of which my favorite artists are <a href="https://www.youtube.com/channel/UCO5XcuQe_fLJVI3sZ0LmGCA">Nujabes</a> (I particularly love his and Shing02’s <a href="https://www.youtube.com/playlist?list=OLAK5uy_ljDzjEYTId7ii1JmD_s741NUv3oiL2iGs"><em>Luv(sic.) Hexalogy</em></a>) and A Tribe Called Quest.</p>
 
-<p>Now that I’ve mentioned Eurobeat is among my favorite kinds of music, I’ll also take advantage of the moment to say that some of my favorite artists from this genre are Odyssey, Manuel and ACE.</p>
+<p>I also listen to Eurobeat and amazing game soundtracks such as <em>Devil May Cry 5</em>, <em>Guilty Gear Strive</em> and <em>Metal Gear Rising: Revengenance</em>’s to name a few.</p>
+
+<p>Now that I’ve mentioned Eurobeat is among my favorite genres, I’ll also take advantage of the moment to say that some of my favorite Eurobeat artists are <a href="https://odysseymusic.bandcamp.com/">Odyssey</a>, Manuel and <a href="https://www.youtube.com/channel/UCGpmhTM8wAknIC_rncL97Pw">ACE</a>.</p>
+
+<p>I’ve also recently gotten into J-Pop, which I had never thought I would’ve liked so much. My favorite artists in the genre are <a href="https://www.youtube.com/c/inabakumori">Inabakumori</a>, <a href="https://www.youtube.com/channel/UCcd-GOvl9DdyPVHQxy58bOw">Zutomayo</a> and <a href="https://www.youtube.com/channel/UC4lk0Ob-F3ptOQUUq8s0pzQ">Sangatsu no Phantasia</a>.</p>
+
+<p>Another genre I have discovered recently is dreampop, by listening to <a href="https://megumiacorda.bandcamp.com/">Megumi Acorda</a>’s amazing album <a href="https://megumiacorda.bandcamp.com/album/unexpectedly"><em>unexpectedly</em></a> thanks to a friend’s recommendation. I really recommend checking out their music, although a lot of it is not on their Bandcamp and generally pretty hard to find.</p>
+
+<p><strong><a href="https://last.fm/user/driftini">Now you can check out more about my music listening habits on Last.fm!</a></strong></p>
 </p>
 	</div>
 
 	
 
-	<div class="interestParagraph">
+	<div class="aboutParagraph">
 		<h3><p>Gaming</p>
 </h3>
 		<p><p>Shouldn’t come as a surprise. I’m a huge fan of character action/<em>hack and slash</em> games to the likes of <em>Devil May Cry</em>, roguelikes such as <em>Dead Cells</em> and <em>Risk of Rain 1 &amp; 2</em>, but from time to time, I also play fancy Doom mods (<strong>not</strong> <em>Brutal Doom</em>) and some open-world games like <em>The Legend of Zelda: Breath of The Wild</em>.</p>
@@ -100,7 +109,7 @@
 
 	
 
-	<div class="interestParagraph">
+	<div class="aboutParagraph">
 		<h3><p>Tech</p>
 </h3>
 		<p><p>If it’s related in any way to technology, I probably like it. What I do not like though, is who just can’t help but brag about their choice of Linux distro to use, <strong>especially</strong> if the latter is Arch.</p>
@@ -113,19 +122,21 @@
 
 	
 
-	<div class="interestParagraph">
+	<div class="aboutParagraph">
 		<h3><p>Design</p>
 </h3>
 		<p><p>You might’ve guessed it from this website’s visual direction - I enjoy designing and coding graphical interfaces making use of the good old skeuomorphism we were <em>so</em> used to back in the days of Windows 7 and similar.</p>
+
+<p>Nonetheless, I’m also a big fan of a few particularly great modern themes such as KDE’s Breeze and, to a lesser extent, Numix and Wine’s new light theme.</p>
 </p>
 	</div>
 
 	
 
-	<div class="interestParagraph">
+	<div class="aboutParagraph">
 		<h3><p><a href="/wallpapers">Photography</a></p>
 </h3>
-		<p><p>I have kinda dropped this hobby with the arrival of the ongoing pandemic, but if I ever find myself outdoors and around a cool scenery, more likely than not I am going to take a couple pictures of it.
+		<p><p>I have kinda dropped this hobby with the arrival of the COVID pandemic, but if I ever find myself outdoors and around a cool scenery, more likely than not I am going to take a couple pictures of it.
 The few pictures I take that I deem good enough make it to my desktop as wallpapers.</p>
 </p>
 	</div>
@@ -135,12 +146,13 @@ The few pictures I take that I deem good enough make it to my desktop as wallpap
  </div>
     <footer>
 	<h3>Social media</h3>
-	<a href="https://www.youtube.com/channel/UC8eEbbyJ-_nJv_zSb9_Z0lA" target="_blank" class="socialIcon"><img src="/assets/img/misc/sc-youtube.png"></a>
-	<a href="https://discord.com/invite/VwAPkHd" target="_blank" class="socialIcon"><img src="/assets/img/misc/sc-discord.png"></a>
-	<a href="https://twitter.com/Driftini" target="_blank" class="socialIcon"><img src="/assets/img/misc/sc-twitter.png"></a>
-	<a href="https://github.com/Driftini" target="_blank" class="socialIcon"><img src="/assets/img/misc/sc-github.png"></a>
+	<a href="https://www.youtube.com/channel/UC8eEbbyJ-_nJv_zSb9_Z0lA" target="_blank" class="imgButton scYT"></a>
+	<a href="https://discord.com/invite/VwAPkHd" target="_blank" class="imgButton scDC"></a>
+	<a href="https://twitter.com/Driftini" target="_blank" class="imgButton scTW"></a>
+	<a href="https://github.com/Driftini" target="_blank" class="imgButton scGH"></a>
+	<a href="https://last.fm/user/Driftini" target="_blank" class="imgButton scLF"></a>
 	<hr>
-	<p>Last update: 15/04/2022</p>
+	<p>Last update: 13/06/2022</p>
 </footer>
 
 </body>

@@ -1,8 +1,8 @@
 priv
-**.sublime**
 **.lock
 .bundle
 vendor
 .jekyll-cache
 _drafts
 src/assets/img**
+z-testpage.html

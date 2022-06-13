@@ -5,8 +5,7 @@ pictures: [
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2021-02-12-trollburgermari.jpg",
 		lowres: {
-			file: "/assets/img/posts/artwork/2021-02-12-trollburgermari.png",
-			label: "Original Resolution"
+			file: "/assets/img/posts/artwork/2021-02-12-trollburgermari.png"
 		}
 	}
 ]

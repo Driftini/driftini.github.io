@@ -4,9 +4,9 @@ title: Scythe Issue
 pictures: [
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2022-04-09-backscythe.jpg",
+		thumbpos: "-45px -80px",
 		lowres: {
-			file: "/assets/img/posts/artwork/2022-04-09-backscythe.jpg",
-			label: "Original Resolution"
+			file: "/assets/img/posts/artwork/2022-04-09-backscythe.jpg"
 		}
 	}
 ]

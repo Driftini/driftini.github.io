@@ -3,7 +3,7 @@
 
 <head>
     <title>Home - FumoNet</title>
-    <link rel="stylesheet" href="/assets/css/home.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" href="/assets/img/misc/favicon.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,84 +27,112 @@
 </head>
 
 <body>
-    <nav class="navbar">
+    <nav>
 	<!-- The home is hardcoded because of terrible design -->
-	<a href="/" class="navbarItem navbarCurrent">FumoNet</a>
+	<a href="/" class="button button--glass button--pressed">FumoNet</a>
 	
 	
-	<a href="/about" class="navbarItem">About Me</a>
+	<a href="/about" class="button button--glass">About Me</a>
 	
-	<a href="/blog" class="navbarItem">Blog</a>
+	<a href="/blog" class="button button--glass">Blog</a>
 	
-	<a href="/artwork" class="navbarItem">Artwork</a>
+	<a href="/artwork" class="button button--glass">Artwork</a>
 	
-	<a href="/wallpapers" class="navbarItem">Wallpapers</a>
+	<a href="/wallpapers" class="button button--glass">Wallpapers</a>
 	
 </nav>
 
-    <div class="content"> <header class="welcome">
-	<img src="assets/img/misc/fumo.png" class="fumo">
-	<h1>Welcome to FumoNet!</h1>
-	<p>You can find some recent stuff below...</p>
-</header>
+    <div class="content"> <!-- Start f. art check -->
 
-<div class="homeOverview">
-	<a href="/blog/2022-03-18-wacomfxp3" class="box boxBlog">
-		<label class="boxTitle">Blog Posts</label>
-		<div>
-			<h1>Wacom One first impressions - Day 3 & 4</h1>
-			Two for the price of one!
-Yesterday I barely drew anything and was too tired to prepare the blogpost, so I decided to merge it with the 4th day’s - so today’s - journal entry.
 
-			<i class="postReadMore">Read more...</i>
-			<i class="postDate">18 Mar 2022</i>
+
+
+
+
+<!-- End f. art check -->
+
+<div class="cancelPadding">
+	<div class="homeBanner">
+		<div class="homeBanner--welcomeRow">
+			<img src="assets/img/misc/fumo.png">
+
+			<div class="homeBanner--welcomeRow--text">
+				<h2>Welcome to</h2>
+				<h1>FumoNet</h1>
+			</div>
 		</div>
-	</a>
 
-	
-	<a href="/artwork/2022-04-09-koiclean" class="box boxArtwork">
-		<label class="boxTitle">Recent Artwork</label>
-		<div>
-			<h1>Koishi, once again</h1>
-			Now this is the nice and clean Koishi drawing I’ve been wishing for.
-The initial sketch gave me really low expectations (mostly because of the torso looking really off), but after considerably fleshing it out, cleaning it up and highlighting the final lineart with an HB pencil I was pretty surprised myself.
+		<div class="homeBanner--cardGrid" style="margin: 40px 100px">
+			<a href="/artwork/2022-05-26-aikocool" class="box" style="--cardDelay: .4s; translate: -100px 0">
+				<label class="box--label">Featured Artwork: <b>Much cooler Aikoyori drawing</b></label>
 
-			<i class="postReadMore">Read more...</i>
-			<i class="postDate">09 Apr 2022</i>
+				<div class="homeBanner--cardGrid--picturePost">
+					
+					<img src="/assets/img/posts/artwork/thumbs/2022-05-26-aikocool.jpg">
+
+					
+				</div>
+			</a>
+
+			<a href="/about" class="box homeAboutBox" style="--cardDelay: .6s; translate: 100px 0">
+				<label class="box--label">Something about me</label>
+
+				<div class="homeAboutImg"></div>
+
+				<h2>
+					I'm Driftini!<br><br>
+					I like music, design, drawing and a bunch of other stuff.<br><br>
+					<p class="homeReadMore">Read more...</p>
+				</h2>
+
+				
+			</a>
+
+			<a href="/blog/2022-06-13-smoothieupdate" class="box homeBlogBox" style="--cardDelay: .8s; translate: -100px 0">
+				<label class="box--label">Latest blog post: <b>The big FumoNet update</b></label>
+
+				
+
+				<div class="homeBanner--cardGrid--picturePost">
+					<img src="/assets/img/posts/blog/thumbs/2022-06-13-smoothieupdate.png">
+				</div>
+
+				
+
+				<div class="homeBlogExcerpt">
+					About two months of work, finally coming to a close. Meet the new FumoNet. As it turns out, this website’s old stylesheets were a massive pain to work with and expand. So, I restarted from scratch with a new approach: a main stylesheet containing a ton of variables and SCSS mixins for UI components, and a separate stylesheet specifically made for FumoNet. I decided to do things this way to make porting the theme elsewhere a much easier job, and also to make future updates easily applicable to every port without having to hunt for dozens of different classes, each...
+				</div>
+
+				<p class="homeReadMore">Read more...</p>
+
+				<p class="homeDate">13 Jun 2022</p>
+			</a>
+
+			
+			<a href="/wallpapers/2021-12-04-desatberries" class="box" style="--cardDelay: 1s; translate: 100px 0">
+				<label class="box--label">Latest wallpaper: <b>Desaturated Berries</b></label>
+
+				<div class="homeBanner--cardGrid--picturePost">
+					
+
+					<img src="/assets/img/posts/walls/thumbs/2021-12-04-desatberries.jpg">
+
+					
+				</div>
+			</a>
 		</div>
-		
-		
-			<img src="/assets/img/posts/artwork/thumbs/2022-04-09-koiclean.jpg">
-		
-	</a>
-
-	
-	<a href="/wallpapers/2021-12-04-desatberries" class="box boxWallpapers">
-		<label class="boxTitle">Latest Wallpaper</label>
-		<div>
-			<h1>Desaturated Berries</h1>
-			I have been wanting to take a picture of some berries for a while now, and I came across a few during a walk.
-After snapping a RAW photo and coming back home, I spent some time messing around with it (mostly its saturation) in Snapseed and the result is what you can see here.
-
-			<i class="postReadMore">Read more...</i>
-			<i class="postDate">04 Dec 2021</i>
-		</div>
-		<img src="/assets/img/posts/walls/thumbs/2021-12-04-desatberries.jpg">
-	</a>
-
-	<!-- <a class="box boxProjects">
-		<label class="boxTitle">Featured Project</label>
-	</a> -->
+	</div>
 </div>
  </div>
     <footer>
 	<h3>Social media</h3>
-	<a href="https://www.youtube.com/channel/UC8eEbbyJ-_nJv_zSb9_Z0lA" target="_blank" class="socialIcon"><img src="/assets/img/misc/sc-youtube.png"></a>
-	<a href="https://discord.com/invite/VwAPkHd" target="_blank" class="socialIcon"><img src="/assets/img/misc/sc-discord.png"></a>
-	<a href="https://twitter.com/Driftini" target="_blank" class="socialIcon"><img src="/assets/img/misc/sc-twitter.png"></a>
-	<a href="https://github.com/Driftini" target="_blank" class="socialIcon"><img src="/assets/img/misc/sc-github.png"></a>
+	<a href="https://www.youtube.com/channel/UC8eEbbyJ-_nJv_zSb9_Z0lA" target="_blank" class="imgButton scYT"></a>
+	<a href="https://discord.com/invite/VwAPkHd" target="_blank" class="imgButton scDC"></a>
+	<a href="https://twitter.com/Driftini" target="_blank" class="imgButton scTW"></a>
+	<a href="https://github.com/Driftini" target="_blank" class="imgButton scGH"></a>
+	<a href="https://last.fm/user/Driftini" target="_blank" class="imgButton scLF"></a>
 	<hr>
-	<p>Last update: 15/04/2022</p>
+	<p>Last update: 13/06/2022</p>
 </footer>
 
 </body>

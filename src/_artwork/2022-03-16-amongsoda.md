@@ -4,6 +4,7 @@ title: SusSoda
 pictures: [
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2022-03-16-amongsoda.jpg",
+		thumbpos: "0 -80px",
 		lowres: {
 			file: "/assets/img/posts/artwork/2022-03-16-amongsoda.png",
 			label: "Final Drawing"
@@ -11,6 +12,7 @@ pictures: [
 	},
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2022-03-16-amongsoda_sketch1.jpg",
+		thumbpos: "center -10px",
 		lowres: {
 			file: "/assets/img/posts/artwork/2022-03-16-amongsoda_sketch1.png",
 			label: "Sketch #1"
@@ -18,6 +20,7 @@ pictures: [
 	},
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2022-03-16-amongsoda_sketch2.jpg",
+		thumbpos: "0 -30px",
 		lowres: {
 			file: "/assets/img/posts/artwork/2022-03-16-amongsoda_sketch2.png",
 			label: "Sketch #2"

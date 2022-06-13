@@ -4,9 +4,9 @@ title: Clothing sketch
 pictures: [
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2021-12-22-hoodiesketch.jpg",
+		thumbpos: "1px -70px",
 		lowres: {
-			file: "/assets/img/posts/artwork/2021-12-22-hoodiesketch.jpg",
-			label: "Original Resolution"
+			file: "/assets/img/posts/artwork/2021-12-22-hoodiesketch.jpg"
 		}
 	}
 ]

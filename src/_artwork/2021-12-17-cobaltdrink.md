@@ -4,6 +4,7 @@ title: Cobalt drink something
 pictures: [
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2021-12-17-cobaltdrink.jpg",
+		thumbpos: "2px -20px",
 		lowres: {
 			file: "/assets/img/posts/artwork/2021-12-17-cobaltdrink.jpg",
 			label: "Final Drawing"
@@ -11,6 +12,7 @@ pictures: [
 	},
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2021-12-17-cobaltdrink_sketch1.jpg",
+		thumbpos: "1px -20px",
 		lowres: {
 			file: "/assets/img/posts/artwork/2021-12-17-cobaltdrink_sketch1.jpg",
 			label: "Sketch #1"
@@ -18,6 +20,7 @@ pictures: [
 	},
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2021-12-17-cobaltdrink_sketch2.jpg",
+		thumbpos: "1px -10px",
 		lowres: {
 			file: "/assets/img/posts/artwork/2021-12-17-cobaltdrink_sketch2.jpg",
 			label: "Sketch #2"
@@ -25,6 +28,7 @@ pictures: [
 	},
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2021-12-17-cobaltdrink_sketch3.jpg",
+		thumbpos: "1px -50px",
 		lowres: {
 			file: "/assets/img/posts/artwork/2021-12-17-cobaltdrink_sketch3.jpg",
 			label: "Sketch #3"
@@ -32,6 +36,7 @@ pictures: [
 	},
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2021-12-17-cobaltdrink_sketch4.jpg",
+		thumbpos: "1px -70px",
 		lowres: {
 			file: "/assets/img/posts/artwork/2021-12-17-cobaltdrink_sketch4.jpg",
 			label: "Sketch #4"

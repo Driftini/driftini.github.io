@@ -4,9 +4,9 @@ title: Very short-necked Takumi
 pictures: [
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2019-11-16-penciltakumi.jpg",
+		thumbpos: "-50px -90px",
 		lowres: {
-			file: "/assets/img/posts/artwork/2019-11-16-penciltakumi.jpg",
-			label: "Original Resolution"
+			file: "/assets/img/posts/artwork/2019-11-16-penciltakumi.jpg"
 		}
 	}
 ]
