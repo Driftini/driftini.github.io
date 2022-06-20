@@ -2,8 +2,13 @@
 
 :root {
 	/* Font */
-	--fontNormal: 16px "Rubik", sans-serif;
-	--fontCode: 14px "JetBrains Mono", sans-serif;
+	--fontNormal: var(--fsizNormal) "Rubik", sans-serif;
+	--fontCode: var(--fsizCode) "JetBrains Mono", sans-serif;
+
+	/* Font Sizes */
+	--fsizNormal: 16px;
+	--fsizCode: 14px;
+	--fsizButton: 15px;
 
 	/* Text colors */
 	--tcolrNormal: #efefef;
@@ -15,7 +20,7 @@
 
 	--wcolrMain: #373737;
 	--wcolrBright: #505050;
-	--wcolrDark: #1a1a1a;
+	--wcolrDark: #2a2a2a;
 	--wcolrDarker: #101010;
 
 	--wcolrAccent: #3e486f;
@@ -130,7 +135,7 @@
 @mixin Button {
 	min-width: 40px;
 	padding: 4px 15px;
-	font-size: 15px;
+	font-size: var(--fsizButton);
 	text-align: center;
 	background-color: var(--wcolrMain);
 	border: var(--bordrStandard);
@@ -195,7 +200,13 @@
 }
 
 @mixin InputBox {
-
+	padding: 2px 4px;
+    font: var(--fontNormal);
+    color: var(--tcolrNormal);
+    background-color: var(--wcolrDark);
+	border: var(--bordrStandard);
+	border-radius: 4px;
+    box-shadow: var(--shadwBrightOutline), var(--shadwInset);
 }
 
 @mixin Separator {
@@ -218,7 +229,7 @@
 	border: var(--bordrStandard);
 	background-color: var(--wcolrMain);
 	background-image: var(--gradtOpaque);
-	box-shadow: var(--shadwBrightEdges), var(--shadwOutset), var(--shadwDropShadow);
+	box-shadow: var(--shadw3D), var(--shadwBrightEdges), var(--shadwOutset), var(--shadwDropShadow);
 	border-radius: 4px;
 }
 
