@@ -1,6 +1,7 @@
 ---
 title: Cappy got no bitches
 
+featured: true
 pictures: [
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2022-06-22-cappygotnobitches.jpg",
