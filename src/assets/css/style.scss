@@ -308,7 +308,7 @@ a {
 
 			&.homeBlogBox {
 				display: grid;
-				grid-template-columns: 256px min(100px) min(100px);
+				grid-template-columns: minmax(200px, 300px) auto auto;
 				grid-template-rows: auto 10%;
 				grid-gap: 7px 15px;
 
