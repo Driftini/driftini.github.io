@@ -19,6 +19,7 @@ pictures: [
 	}
 ]
 ---
+
 So, I had the idea of drawing [my friend Cappy Ishihara](https://twitter.com/CappyIshihara)'s OC.
 These are the sketches I've made before the high-effort drawing I finished the next day.
 

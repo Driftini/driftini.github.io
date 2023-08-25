@@ -45,7 +45,7 @@ footer a.imgButton { display: inline-block; }
 
 footer a.imgButton.scYT { background-image: url("/assets/img/misc/sc-youtube.png"); }
 
-footer a.imgButton.scDC { background-image: url("/assets/img/misc/sc-discord.png"); }
+footer a.imgButton.scFV { background-image: url("/assets/img/misc/sc-fedi.png"); }
 
 footer a.imgButton.scTW { background-image: url("/assets/img/misc/sc-twitter.png"); }
 

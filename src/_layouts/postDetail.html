@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="padded{% if page.blogPost%} blogPost{% endif %}">
+<div class="padded{% if page.blogPost %} blogPost{% endif %}">
 	<header>
 		<h1>{{ page.title }}</h1>
 		<div class="vertSeparator"></div>
@@ -9,58 +9,77 @@ layout: default
 	</header>
 
 	{% unless page.blogPost %}
-
 	<div class="box">
-	    
-	{% for picture in page.pictures %}
-
+		{% for picture in page.pictures %}
 		{% if picture != page.pictures[0] %}
 		<hr>
 		{% endif %}
 
 		<div class="attachmentContainer">
-	        <div class="attachmentContainer--image" style="background-image: url('{{ picture.thumbnail }}'); {% if picture.thumbpos %}background-position: {{ picture.thumbpos }} {% endif %};"></div>
-	        <div class="attachmentContainer--details">
-	            <div class="attachmentContainer--details--variantRow">
-	                
-	                {% if picture.lowres.label %}
-	                <h3>{{ picture.lowres.label }}</h3>
-	                {% else %}
-	                <h3 class="noLabel">no label</h3>
-	                {% endif %}
+			<div class="attachmentContainer--image"
+				style="background-image: url('{{ picture.thumbnail }}'); {% if picture.thumbpos %}background-position: {{ picture.thumbpos }} {% endif %};">
+			</div>
+			<div class="attachmentContainer--details">
+				<!-- Old post structure (low/maxres variants) -->
+				{% if picture.lowres %}
+				<div class="attachmentContainer--details--variantRow">
+					{% if picture.lowres.label %}
+					<h3>{{ picture.lowres.label }}</h3>
+					{% else %}
+					<h3 class="noLabel">no label</h3>
+					{% endif %}
 
-	                <span class="buttonColumn">
-                        <a href="{{ picture.lowres.file }}" target="_blank" class="button button--glass">New tab</a>
-                        <a href="{{ picture.lowres.file }}" download class="button button--glass" style="background-color: #296026">Download</a>
-	                </span>
-	            </div>
+					<span class="buttonColumn">
+						<a href="{{ picture.lowres.file }}" target="_blank" class="button button--glass">New tab</a>
+						<a href="{{ picture.lowres.file }}" download class="button button--glass"
+							style="background-color: #296026">Download</a>
+					</span>
+				</div>
 
-	            {% if picture.maxres %}
-
-            	<hr>
+				{% if picture.maxres %}
+				<hr>
 
 				<div class="attachmentContainer--details--variantRow">
-	                
-	                {% if picture.maxres.label %}
-	                <h3>{{ picture.maxres.label }}</h3>
-	                {% else %}
-	                <h3 class="noLabel">no label</h3>
-	                {% endif %}
+					{% if picture.maxres.label %}
+					<h3>{{ picture.maxres.label }}</h3>
+					{% else %}
+					<h3 class="noLabel">no label</h3>
+					{% endif %}
 
-	                <span class="buttonColumn">
-                        <a href="{{ picture.maxres.file }}" target="_blank" class="button button--glass">New tab</a>
-                        <a href="{{ picture.maxres.file }}" download class="button button--glass" style="background-color: #296026">Download</a>
-	                </span>
-	            </div>
+					<span class="buttonColumn">
+						<a href="{{ picture.maxres.file }}" target="_blank" class="button button--glass">New tab</a>
+						<a href="{{ picture.maxres.file }}" download class="button button--glass"
+							style="background-color: #296026">Download</a>
+					</span>
+				</div>
+				{% endif %}
 
-	            {% endif %}
-	        </div>
-	    </div>
+				<!-- New post structure (variants list) -->
+				{% elsif picture.variants %}
+				{% for variant in picture.variants %}
+				{% if variant != picture.variants[0] %}
+				<hr>
+				{% endif %}
 
-    {% endfor %}
+				<div class="attachmentContainer--details--variantRow">
+					{% if variant.label %}
+					<h3>{{ variant.label }}</h3>
+					{% else %}
+					<h3 class="noLabel">no label</h3>
+					{% endif %}
 
+					<span class="buttonColumn">
+						<a href="{{ variant.file }}" target="_blank" class="button button--glass">New tab</a>
+						<a href="{{ variant.file }}" download class="button button--glass"
+							style="background-color: #296026">Download</a>
+					</span>
+				</div>
+				{% endfor %}
+				{% endif %}
+			</div>
+		</div>
+		{% endfor %}
 	</div>
-
 	{% endunless %}
 
 	{{ content }}

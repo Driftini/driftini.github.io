@@ -1,7 +1,6 @@
 ---
 title: Cappy got no bitches
 
-featured: true
 pictures: [
 	{
 		thumbnail: "/assets/img/posts/artwork/thumbs/2022-06-22-cappygotnobitches.jpg",
@@ -21,6 +20,7 @@ pictures: [
 	}
 ]
 ---
+
 Well, this wasn't the original idea, but the alternative was a drawing that would've looked like a Picrew profile picture, so I decided to take a turn and turn this into a meme.
 
 The drawing came out with the level of quality I expected, and I'm really happy about that!
