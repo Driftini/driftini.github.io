@@ -1,9 +1,9 @@
 ---
 pictures:
-- thumbnail: /assets/img/posts/artwork/thumbs/2023-08-29-firststeps.jpg
+- thumbnail: /assets/img/posts/artwork/thumbs/2023-08-29-mumafirststeps.jpg
   thumbpos: -124px -103px
   variants:
-  - file: /assets/img/posts/artwork/2023-08-29-firststeps.png
+  - file: /assets/img/posts/artwork/2023-08-29-mumafirststeps.png
 title: First Steps
 ---
 My friend [Theki](https://lethallava.land/@t) got me to play the RPGmaker game [Muma Rope](https://yume.wiki/muma/Muma_Rope_Wiki) with him on [Yume Nikki Online](https://ynoproject.net/muma).
