@@ -4,10 +4,12 @@ pictures:
   thumbpos: center -122px
   variants:
   - file: /assets/img/posts/artwork/2023-01-18-jansketches_1.jpg
+    label: Hunch Gray Nira, Humanoid Nira
 - thumbnail: /assets/img/posts/artwork/thumbs/2023-01-18-jansketches_2.jpg
   thumbpos: center -90px
   variants:
   - file: /assets/img/posts/artwork/2023-01-18-jansketches_2.jpg
+    label: Humanoid Nira
 thumbnail: /assets/img/posts/artwork//thumbs/2023-01-18-jansketches_2.jpg
 title: January sketches
 ---
