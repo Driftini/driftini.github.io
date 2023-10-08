@@ -3,10 +3,10 @@ layout: default
 ---
 {{ content }}
 
-<div class="box" style="padding-top: 30px; width: fit-content;">
+<div class="box postIndexBox" style="padding-top: 30px">
 	<label class="box--label">Page {{ paginator.page }}</label>
 
-	<div class="postIndexGrid">
+	<div class="postIndexBox--grid">
 		<!-- Thanks to Ankit R Gadiya: https://stackoverflow.com/a/44115360 -->
 		{% assign postsByYear = paginator.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
 		{% for year in postsByYear %}

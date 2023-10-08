@@ -11,30 +11,30 @@
 	--fsizButton: 15px;
 
 	/* Text colors */
-	--tcolrNormal: #efefef;
-	--tcolrHylink: #6f9de6;
+    --tcolrNormal: #ccd5e8;
+    --tcolrHylink: #d9ace6; 
 	--tcolrCode: #bbb;
 
 	/* Widget colors */
-	--wcolrBackground: #202020;
+    --wcolrBackground: #2c2c36;
 
-	--wcolrMain: #373737;
-	--wcolrBright: #505050;
+    --wcolrMain: #3c3c48;
+    --wcolrBright: #383b56;
 	--wcolrDark: #2a2a2a;
-	--wcolrDarker: #101010;
+    --wcolrDarker: #26252c;
 
-	--wcolrAccent: #3e486f;
+    --wcolrAccent: #594b82;
 
 	/* Transparent colors (highlights and shadows) */
-	--scolrHlight: #fff4;
-	--scolrHlightSubtle: #fff2;
-	--scolrHlightSubtler: #fff1;
+    --scolrHlight: #edf6;
+    --scolrHlightSubtle: #cbf3;
+    --scolrHlightSubtler: #cbf2;
 
-	--scolrShadow: #0004;
-	--scolrShadowSubtle: #0003;
+    --scolrShadow: #2114;
+    --scolrShadowSubtle: #2112;
 
 	/* Borders */
-	--bordrStandard: 1px solid #111111;
+    --bordrStandard: 1px solid #122;
 
 	/* Box-shadows */
 	--shadw3D: inset 0 1px var(--scolrHlight);
@@ -49,32 +49,42 @@
 
 	/* Gradients */
 	--gradtOpaque: linear-gradient(
-		0deg,
-		var(--scolrShadowSubtle),
-		var(--scolrHlightSubtle)
-	);
-
-	--gradtOpaqueReverse: linear-gradient(
-		180deg,
-		var(--scolrShadowSubtle),
-		var(--scolrHlightSubtle)
-	);
-
-	--gradtGlass: linear-gradient(
-		0deg,
-		var(--scolrShadow) 0%,
-		var(--scolrShadowSubtle) 50%,
-		#0000 50%,
-		var(--scolrHlightSubtle) 100%
-	);
-
-	--gradtGlassReverse: linear-gradient(
-		180deg,
-		var(--scolrShadow) 0%,
-		var(--scolrShadowSubtle) 50%,
-		#0000 50%,
-		var(--scolrHlightSubtle) 100%
-	);
+        0deg,
+        var(--scolrShadowSubtle),
+        #0000 25%, 
+        #0000 calc(100% - 8px),
+        var(--scolrHlightSubtler)
+    );
+	
+    --gradtOpaqueReverse: linear-gradient(
+        180deg,
+        var(--scolrShadowSubtle),
+        #0000 25%, 
+        #0000 calc(100% - 8px),
+        var(--scolrHlightSubtler)
+    );
+	
+    --gradtGlassBase: radial-gradient(
+        ellipse at 50% -50%,
+        var(--scolrHlightSubtle),
+        #0000 70%
+    );
+	
+    --gradtGlass: linear-gradient(
+        0deg,
+        var(--scolrShadowSubtle) 0%,
+        var(--scolrShadow) 50%,
+        #0000 50%,
+        var(--scolrHlightSubtler) 100%
+    ), var(--gradtGlassBase);
+	
+    --gradtGlassReverse: linear-gradient(
+        1800deg,
+        var(--scolrShadowSubtle) 0%,
+        var(--scolrShadow) 50%,
+        #0000 50%,
+        var(--scolrHlightSubtler) 100%
+    ), var(--gradtGlassBase);
 
 	/* Animations */
 

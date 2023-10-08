@@ -1,25 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap");
-:root { /* Font */ --fontNormal: var(--fsizNormal) "Rubik", sans-serif; --fontCode: var(--fsizCode) "JetBrains Mono", sans-serif; /* Font Sizes */ --fsizNormal: 16px; --fsizCode: 14px; --fsizButton: 15px; /* Text colors */ --tcolrNormal: #efefef; --tcolrHylink: #6f9de6; --tcolrCode: #bbb; /* Widget colors */ --wcolrBackground: #202020; --wcolrMain: #373737; --wcolrBright: #505050; --wcolrDark: #2a2a2a; --wcolrDarker: #101010; --wcolrAccent: #3e486f; /* Transparent colors (highlights and shadows) */ --scolrHlight: #fff4; --scolrHlightSubtle: #fff2; --scolrHlightSubtler: #fff1; --scolrShadow: #0004; --scolrShadowSubtle: #0003; /* Borders */ --bordrStandard: 1px solid #111111; /* Box-shadows */ --shadw3D: inset 0 1px var(--scolrHlight); --shadwBrightEdges: inset 0 0 0 1px var(--scolrHlightSubtler); --shadwBrightOutline: 0 0 0 1px var(--scolrHlightSubtler); --shadwInset: 0 1px var(--scolrHlightSubtle); --shadwOutset: inset 0 -1px #111111; --shadwDarken: inset 0 0 0 200px var(--scolrShadow); --shadwDropShadow: 0 5px 15px var(--scolrShadow); /* Gradients */ --gradtOpaque: linear-gradient(
-		0deg,
-		var(--scolrShadowSubtle),
-		var(--scolrHlightSubtle)
-	); --gradtOpaqueReverse: linear-gradient(
-		180deg,
-		var(--scolrShadowSubtle),
-		var(--scolrHlightSubtle)
-	); --gradtGlass: linear-gradient(
-		0deg,
-		var(--scolrShadow) 0%,
-		var(--scolrShadowSubtle) 50%,
-		#0000 50%,
-		var(--scolrHlightSubtle) 100%
-	); --gradtGlassReverse: linear-gradient(
-		180deg,
-		var(--scolrShadow) 0%,
-		var(--scolrShadowSubtle) 50%,
-		#0000 50%,
-		var(--scolrHlightSubtle) 100%
-	); /* Animations */ --animtSine: 0.1s cubic-bezier(.47,0,.74,.71); --animtCircular: 0.3s cubic-bezier(.79,.14,.15,.86); }
+:root { /* Font */ --fontNormal: var(--fsizNormal) "Rubik", sans-serif; --fontCode: var(--fsizCode) "JetBrains Mono", sans-serif; /* Font Sizes */ --fsizNormal: 16px; --fsizCode: 14px; --fsizButton: 15px; /* Text colors */ --tcolrNormal: #ccd5e8; --tcolrHylink: #d9ace6; --tcolrCode: #bbb; /* Widget colors */ --wcolrBackground: #2c2c36; --wcolrMain: #3c3c48; --wcolrBright: #383b56; --wcolrDark: #2a2a2a; --wcolrDarker: #26252c; --wcolrAccent: #594b82; /* Transparent colors (highlights and shadows) */ --scolrHlight: #edf6; --scolrHlightSubtle: #cbf3; --scolrHlightSubtler: #cbf2; --scolrShadow: #2114; --scolrShadowSubtle: #2112; /* Borders */ --bordrStandard: 1px solid #122; /* Box-shadows */ --shadw3D: inset 0 1px var(--scolrHlight); --shadwBrightEdges: inset 0 0 0 1px var(--scolrHlightSubtler); --shadwBrightOutline: 0 0 0 1px var(--scolrHlightSubtler); --shadwInset: 0 1px var(--scolrHlightSubtle); --shadwOutset: inset 0 -1px #111111; --shadwDarken: inset 0 0 0 200px var(--scolrShadow); --shadwDropShadow: 0 5px 15px var(--scolrShadow); /* Gradients */ --gradtOpaque: linear-gradient(
+        0deg,
+        var(--scolrShadowSubtle),
+        #0000 25%, 
+        #0000 calc(100% - 8px),
+        var(--scolrHlightSubtler)
+    ); --gradtOpaqueReverse: linear-gradient(
+        180deg,
+        var(--scolrShadowSubtle),
+        #0000 25%, 
+        #0000 calc(100% - 8px),
+        var(--scolrHlightSubtler)
+    ); --gradtGlassBase: radial-gradient(
+        ellipse at 50% -50%,
+        var(--scolrHlightSubtle),
+        #0000 70%
+    ); --gradtGlass: linear-gradient(
+        0deg,
+        var(--scolrShadowSubtle) 0%,
+        var(--scolrShadow) 50%,
+        #0000 50%,
+        var(--scolrHlightSubtler) 100%
+    ), var(--gradtGlassBase); --gradtGlassReverse: linear-gradient(
+        1800deg,
+        var(--scolrShadowSubtle) 0%,
+        var(--scolrShadow) 50%,
+        #0000 50%,
+        var(--scolrHlightSubtler) 100%
+    ), var(--gradtGlassBase); /* Animations */ --animtSine: 0.1s cubic-bezier(.47,0,.74,.71); --animtCircular: 0.3s cubic-bezier(.79,.14,.15,.86); }
 
 /* Markdown mixins */
 /* Widget mixins */
@@ -35,7 +43,7 @@ body { display: flex; flex-direction: column; justify-content: space-between; he
 
 header { display: flex; align-items: center; }
 
-nav { max-width: 100%; max-height: 44px; padding: 7px 10px; background-color: var(--wcolrMain); background-image: var(--gradtGlass); border-bottom: var(--bordrStandard); border-bottom-width: 2px; box-shadow: var(--shadwBrightEdges), var(--shadwDropShadow); z-index: 100; position: fixed; top: 0; display: flex; width: 100%; }
+nav { max-width: 100%; max-height: 44px; padding: 7px 10px; background-color: var(--wcolrMain); background-image: var(--gradtGlass); border-bottom: var(--bordrStandard); border-bottom-width: 2px; box-shadow: var(--shadwBrightEdges), var(--shadwDropShadow); z-index: 100; position: fixed; top: 0; display: flex; justify-content: center; width: 100%; }
 
 nav a.button { min-width: 110px; margin-right: 15px; }
 
@@ -129,7 +137,7 @@ a.button, a.postEntry, a.box { color: var(--tcolrNormal); text-decoration: none;
 
 .cancelPadding { margin: 0 -30px; }
 
-.homeBanner { display: flex; width: 100%; flex-direction: column; justify-content: start; align-items: center; margin: 20px 0; padding: 30px 0; background-color: var(--wcolrDarker); background-image: var(--gradtGlassReverse); border: var(--bordrStandard); border-width: 1px 0; box-shadow: var(--shadwBrightOutline), var(--shadwInset); overflow: hidden; animation: homeBannerCollapse; animation-duration: 1s; animation-delay: .2s; animation-fill-mode: both; animation-timing-function: var(--animtCircular); }
+.homeBanner { display: flex; width: 100%; flex-direction: column; justify-content: start; align-items: center; margin: 20px 0; padding: 30px 0; background-color: var(--wcolrDarker); background-image: var(--gradtOpaqueReverse); border: var(--bordrStandard); border-width: 1px 0; box-shadow: var(--shadwBrightOutline), var(--shadwInset); overflow: hidden; animation: homeBannerCollapse; animation-duration: 1s; animation-delay: .2s; animation-fill-mode: both; animation-timing-function: var(--animtCircular); }
 
 .homeBanner--welcomeRow { display: flex; flex-direction: row; justify-content: center; align-items: center; }
 
@@ -141,7 +149,7 @@ a.button, a.postEntry, a.box { color: var(--tcolrNormal); text-decoration: none;
 
 .homeBanner--welcomeRow--text h2 { font-size: 38px; letter-spacing: 1px; word-spacing: 4px; }
 
-.homeBanner--cardGrid { display: grid; grid-template-columns: repeat(2, minmax(500px, 700px)); grid-gap: 10px 20px; }
+.homeBanner--cardGrid { display: grid; grid-template-columns: repeat(2, minmax(500px, 700px)); grid-gap: 10px 20px; margin: 40px 100px; }
 
 .homeBanner--cardGrid .box { display: flex; flex-direction: column; justify-content: center; width: 100%; max-height: 282px; padding: 32px 25px 14px 25px; transition: background-color var(--animtSine); animation: cardDropIn; animation-duration: .7s; animation-delay: var(--cardDelay); animation-fill-mode: both; animation-timing-function: var(--animtCircular); }
 
@@ -153,7 +161,7 @@ a.button, a.postEntry, a.box { color: var(--tcolrNormal); text-decoration: none;
 
 .homeBanner--cardGrid .box.homeAboutBox h2 { width: 60%; }
 
-.homeBanner--cardGrid .box.homeBlogBox { display: grid; grid-template-columns: minmax(150px, 300px) 100px 110px; grid-template-rows: auto 10%; grid-gap: 7px 15px; }
+.homeBanner--cardGrid .box.homeBlogBox { display: grid; grid-template-columns: minmax(70px, 300px) 100px 110px; grid-template-rows: auto 10%; grid-gap: 7px 15px; }
 
 .homeBanner--cardGrid .box.homeBlogBox .homeBanner--cardGrid--picturePost { grid-row: 1 / 3; align-self: center; }
 
@@ -181,7 +189,9 @@ a.button, a.postEntry, a.box { color: var(--tcolrNormal); text-decoration: none;
 .aboutParagraph:nth-child(odd) { text-align: right; opacity: 70%; }
 
 /* Picture archive indexes */
-.postIndexGrid { display: grid; grid-template-columns: repeat(2, minmax(500px, 700px)); grid-gap: 0 10px; }
+.postIndexBox { width: fit-content; }
+
+.postIndexBox--grid { display: grid; grid-template-columns: repeat(2, minmax(500px, 700px)); grid-gap: 0 10px; }
 
 .postEntry { position: relative; display: flex; height: 128px; padding-top: 1px; background-color: var(--wcolrBright); background-image: var(--gradtGlass); border: var(--bordrStandard); border-radius: 4px; box-shadow: var(--shadwBrightOutline), var(--shadwBrightEdges), var(--shadwInset); transition: background-color var(--animtSine); }
 
@@ -220,7 +230,7 @@ a.button, a.postEntry, a.box { color: var(--tcolrNormal); text-decoration: none;
 
 .attachmentContainer--details { display: flex; flex-direction: column; justify-content: space-evenly; width: 25%; padding-left: 15px; padding-right: 5px; overflow: hidden; }
 
-.attachmentContainer--details--variantRow { display: flex; justify-content: space-between; align-items: center; }
+.attachmentContainer--details--variantRow { display: flex; justify-content: space-between; align-items: center; height: 50%; }
 
 .attachmentContainer--details--variantRow h3 { margin: 0; }
 
@@ -237,6 +247,13 @@ a.button, a.postEntry, a.box { color: var(--tcolrNormal); text-decoration: none;
 
 .blogPost p { font-size: 18px; }
 
-.blogPost img { max-height: 400px; background-color: var(--wcolrBright); border: var(--bordrStandard); border-radius: 4px; box-shadow: var(--shadwDropShadow), var(--shadwOutset), var(--shadwBrightOutline), var(--shadwBrightOutline); }
+.blogPost img { max-width: 100%; max-height: 400px; background-color: var(--wcolrBright); border: var(--bordrStandard); border-radius: 4px; box-shadow: var(--shadwDropShadow), var(--shadwOutset), var(--shadwBrightOutline), var(--shadwBrightOutline); }
+
+/** Mobile support **/
+@media (max-width: 1090px) { .homeBanner { animation: none; height: 100%; } .homeBanner--welcomeRow img { height: 20vw; } .homeBanner--welcomeRow--text h1 { font-size: 9.3vw; } .homeBanner--welcomeRow--text h2 { font-size: 7vw; } .homeBanner--cardGrid { grid-template-columns: unset; margin: 40px 20px; margin-bottom: 0; } .postIndexBox--grid { grid-template-columns: minmax(500px, 700px); } }
+
+@media (max-width: 1090px) and (max-width: 790px) { nav { padding: 4px 0; } nav a.button { min-width: unset; width: 100%; margin: 0; padding: 4px 5px; border-radius: 0; font-size: 80%; } .aboutTldr { grid-template-columns: unset; } .aboutTldr p { grid-row: 2; } .aboutTldr--pfp { margin: auto; } .postIndexBox { width: unset; } .postIndexBox--grid { grid-template-columns: unset; } .postIndexBox--grid .postEntry { flex-direction: column; height: auto; } .attachmentContainer--details--variantRow { flex-direction: column; height: 70%; } }
+
+@media (max-width: 1090px) and (max-width: 790px) and (max-width: 420px) { .attachmentContainer { flex-direction: column; width: 100%; } .attachmentContainer--image, .attachmentContainer--image:hover, .attachmentContainer--details { width: 100%; } .attachmentContainer--image, .attachmentContainer--image:hover { height: 128px; background-size: cover; background-position: center !important; } .attachmentContainer--details { margin-top: 10px; padding-left: 5px; } .attachmentContainer--details--variantRow h3 { margin-bottom: 5px; } }
 
 /*# sourceMappingURL=style.css.map */

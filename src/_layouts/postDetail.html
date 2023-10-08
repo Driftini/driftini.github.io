@@ -30,9 +30,7 @@ layout: default
 					{% endif %}
 
 					<span class="buttonColumn">
-						<a href="{{ picture.lowres.file }}" target="_blank" class="button button--glass">New tab</a>
-						<a href="{{ picture.lowres.file }}" download class="button button--glass"
-							style="background-color: #296026">Download</a>
+						<a href="{{ picture.lowres.file }}" target="_blank" class="button button--glass">Open original</a>
 					</span>
 				</div>
 
@@ -47,9 +45,7 @@ layout: default
 					{% endif %}
 
 					<span class="buttonColumn">
-						<a href="{{ picture.maxres.file }}" target="_blank" class="button button--glass">New tab</a>
-						<a href="{{ picture.maxres.file }}" download class="button button--glass"
-							style="background-color: #296026">Download</a>
+						<a href="{{ picture.maxres.file }}" target="_blank" class="button button--glass">Open original</a>
 					</span>
 				</div>
 				{% endif %}
@@ -69,9 +65,7 @@ layout: default
 					{% endif %}
 
 					<span class="buttonColumn">
-						<a href="{{ variant.file }}" target="_blank" class="button button--glass">New tab</a>
-						<a href="{{ variant.file }}" download class="button button--glass"
-							style="background-color: #296026">Download</a>
+						<a href="{{ variant.file }}" target="_blank" class="button button--glass">Open original</a>
 					</span>
 				</div>
 				{% endfor %}

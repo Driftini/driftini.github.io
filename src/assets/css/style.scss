@@ -45,6 +45,7 @@ nav {
 	position: fixed;
 	top: 0;
 	display: flex;
+	justify-content: center;
 	width: 100%;
 
 	a.button {
@@ -222,7 +223,7 @@ a {
 	margin: 20px 0;
 	padding: 30px 0;
 	background-color: var(--wcolrDarker);
-	background-image: var(--gradtGlassReverse);
+	background-image: var(--gradtOpaqueReverse);
 	border: var(--bordrStandard);
 	border-width: 1px 0;
 	box-shadow: var(--shadwBrightOutline), var(--shadwInset);
@@ -265,6 +266,7 @@ a {
 		display: grid;
 		grid-template-columns: repeat(2, minmax(500px, 700px));
 		grid-gap: 10px 20px;
+		margin: 40px 100px;
 
 		.box {
 			display: flex;
@@ -308,7 +310,8 @@ a {
 
 			&.homeBlogBox {
 				display: grid;
-				grid-template-columns: minmax(150px, 300px) min(100px) min(110px);
+				// grid-template-columns: minmax(150px, 300px) min(100px) min(110px);
+				grid-template-columns: minmax(70px, 300px) 100px 110px;
 				grid-template-rows: auto 10%;
 				grid-gap: 7px 15px;
 
@@ -400,10 +403,14 @@ a {
 
 /* Picture archive indexes */
 
-.postIndexGrid {
-	display: grid;
-	grid-template-columns: repeat(2, minmax(500px, 700px));
-	grid-gap: 0 10px;
+.postIndexBox {
+	width: fit-content;
+	
+	&--grid {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(500px, 700px));
+		grid-gap: 0 10px;
+	}
 }
 
 .postEntry {
@@ -548,6 +555,7 @@ a {
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
+			height: 50%;
 
 			h3 {
 				margin: 0;
@@ -580,10 +588,117 @@ a {
 	}
 
 	img {
+		max-width: 100%;
 		max-height: 400px;
 		background-color: var(--wcolrBright);
 		border: var(--bordrStandard);
 		border-radius: 4px;
 		box-shadow: var(--shadwDropShadow), var(--shadwOutset), var(--shadwBrightOutline), var(--shadwBrightOutline);
+	}
+}
+
+/** Mobile support **/
+
+@media (max-width: 1090px) {
+	.homeBanner {
+		animation: none;
+		height: 100%;
+
+		&--welcomeRow {
+			img {
+				height: 20vw;
+			}
+
+			&--text {
+				h1 {
+					font-size: 9.3vw;
+				}
+
+				h2 {
+					font-size: 7vw;
+				}
+			}
+		}
+
+		&--cardGrid {
+			grid-template-columns: unset;
+			margin: 40px 20px;
+			margin-bottom: 0;
+		}
+	}
+	
+	.postIndexBox--grid {
+		grid-template-columns: minmax(500px, 700px)
+	}
+
+	@media (max-width: 790px) {
+		nav {
+			padding: 4px 0;
+
+			a.button {
+				min-width: unset;
+				width: 100%;
+				margin: 0;
+				padding: 4px 5px;
+				border-radius: 0;
+				font-size: 80%;
+			}
+		}
+
+		.aboutTldr {
+			grid-template-columns: unset;
+	
+			p {
+				grid-row: 2;
+			}
+	
+			&--pfp {
+				margin: auto;
+			}
+		}
+
+		.postIndexBox {
+			width: unset;
+			
+			&--grid {
+				grid-template-columns: unset;
+
+				.postEntry {
+					flex-direction: column;
+					height: auto;
+				}
+			}
+		}
+		
+		.attachmentContainer--details--variantRow {
+			flex-direction: column;
+			height: 70%;
+		}
+
+		@media (max-width: 420px) {
+			.attachmentContainer {
+				flex-direction: column;
+				width: 100%;
+
+				&--image, &--image:hover, &--details {
+					width: 100%;
+				}
+
+				&--image, &--image:hover {
+					height: 128px;
+					background-size: cover;
+  					background-position: center !important;
+				}
+
+				&--details {
+					margin-top: 10px;
+					padding-left: 5px;
+
+					&--variantRow h3 {
+						margin-bottom: 5px;
+					}
+				}
+			}
+		}
 	}
 }
