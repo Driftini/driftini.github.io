@@ -1,8 +1,46 @@
 <nav>
-	<!-- The home is hardcoded because of terrible design -->
-	<a href="/" class="button button--glass{% if page.url == "/" %} button--pressed{% endif %}">FumoNet</a>
-	
-	{% for item in site.data.navbar %}
-	<a href="{{ item.link }}" class="button button--glass{% if page.url contains item.link %} button--pressed{% endif %}">{{ item.name }}</a>
-	{% endfor %}
+    <ul>
+        <div class="nav-sections">
+            <li><h3>site sections</h3></li>
+
+            <li>
+            	<a href="/" class="{% if page.url == "/" %}current{% endif %}">homepage</a> <!-- just home? -->
+            </li>
+
+            {% for item in site.data.navbar %}
+			<li>
+				<a href="{{ item.link }}" class="{% if page.url contains item.link %}current{% endif %}">{{ item.name | downcase }}</a>
+			</li>
+			{% endfor %}
+        </div>
+
+        <div class="nav-recent">
+            <li><h3>recent activity</h3></li>
+            <!-- recent *posts*? -->
+
+            {% assign all_posts = site.artwork | concat: site.posts %}
+            {% for post in all_posts | reverse limit:5 %}
+            <li>
+                <a href="{{ post.url }}">
+                    {{ post.title }}
+                    <div class="navbutton-inforow">
+                        <span class="navbutton-date">{{ post.date }}</span>
+                        <!-- TODO tags -->
+                        <!-- <span class="navbutton-tags">Yume 2kki, SHY, Painting, Drawing, Digital, Yume Nikki Fangame</span> -->
+                    </div>
+                </a>
+            </li>
+            {% endfor %}
+        </div>
+        
+        <div class="nav-social">
+            <li><h3>social media</h3></li>
+
+            {% for link in site.social %}
+            <li>
+            	<a href="{{ link.url }}">{{ link.name }}</a>
+            </li>
+            {% endfor %}
+        </div>
+    </ul>
 </nav>

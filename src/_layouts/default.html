@@ -3,17 +3,28 @@
 
 <head>
     <title>{{ page.title }} - FumoNet</title>
+
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" href="/assets/img/misc/favicon.png">
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     {% include metadata.html %}
 </head>
 
 <body>
-    {% include navbar.html %}
-    <div class="content"> {{ content }} </div>
-    {% include footer.html %}
+    <div class="wrapper">
+        {% include navbar.html %}
+
+        <header>headerheaderhheader</header>
+
+        <div class="content-wrapper">
+            {{ content }}
+        </div>
+
+        {% include footer.html %}
+    </div>
 </body>
 
 </html>

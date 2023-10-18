@@ -7,8 +7,11 @@
 - name: Artwork
   link: /artwork
 
-- name: Wallpapers
-  link: /wallpapers
+- name: Dream Diary
+  link: /ynfg
+
+# - name: Wallpapers
+#   link: /wallpapers
 
 # - name: Projects
 #   link: /projects

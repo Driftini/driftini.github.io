@@ -1,0 +1,169 @@
+:root {
+	/* Font */
+	--fontNormal: var(--fsizNormal) "Tahoma", "Verdana", "Dejavu Sans", sans-serif;
+	--fontHeader: var(--fsizHeader) "Trebuchet MS", sans-serif;
+	--fontCode: var(--fsizCode) "JetBrains Mono", sans-serif;
+
+	/* Font Sizes */
+	--fsizNormal: 11px;
+	--fsizHeader: 20px;
+	--fsizCode: 14px;
+
+	/* Text colors */
+	--tcolrNormal: hsl(20, 10%, 30%);
+	--tcolrHylink: hsl(20, 65%, 50%);
+	--tcolrCode: hsl(0, 0%, 73%);
+
+	/* Background colors */
+	--bcolrBackground: hsl(98, 27%, 64%);
+
+	--bcolrMain: hsl(20, 26%, 80%);
+	--bcolrDark: hsl(20, 50%, 78%);
+
+	--bcolrGreen: hsl(80, 35%, 53%);
+
+	// --bcolrAccent: hsl(228, 28%, 34%);s
+
+	/* Transparent colors (highlights and shadows) */
+	--scolrHlight: hsla(0, 0%, 100%, 0.3);
+
+	--scolrShadow: hsla(0, 0%, 0%, 0.13);
+
+	/* Borders */
+	--bordrStandard: 1px solid hsl(0, 0%, 40%);
+
+	/* Box-shadows */
+	--boxshShineL: inset 1px 0px var(--scolrHlight);
+	--boxshShineR: inset -1px 0px var(--scolrHlight);
+	--boxshShineT: inset 0 1px var(--scolrHlight);
+	--boxshShineB: inset 0 -1px var(--scolrHlight);
+
+	// normalize ff73 or not?
+	--boxshTintShineT: inset 0 1px #ff73; // or ff74?
+
+	--boxshShadowT: inset 0 1px var(--scolrShadow);
+	--boxshShadowB: inset 0 -1px var(--scolrShadow);
+
+	--boxshSunken: 0 -1px #0003,
+		0 1px var(--scolrHlight);
+	--boxshSunkenShadow: inset 0 0px 3px -1px #000,
+		inset 0 1px 3px -1px #0005;
+
+	--boxshDropShadow: 0 1px 3px 0 var(--scolrShadow);
+
+	/* Gradients */
+	
+}
+
+/* Animations */
+
+@keyframes HyperlinkUnderline {
+	from {
+		width: 0;
+	}
+
+	to {
+		width: fit-content;
+	}
+}
+
+/* Widget mixins */
+
+@mixin Header {
+	display: inline-block;
+	// min-width: 50%;
+	min-width: 305px;
+	margin: 0 0 2px 0;
+	padding: 0 40px 0 2px;
+	font: var(--fontHeader);
+	font-size: 18px;
+	font-weight: bold;
+	color: var(--tcolrHylink);
+	// text-shadow: 1px 0px hsl(109, 66%, 35%);
+	letter-spacing: 1px;
+	border-bottom: 4px solid;
+	border-radius: 0 0 0 4px;
+}
+
+@mixin Hyperlink {
+	position: relative;
+	display: inline-block;
+
+	color: var(--tcolrHylink);
+	text-decoration: none;
+
+	&::after {
+		content: "";
+
+		position: absolute;
+		bottom: 0;
+		display: block;
+
+		width: 0;
+		// height: 2px;
+		height: 1px; // 2px is inconsistent on firefox with 125% scaling????
+
+		background-color: var(--tcolrHylink);
+
+		transition: width .2s ease-in-out;
+	}
+
+	&:hover::after {
+		width: 100%;
+	}
+}
+
+@mixin Blockquote {
+	padding-left: 10px;
+
+	border-left: 3px solid #888;
+
+	font-style: italic;
+
+	&:before {
+		content: "\"";
+	}
+
+	&:after {
+		content: "\"";
+	}
+}
+
+@mixin CodeInline {
+	padding: 2px 4px;
+
+	background-color: var(--bcolrMain);
+	//background-image: var(--gradtOpaqueReverse);
+
+	// border: var(--bordrStandard);
+	border-radius: 4px;
+	box-shadow: var(--boxshSunken);
+
+	color: var(--tcolrCode);
+	font: var(--fontCode);
+}
+
+@mixin CodeBlock {
+	@include CodeInline;
+
+	width: fit-content;
+}
+
+@mixin Separator {
+	width: 100%;
+
+	margin: 20px 0;
+
+	border: none; // ?
+	border-top: 1px dashed #0003;
+	border-bottom: 1px dashed #fff5;
+}
+
+@mixin SeparatorVertical {
+	height: 100%;
+	
+	margin: 0 20px;
+	
+	border-left: 1px dashed #fff5;
+	border-right: 1px dashed #0003;
+}
