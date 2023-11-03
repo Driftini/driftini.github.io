@@ -18,13 +18,15 @@
             <li><h3>recent activity</h3></li>
             <!-- recent *posts*? -->
 
-            {% assign all_posts = site.artwork | concat: site.posts %}
-            {% for post in all_posts | reverse limit:5 %}
+            {% assign all_posts = site.artwork | concat: site.posts | sort: "date" | reverse %}
+            <!-- fix this shit -->
+
+            {% for post in all_posts | limit:10 %}
             <li>
                 <a href="{{ post.url }}">
                     {{ post.title }}
                     <div class="navbutton-inforow">
-                        <span class="navbutton-date">{{ post.date }}</span>
+                        <span class="navbutton-date">{{ post.date | date: "%d/%m/%Y" }}</span>
                         <!-- TODO tags -->
                         <!-- <span class="navbutton-tags">Yume 2kki, SHY, Painting, Drawing, Digital, Yume Nikki Fangame</span> -->
                     </div>
@@ -36,9 +38,9 @@
         <div class="nav-social">
             <li><h3>social media</h3></li>
 
-            {% for link in site.social %}
+            {% for link in site.data.social %}
             <li>
-            	<a href="{{ link.url }}">{{ link.name }}</a>
+            	<a {% if link.fediverify %} rel="me" {% endif %} href="{{ link.url }}">{{ link.name }}</a>
             </li>
             {% endfor %}
         </div>

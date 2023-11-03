@@ -1,5 +1,6 @@
 - name: Fediverse
-  url: https://lethallava.land/@driftini
+  url: https://wetdry.world/@driftini
+  fediverify: true
   # icon?
 
 - name: Last.fm

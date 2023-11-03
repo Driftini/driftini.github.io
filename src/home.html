@@ -4,37 +4,8 @@ title: Home
 permalink: /
 ---
 
-<!-- Start f. art check -->
-
-{% assign shownArt = "" %}
-{% assign featuredFound = false %}
-
-{% for artPost in site.artwork %}
-
-{% unless featuredFound == true %}
-	{% assign shownArt = artPost %}
-
-	{% if artPost.featured %}
-		{% assign featuredFound = true %}
-	{% endif %}
-
-{% endunless %}
-
-{% endfor %}
-
-<!-- End f. art check -->
-
 <div class="cancelPadding">
 	<div class="homeBanner">
-		<div class="homeBanner--welcomeRow">
-			<img src="assets/img/misc/fumo.png">
-
-			<div class="homeBanner--welcomeRow--text">
-				<h2>Welcome to</h2>
-				<h1>FumoNet</h1>
-			</div>
-		</div>
-
 		<div class="homeBanner--cardGrid">
 			<a href="{{ shownArt.url }}" class="box" style="--cardDelay: .4s; translate: -100px 0">
 				<label class="box--label">Featured Artwork: <b>{{ shownArt.title }}</b></label>
