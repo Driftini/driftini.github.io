@@ -1,15 +1,10 @@
 ---
+pictures:
+- original: /assets/img/posts/artwork/2019-06-27-jumpingspeaker.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2019-06-27-jumpingspeaker.jpg
+  thumbpos: 11
 title: A bouncing speaker...?
-
-pictures: [
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2019-06-27-jumpingspeaker.jpg",
-		thumbpos: "-75px -50px",
-		lowres: {
-			file: "/assets/img/posts/artwork/2019-06-27-jumpingspeaker.jpg"
-		}
-	}
-]
+version: 3
 ---
 ## Retrospective (2022)
 I have... zero idea of what this is supposed to be.

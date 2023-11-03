@@ -1,15 +1,10 @@
 ---
+pictures:
+- original: /assets/img/posts/artwork/2022-03-01-hldsketch.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-03-01-hldsketch.jpg
+  thumbpos: 13
 title: Hyper Light Drifter sketch
-
-pictures: [
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2022-03-01-hldsketch.jpg",
-		thumbpos: "-60px -60px",
-		lowres: {
-			file: "/assets/img/posts/artwork/2022-03-01-hldsketch.jpg"
-		}
-	}
-]
+version: 3
 ---
 I have recently finished my first run of *[Hyper Light Drifter](https://www.heartmachine.com/hyper-light-drifter)*. And let me tell you, this game is **seriously** amazing. Sadly a bit on the short side if you don't go for a completionist run, though.
 

@@ -1,15 +1,10 @@
 ---
-title: Amoung Pequeño
-
-pictures: [
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2021-04-29-amoungpequeno.jpg",
-		thumbpos: "-30px -110px",
-		lowres: {
-			file: "/assets/img/posts/artwork/2021-04-29-amoungpequeno.jpg"
-		}
-	}
-]
+pictures:
+- original: /assets/img/posts/artwork/2021-04-29-amoungpequeno.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2021-04-29-amoungpequeno.jpg
+  thumbpos: 25
+title: "Amoung Peque\xF1o"
+version: 3
 ---
 ## Retrospective (2022)
 Yes. Imposter sus lol haha funny.

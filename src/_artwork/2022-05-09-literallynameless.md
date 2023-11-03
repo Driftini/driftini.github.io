@@ -1,29 +1,16 @@
 ---
+pictures:
+- original: /assets/img/posts/artwork/2022-05-09-literallynameless_1.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-05-09-literallynameless_1.jpg
+  thumbpos: 38
+- original: /assets/img/posts/artwork/2022-05-09-literallynameless_2.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-05-09-literallynameless_2.jpg
+  thumbpos: 16
+- original: /assets/img/posts/artwork/2022-05-09-literallynameless_3.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-05-09-literallynameless_3.jpg
+  thumbpos: 28
 title: New non-generic nameless OC
-
-pictures: [
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2022-05-09-literallynameless_1.jpg",
-		thumbpos: "-125px -180px",
-		lowres: {
-			file: "/assets/img/posts/artwork/2022-05-09-literallynameless_1.jpg"
-		}
-	},
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2022-05-09-literallynameless_2.jpg",
-		thumbpos: "center -80px",
-		lowres: {
-			file: "/assets/img/posts/artwork/2022-05-09-literallynameless_2.jpg"
-		}
-	},
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2022-05-09-literallynameless_3.jpg",
-		thumbpos: "-40px -100px",
-		lowres: {
-			file: "/assets/img/posts/artwork/2022-05-09-literallynameless_3.jpg"
-		}
-	}
-]
+version: 3
 ---
 
 Would you look at that, I actually made up another character design!

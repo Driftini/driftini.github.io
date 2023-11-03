@@ -1,32 +1,19 @@
 ---
+pictures:
+- label: Final Drawing
+  original: /assets/img/posts/artwork/2022-03-03-redpillmsoon.png
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-03-03-redpillmsoon.jpg
+  thumbpos: 31
+- label: 'Sketch #1'
+  original: /assets/img/posts/artwork/2022-03-03-redpillmsoon_sketch1.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-03-03-redpillmsoon_sketch1.jpg
+  thumbpos: 17
+- label: 'Sketch #2'
+  original: /assets/img/posts/artwork/2022-03-03-redpillmsoon_sketch2.png
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-03-03-redpillmsoon_sketch2.jpg
+  thumbpos: 21
 title: Redpilled Monsoon
-
-pictures: [
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2022-03-03-redpillmsoon.jpg",
-		thumbpos: "-60px -130px",
-		lowres: {
-			file: "/assets/img/posts/artwork/2022-03-03-redpillmsoon.png",
-			label: "Final Drawing"
-		}
-	},
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2022-03-03-redpillmsoon_sketch1.jpg",
-		thumbpos: "-90px -70px",
-		lowres: {
-			file: "/assets/img/posts/artwork/2022-03-03-redpillmsoon_sketch1.jpg",
-			label: "Sketch #1"
-		}
-	},
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2022-03-03-redpillmsoon_sketch2.jpg",
-		thumbpos: "0 -110px",
-		lowres: {
-			file: "/assets/img/posts/artwork/2022-03-03-redpillmsoon_sketch2.png",
-			label: "Sketch #2"
-		}
-	}
-]
+version: 3
 ---
 Here I write this *beneath the cold and scathing rain* while waiting for the bus home to arrive. Thankfully, I can *wash away the anger* stemming from the bus being late by looking back at what I've drawn here. Okay - I swear I'm done with the quotes.
 

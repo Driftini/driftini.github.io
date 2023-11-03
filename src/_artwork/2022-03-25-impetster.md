@@ -1,15 +1,10 @@
 ---
+pictures:
+- original: /assets/img/posts/artwork/2022-03-25-impetster.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-03-25-impetster.jpg
+  thumbpos: 9
 title: Lovely harmless pet
-
-pictures: [
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2022-03-25-impetster.jpg",
-		thumbpos: "-75px -30px",
-		lowres: {
-			file: "/assets/img/posts/artwork/2022-03-25-impetster.jpg"
-		}
-	}
-]
+version: 3
 ---
 For whatever reason, somebody in my classroom had drawn crewmates on the blackboard at school and that inspired me to make this.
 

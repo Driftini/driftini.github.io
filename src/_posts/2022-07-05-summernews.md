@@ -1,7 +1,6 @@
 ---
 title: Summer News
-
-thumbnail: /assets/img/posts/blog/2022-07-05-summernews.jpg
+version: 3
 ---
 It's been quite a while since last post, so I thought it'd be nice to post a general update.
 

@@ -1,16 +1,15 @@
 ---
 pictures:
-- thumbnail: /assets/img/posts/artwork/thumbs/2023-08-27-urostylish.jpg
-  thumbpos: 0px -152px
-  variants:
-  - file: /assets/img/posts/artwork/2023-08-27-urostylish.png
-    label: '"Colored"'
-- thumbnail: /assets/img/posts/artwork/thumbs/2023-08-27-urostylish_line.jpg
-  thumbpos: 0px -152px
-  variants:
-  - file: /assets/img/posts/artwork/2023-08-27-urostylish_line.png
-    label: Lineart only
+- label: '"Colored"'
+  original: /assets/img/posts/artwork/2023-08-27-urostylish.png
+  thumbnail: /assets/img/posts/artwork/thumbs/2023-08-27-urostylish.jpg
+  thumbpos: 30
+- label: Lineart only
+  original: /assets/img/posts/artwork/2023-08-27-urostylish_line.png
+  thumbnail: /assets/img/posts/artwork/thumbs/2023-08-27-urostylish_line.jpg
+  thumbpos: 30
 title: Style experiment
+version: 3
 ---
 Seeing [Urotsuki fanart on Twitter](https://twitter.com/metyayurusu/status/1674788559503659009) made me realize just how bad I've been drawing her hair in high-effort works - which so far are... just [SHY 01](/artwork/2023-08-12-shy01).
 

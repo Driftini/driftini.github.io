@@ -1,15 +1,10 @@
 ---
+pictures:
+- original: /assets/img/posts/artwork/2019-02-24-respectdn.png
+  thumbnail: /assets/img/posts/artwork/thumbs/2019-02-24-respectdn.jpg
+  thumbpos: 12
 title: Respect the Rules
-
-pictures: [
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2019-02-24-respectdn.jpg",
-		thumbpos: "-10px -50px",
-		lowres: {
-			file: "/assets/img/posts/artwork/2019-02-24-respectdn.png"
-		}
-	}
-]
+version: 3
 ---
 ## Original description
 Nope, this account isn't dead. So, after a lot of time, I've made a new drawing!

@@ -1,14 +1,13 @@
 ---
 pictures:
-- thumbnail: /assets/img/posts/artwork/thumbs/2022-08-23-perspractice_1.jpg
-  thumbpos: -50px -85px
-  variants:
-  - file: /assets/img/posts/artwork/2022-08-23-perspractice_1.jpg
-- thumbnail: /assets/img/posts/artwork/thumbs/2022-08-23-perspractice_2.jpg
-  thumbpos: -80px -187px
-  variants:
-  - file: /assets/img/posts/artwork/2022-08-23-perspractice_2.jpg
+- original: /assets/img/posts/artwork/2022-08-23-perspractice_1.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-08-23-perspractice_1.jpg
+  thumbpos: 26
+- original: /assets/img/posts/artwork/2022-08-23-perspractice_2.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-08-23-perspractice_2.jpg
+  thumbpos: 47
 title: Perspective practice
+version: 3
 ---
 
 Finally practicing prespective!

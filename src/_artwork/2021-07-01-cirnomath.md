@@ -1,15 +1,10 @@
 ---
+pictures:
+- original: /assets/img/posts/artwork/2021-07-01-cirnomath.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2021-07-01-cirnomath.jpg
+  thumbpos: 21
 title: Cirno math something
-
-pictures: [
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2021-07-01-cirnomath.jpg",
-		thumbpos: "1px -110px",
-		lowres: {
-			file: "/assets/img/posts/artwork/2021-07-01-cirnomath.jpg"
-		}
-	}
-]
+version: 3
 ---
 ## Retrospective (2022)
 I was bored in math class, so I've drawn Cirno being as confused as me.

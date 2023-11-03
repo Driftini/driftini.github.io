@@ -1,15 +1,10 @@
 ---
+pictures:
+- original: /assets/img/posts/artwork/2022-03-10-rtdhatter.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-03-10-rtdhatter.jpg
+  thumbpos: 27
 title: Mad Hatter
-
-pictures: [
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2022-03-10-rtdhatter.jpg",
-		thumbpos: "0 -140px",
-		lowres: {
-			file: "/assets/img/posts/artwork/2022-03-10-rtdhatter.jpg"
-		}
-	}
-]
+version: 3
 ---
 I saw some dude at my school wearing a bunch of... pretty weird clothes? Thought it would've been fitting to quickly make up a character design **at the very least** as ridiculous as - and based on - his outfit. Please don't mind how absurdly messy this is, I didn't really take this sketch seriously.
 

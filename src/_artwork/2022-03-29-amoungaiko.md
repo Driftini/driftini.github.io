@@ -1,15 +1,10 @@
 ---
+pictures:
+- original: /assets/img/posts/artwork/2022-03-29-amoungaiko.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-03-29-amoungaiko.jpg
+  thumbpos: 30
 title: Another Aiko shitpost
-
-pictures: [
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2022-03-29-amoungaiko.jpg",
-		thumbpos: "-85px -118px",
-		lowres: {
-			file: "/assets/img/posts/artwork/2022-03-29-amoungaiko.jpg"
-		}
-	}
-]
+version: 3
 ---
 I am becoming increasingly concerned about how frequently I'm drawing Among Us shitposts.
 

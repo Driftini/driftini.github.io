@@ -1,15 +1,10 @@
 ---
+pictures:
+- original: /assets/img/posts/artwork/2022-02-23-sifshortening.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-02-23-sifshortening.jpg
+  thumbpos: 4
 title: Foreshortening practice (kinda)
-
-pictures: [
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2022-02-23-sifshortening.jpg",
-		thumbpos: "0 -20px",
-		lowres: {
-			file: "/assets/img/posts/artwork/2022-02-23-sifshortening.jpg"
-		}
-	}
-]
+version: 3
 ---
 My friend sent me some videos about foreshortening a couple days back, and here I finally began messing around with it, even if not that much here (if at all).
 

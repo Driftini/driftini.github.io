@@ -1,15 +1,10 @@
 ---
+pictures:
+- original: /assets/img/posts/artwork/2022-05-26-markredesign.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-05-26-markredesign.jpg
+  thumbpos: 29
 title: Mark redesign
-
-pictures: [
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2022-05-26-markredesign.jpg",
-		thumbpos: "center -150px",
-		lowres: {
-			file: "/assets/img/posts/artwork/2022-05-26-markredesign.jpg"
-		}
-	}
-]
+version: 3
 ---
 
 Well, he's not the Skill Issue guy anymore.

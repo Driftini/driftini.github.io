@@ -1,24 +1,15 @@
 ---
+pictures:
+- label: Final Drawing
+  original: /assets/img/posts/artwork/2022-06-22-cappygotnobitches.png
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-06-22-cappygotnobitches.jpg
+  thumbpos: 30
+- label: Without text
+  original: /assets/img/posts/artwork/2022-06-22-cappygotnobitches_clean.png
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-06-22-cappygotnobitches_clean.jpg
+  thumbpos: 30
 title: Cappy got no bitches
-
-pictures: [
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2022-06-22-cappygotnobitches.jpg",
-		thumbpos: "-50px -155px",
-		lowres: {
-			file: "/assets/img/posts/artwork/2022-06-22-cappygotnobitches.png",
-            label: "Final Drawing"
-		}
-	},
-    {
-		thumbnail: "/assets/img/posts/artwork/thumbs/2022-06-22-cappygotnobitches_clean.jpg",
-		thumbpos: "-50px -155px",
-		lowres: {
-			file: "/assets/img/posts/artwork/2022-06-22-cappygotnobitches_clean.png",
-            label: "Without text"
-		}
-	}
-]
+version: 3
 ---
 
 Well, this wasn't the original idea, but the alternative was a drawing that would've looked like a Picrew profile picture, so I decided to take a turn and turn this into a meme.

@@ -1,15 +1,10 @@
 ---
-title: YET another Atlas drawing 
-
-pictures: [
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2022-05-05-atlassmugidk.jpg",
-		thumbpos: "-64px -150px",
-		lowres: {
-			file: "/assets/img/posts/artwork/2022-05-05-atlassmugidk.jpg"
-		}
-	}
-]
+pictures:
+- original: /assets/img/posts/artwork/2022-05-05-atlassmugidk.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-05-05-atlassmugidk.jpg
+  thumbpos: 29
+title: YET another Atlas drawing
+version: 3
 ---
 
 I love how this one turned out!

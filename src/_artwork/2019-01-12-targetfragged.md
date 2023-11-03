@@ -1,15 +1,10 @@
 ---
+pictures:
+- original: /assets/img/posts/artwork/2019-01-12-targetfragged.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2019-01-12-targetfragged.jpg
+  thumbpos: 16
 title: Target Eliminated
-
-pictures: [
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2019-01-12-targetfragged.jpg",
-		thumbpos: "center -80px",
-		lowres: {
-			file: "/assets/img/posts/artwork/2019-01-12-targetfragged.jpg"
-		}
-	}
-]
+version: 3
 ---
 ## Original description
 I guess Ro just defeated some opponent. Maybe it's one of Kamikazi's creatures... or maybe Protoboy or BjornBot - we'll never know, at least with this point of view only showing Robotboy.

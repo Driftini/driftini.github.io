@@ -1,6 +1,6 @@
 ---
-thumbnail: /assets/img/posts/blog/2023-10-08-blueberrysmoothie_teaser.png
 title: Farewell, Smoothie
+version: 3
 ---
 Almost two years.
 That's how long Smoothie has been FumoNet's theme.

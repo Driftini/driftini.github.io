@@ -1,32 +1,19 @@
 ---
+pictures:
+- label: Final Drawing
+  original: /assets/img/posts/artwork/2022-03-16-amongsoda.png
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-03-16-amongsoda.jpg
+  thumbpos: 19
+- label: 'Sketch #1'
+  original: /assets/img/posts/artwork/2022-03-16-amongsoda_sketch1.png
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-03-16-amongsoda_sketch1.jpg
+  thumbpos: 2
+- label: 'Sketch #2'
+  original: /assets/img/posts/artwork/2022-03-16-amongsoda_sketch2.png
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-03-16-amongsoda_sketch2.jpg
+  thumbpos: 8
 title: SusSoda
-
-pictures: [
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2022-03-16-amongsoda.jpg",
-		thumbpos: "0 -80px",
-		lowres: {
-			file: "/assets/img/posts/artwork/2022-03-16-amongsoda.png",
-			label: "Final Drawing"
-		}
-	},
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2022-03-16-amongsoda_sketch1.jpg",
-		thumbpos: "center -10px",
-		lowres: {
-			file: "/assets/img/posts/artwork/2022-03-16-amongsoda_sketch1.png",
-			label: "Sketch #1"
-		}
-	},
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2022-03-16-amongsoda_sketch2.jpg",
-		thumbpos: "0 -30px",
-		lowres: {
-			file: "/assets/img/posts/artwork/2022-03-16-amongsoda_sketch2.png",
-			label: "Sketch #2"
-		}
-	}
-]
+version: 3
 ---
 One of my first drawings made on a drawing tablet, [more on that here](/blog/2022-03-15-wacomfxp1).
 I am incredibly happy with how this one turned out. Drawing tablets really do pull off miracles, don't they?

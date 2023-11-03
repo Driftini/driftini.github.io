@@ -1,14 +1,10 @@
 ---
+pictures:
+- original: /assets/img/posts/artwork/2022-03-06-hundredfollowers.png
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-03-06-hundredfollowers.jpg
+  thumbpos: 50
 title: 100 followers milestone
-
-pictures: [
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2022-03-06-hundredfollowers.jpg",
-		lowres: {
-			file: "/assets/img/posts/artwork/2022-03-06-hundredfollowers.png"
-		}
-	}
-]
+version: 3
 ---
 Relatively simple drawing I made to celebrate reaching 100 followers on Twitter, which isn't really that big of a milestone even for a small account.
 

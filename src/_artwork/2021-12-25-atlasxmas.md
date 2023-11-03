@@ -1,22 +1,15 @@
 ---
+pictures:
+- label: Final Drawing
+  original: /assets/img/posts/artwork/2021-12-25-atlasxmas.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2021-12-25-atlasxmas.jpg
+  thumbpos: 50
+- label: Sketch
+  original: /assets/img/posts/artwork/2021-12-25-atlasxmas_sketch.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2021-12-25-atlasxmas_sketch.jpg
+  thumbpos: 50
 title: Atlas Christmas thing
-
-pictures: [
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2021-12-25-atlasxmas.jpg",
-		lowres: {
-			file: "/assets/img/posts/artwork/2021-12-25-atlasxmas.jpg",
-			label: "Final Drawing"
-		}
-	},
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2021-12-25-atlasxmas_sketch.jpg",
-		lowres: {
-			file: "/assets/img/posts/artwork/2021-12-25-atlasxmas_sketch.jpg",
-			label: "Sketch"
-		}
-	},
-]
+version: 3
 ---
 **Quick disclaimer: the character depicted here belongs to [atlaszoidac](https://twitter.com/atlaszoidac)!**
 

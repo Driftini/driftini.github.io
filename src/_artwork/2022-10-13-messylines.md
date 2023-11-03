@@ -1,10 +1,10 @@
 ---
 pictures:
-- thumbnail: /assets/img/posts/artwork/thumbs/2022-10-13-messylines.jpg
-  thumbpos: -80px -20px
-  variants:
-  - file: /assets/img/posts/artwork/2022-10-13-messylines.jpg
+- original: /assets/img/posts/artwork/2022-10-13-messylines.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-10-13-messylines.jpg
+  thumbpos: 5
 title: Even more messy goodness
+version: 3
 ---
 Does it show that I really enjoy drawing with this artstyle?
 I'm really struggling not to go on another monologue about [Sakiyama](https://twitter.com/sakiyama8ma)'s artstyle here, like in [three posts](/artwork/2022-10-10-humunderrated) [made before](/artwork/2022-10-11-funnyguy) [this one](/artwork/2022-10-13-messylines).

@@ -1,15 +1,11 @@
 ---
+pictures:
+- label: Animated, open in new tab
+  original: /assets/img/posts/artwork/2022-01-21-skillintro.gif
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-01-21-skillintro.jpg
+  thumbpos: 50
 title: Skill Issue title screen intro mockup
-
-pictures: [
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2022-01-21-skillintro.jpg",
-		lowres: {
-			file: "/assets/img/posts/artwork/2022-01-21-skillintro.gif",
-			label: "Animated, open in new tab"
-		}
-	}
-]
+version: 3
 ---
 Quick mockup of a title screen intro I have in mind for Skill Issue.
 

@@ -1,14 +1,10 @@
 ---
+pictures:
+- original: /assets/img/posts/artwork/2022-03-05-ocsketches.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-03-05-ocsketches.jpg
+  thumbpos: 50
 title: Misc. new OC sketches
-
-pictures: [
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2022-03-05-ocsketches.jpg",
-		lowres: {
-			file: "/assets/img/posts/artwork/2022-03-05-ocsketches.jpg"
-		}
-	}
-]
+version: 3
 ---
 I've been thinking about making myself a "main" OC for shitposting and generally more random drawings for quite a while now. So, after a few days spent thinking about what kind of design to go for, I have settled on something fairly simple somewhat based on both the Skill Issue guy and myself.
 

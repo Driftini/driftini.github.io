@@ -1,14 +1,10 @@
 ---
-title: «Now draw her eating McDonalds»
-
-pictures: [
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2021-02-12-trollburgermari.jpg",
-		lowres: {
-			file: "/assets/img/posts/artwork/2021-02-12-trollburgermari.png"
-		}
-	}
-]
+pictures:
+- original: /assets/img/posts/artwork/2021-02-12-trollburgermari.png
+  thumbnail: /assets/img/posts/artwork/thumbs/2021-02-12-trollburgermari.jpg
+  thumbpos: 50
+title: "\xABNow draw her eating McDonalds\xBB"
+version: 3
 ---
 ## Retrospective (2022)
 Almost somewhat decent, **and** drawn with a mouse!

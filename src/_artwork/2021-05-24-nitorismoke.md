@@ -1,15 +1,10 @@
 ---
+pictures:
+- original: /assets/img/posts/artwork/2021-05-24-nitorismoke.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2021-05-24-nitorismoke.jpg
+  thumbpos: 12
 title: Nitori Kawashiro
-
-pictures: [
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2021-05-24-nitorismoke.jpg",
-		thumbpos: "-40px -60px",
-		lowres: {
-			file: "/assets/img/posts/artwork/2021-05-24-nitorismoke.jpg"
-		}
-	}
-]
+version: 3
 ---
 ## Retrospective (2022)
 Last new Touhou character I've drawn in 2021.

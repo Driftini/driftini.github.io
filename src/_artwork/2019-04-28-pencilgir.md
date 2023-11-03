@@ -1,15 +1,10 @@
 ---
+pictures:
+- original: /assets/img/posts/artwork/2019-04-28-pencilgir.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2019-04-28-pencilgir.jpg
+  thumbpos: 29
 title: GIR but drawn with a pencil
-
-pictures: [
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2019-04-28-pencilgir.jpg",
-		thumbpos: "center -150px",
-		lowres: {
-			file: "/assets/img/posts/artwork/2019-04-28-pencilgir.jpg"
-		}
-	}
-]
+version: 3
 ---
 ## Original description
 Hey there! Today is a trip to England lasting a week, more precisely somewhere around Cambridge (how detailed).

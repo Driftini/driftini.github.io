@@ -1,10 +1,10 @@
 ---
 pictures:
-- thumbnail: /assets/img/posts/artwork/thumbs/2022-10-10-humunderrated.jpg
-  thumbpos: -110px -135px
-  variants:
-  - file: /assets/img/posts/artwork/2022-10-10-humunderrated.jpg
+- original: /assets/img/posts/artwork/2022-10-10-humunderrated.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-10-10-humunderrated.jpg
+  thumbpos: 29
 title: Humanoid underrated
+version: 3
 ---
 
 One of the first of the **many** drawings of Nira's design from [Zutomayo's *Humanoid* MV](https://www.youtube.com/watch?v=GAB26GgJ8V8) I'll end up making for quite a long while.

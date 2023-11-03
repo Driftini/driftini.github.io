@@ -1,31 +1,27 @@
 ---
 pictures:
-- thumbnail: /assets/img/posts/artwork/thumbs/2023-06-06-anotherdayyama.jpg
-  thumbpos: center -60px
-  variants:
-  - file: /assets/img/posts/artwork/2023-06-06-anotherdayyama.png
-    label: Final Drawing
-- thumbnail: /assets/img/posts/artwork/thumbs/2023-06-06-anotherdayyama_light.jpg
-  thumbpos: center -60px
-  variants:
-  - file: /assets/img/posts/artwork/2023-06-06-anotherdayyama_light.png
-    label: Light-only alt
-- thumbnail: /assets/img/posts/artwork/thumbs/2023-06-06-anotherdayyama_dark.jpg
-  thumbpos: center -60px
-  variants:
-  - file: /assets/img/posts/artwork/2023-06-06-anotherdayyama_dark.png
-    label: Dark-only alt
-- thumbnail: /assets/img/posts/artwork/thumbs/2023-06-06-anotherdayyama_sketch1.jpg
-  thumbpos: center -175px
-  variants:
-  - file: /assets/img/posts/artwork/2023-06-06-anotherdayyama_sketch1.jpg
-    label: Initial idea sketch
-- thumbnail: /assets/img/posts/artwork/thumbs/2023-06-06-anotherdayyama_sketch2.jpg
-  thumbpos: -25px -67px
-  variants:
-  - file: /assets/img/posts/artwork/2023-06-06-anotherdayyama_sketch2.png
-    label: Digital sketch
+- label: Final Drawing
+  original: /assets/img/posts/artwork/2023-06-06-anotherdayyama.png
+  thumbnail: /assets/img/posts/artwork/thumbs/2023-06-06-anotherdayyama.jpg
+  thumbpos: 21
+- label: Light-only alt
+  original: /assets/img/posts/artwork/2023-06-06-anotherdayyama_light.png
+  thumbnail: /assets/img/posts/artwork/thumbs/2023-06-06-anotherdayyama_light.jpg
+  thumbpos: 21
+- label: Dark-only alt
+  original: /assets/img/posts/artwork/2023-06-06-anotherdayyama_dark.png
+  thumbnail: /assets/img/posts/artwork/thumbs/2023-06-06-anotherdayyama_dark.jpg
+  thumbpos: 21
+- label: Initial idea sketch
+  original: /assets/img/posts/artwork/2023-06-06-anotherdayyama_sketch1.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2023-06-06-anotherdayyama_sketch1.jpg
+  thumbpos: 34
+- label: Digital sketch
+  original: /assets/img/posts/artwork/2023-06-06-anotherdayyama_sketch2.png
+  thumbnail: /assets/img/posts/artwork/thumbs/2023-06-06-anotherdayyama_sketch2.jpg
+  thumbpos: 13
 title: Bop Alloy/Yama crossover wallpaper
+version: 3
 ---
 It's been a long while since [the last wallpaper I've drawn](/artwork/2022-09-29-gusareappreciation): during all this time, I moved on to a somewhat more consistent artstyle and my skills have improved.
 Not to mention, I'm not restricted to a tiny phone screen anymore, since now I have a proper drawing tablet.

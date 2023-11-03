@@ -1,10 +1,10 @@
 ---
 pictures:
-- thumbnail: /assets/img/posts/artwork/thumbs/2022-11-19-hunchagain.jpg
-  thumbpos: -20px -170px
-  variants:
-  - file: /assets/img/posts/artwork/2022-11-19-hunchagain.png
+- original: /assets/img/posts/artwork/2022-11-19-hunchagain.png
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-11-19-hunchagain.jpg
+  thumbpos: 33
 title: Hunch Gray Nira, again
+version: 3
 ---
 I evidently hadn't had enough of drawing [*Hunch Gray*](https://www.youtube.com/watch?v=ugpywe34_30) Nira just yet.
 

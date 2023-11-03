@@ -1,15 +1,14 @@
 ---
 pictures:
-- thumbnail: /assets/img/posts/artwork/thumbs/2023-06-19-wlustconcept.jpg
-  thumbpos: -80px -53px
-  variants:
-  - file: /assets/img/posts/artwork/2023-06-19-wlustconcept.png
-- thumbnail: /assets/img/posts/artwork/thumbs/2023-06-19-wlustconcept_older.jpg
-  thumbpos: -10px -20px
-  variants:
-  - file: /assets/img/posts/artwork/2023-06-19-wlustconcept_older.png
-    label: Initial silhouette & scrapped concept
+- original: /assets/img/posts/artwork/2023-06-19-wlustconcept.png
+  thumbnail: /assets/img/posts/artwork/thumbs/2023-06-19-wlustconcept.jpg
+  thumbpos: 12
+- label: Initial silhouette & scrapped concept
+  original: /assets/img/posts/artwork/2023-06-19-wlustconcept_older.png
+  thumbnail: /assets/img/posts/artwork/thumbs/2023-06-19-wlustconcept_older.jpg
+  thumbpos: 7
 title: Wanderer early concept art
+version: 3
 ---
 That's right, new OC from me!
 Yeah, for a new game project...

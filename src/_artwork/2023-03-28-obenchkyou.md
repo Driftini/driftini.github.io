@@ -1,10 +1,10 @@
 ---
 pictures:
-- thumbnail: /assets/img/posts/artwork/thumbs/2023-03-28-obenchkyou.jpg
-  thumbpos: center -160px
-  variants:
-  - file: /assets/img/posts/artwork/2023-03-28-obenchkyou.jpg
+- original: /assets/img/posts/artwork/2023-03-28-obenchkyou.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2023-03-28-obenchkyou.jpg
+  thumbpos: 31
 title: O-bench-kyou
+version: 3
 ---
 Pardon the trash pun in the title.
 

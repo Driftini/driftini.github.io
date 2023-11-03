@@ -1,15 +1,10 @@
 ---
+pictures:
+- original: /assets/img/posts/artwork/2021-09-16-siconcept.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2021-09-16-siconcept.jpg
+  thumbpos: 4
 title: Skill Issue MC Concept
-
-pictures: [
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2021-09-16-siconcept.jpg",
-		thumbpos: "1px -20px",
-		lowres: {
-			file: "/assets/img/posts/artwork/2021-09-16-siconcept.jpg"
-		}
-	}
-]
+version: 3
 ---
 The absolute first piece of concept art for Skill Issue's main character. Absolutely not a Mark edit. Rich of original design elements.
 

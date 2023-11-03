@@ -1,23 +1,13 @@
 ---
+pictures:
+- original: /assets/img/posts/artwork/2022-06-21-cappysketches_1.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-06-21-cappysketches_1.jpg
+  thumbpos: 52
+- original: /assets/img/posts/artwork/2022-06-21-cappysketches_2.png
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-06-21-cappysketches_2.jpg
+  thumbpos: 21
 title: Cappy Ishihara sketches
-
-thumbnail: /assets/img/posts/artwork/thumbs/2022-06-21-cappysketches_2.jpg
-pictures: [
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2022-06-21-cappysketches_1.jpg",
-		thumbpos: "-120px -240px",
-		lowres: {
-			file: "/assets/img/posts/artwork/2022-06-21-cappysketches_1.jpg"
-		}
-	},
-    {
-		thumbnail: "/assets/img/posts/artwork/thumbs/2022-06-21-cappysketches_2.jpg",
-		thumbpos: "-78px -110px",
-		lowres: {
-			file: "/assets/img/posts/artwork/2022-06-21-cappysketches_2.png"
-		}
-	}
-]
+version: 3
 ---
 
 So, I had the idea of drawing [my friend Cappy Ishihara](https://twitter.com/CappyIshihara)'s OC.

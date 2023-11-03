@@ -1,14 +1,10 @@
 ---
+pictures:
+- original: /assets/img/posts/artwork/2019-12-17-schizocar.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2019-12-17-schizocar.jpg
+  thumbpos: 50
 title: Night Cruising
-
-pictures: [
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2019-12-17-schizocar.jpg",
-		lowres: {
-			file: "/assets/img/posts/artwork/2019-12-17-schizocar.jpg"
-		}
-	}
-]
+version: 3
 ---
 ## Retrospective (2022)
 As some of my friends pointed out to me, this looks like something made by a person affected by some kind of neurodegenerative disease. I can really see where that came from, with all those pen strokes covering up the whole piece of paper.

@@ -1,10 +1,10 @@
 ---
 pictures:
-- thumbnail: /assets/img/posts/artwork/thumbs/2022-11-14-ahhroguehackguy.jpg
-  thumbpos: -100px -190px
-  variants:
-  - file: /assets/img/posts/artwork/2022-11-14-ahhroguehackguy.png
+- original: /assets/img/posts/artwork/2022-11-14-ahhroguehackguy.png
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-11-14-ahhroguehackguy.jpg
+  thumbpos: 37
 title: New doomed gamedev project, new OC
+version: 3
 ---
 I have fleshed out the design in [sketches from a while ago](/artwork/2022-10-17-rhguy), this is what came out of it.
 

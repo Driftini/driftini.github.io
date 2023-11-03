@@ -1,22 +1,15 @@
 ---
+pictures:
+- label: Final Drawing
+  original: /assets/img/posts/artwork/2021-05-25-nitorizero.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2021-05-25-nitorizero.jpg
+  thumbpos: 50
+- label: Sketch
+  original: /assets/img/posts/artwork/2021-05-25-nitorizero_sketch.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2021-05-25-nitorizero_sketch.jpg
+  thumbpos: 50
 title: Nitori ZERO
-
-pictures: [
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2021-05-25-nitorizero.jpg",
-		lowres: {
-			file: "/assets/img/posts/artwork/2021-05-25-nitorizero.jpg",
-			label: "Final Drawing"
-		}
-	},
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2021-05-25-nitorizero_sketch.jpg",
-		lowres: {
-			file: "/assets/img/posts/artwork/2021-05-25-nitorizero_sketch.jpg",
-			label: "Sketch"
-		}
-	}
-]
+version: 3
 ---
 ## Retrospective (2022)
 **Warning: Katana ZERO spoilers ahead.**

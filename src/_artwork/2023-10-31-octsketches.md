@@ -1,47 +1,39 @@
 ---
 pictures:
-- thumbnail: /assets/img/posts/artwork/thumbs/2023-10-31-octsketches_1.jpg
-  thumbpos: 0px -80px
-  variants:
-  - file: /assets/img/posts/artwork/2023-10-31-octsketches_1.jpg
-    label: DNA Nira
-- thumbnail: /assets/img/posts/artwork/thumbs/2023-10-31-octsketches_2.jpg
-  thumbpos: center -75px
-  variants:
-  - file: /assets/img/posts/artwork/2023-10-31-octsketches_2.jpg
-    label: Humanoid Nira
-- thumbnail: /assets/img/posts/artwork/thumbs/2023-10-31-octsketches_3.jpg
-  thumbpos: center -80px
-  variants:
-  - file: /assets/img/posts/artwork/2023-10-31-octsketches_3.jpg
-    label: Urotsuki
-- thumbnail: /assets/img/posts/artwork/thumbs/2023-10-31-octsketches_4.jpg
-  thumbpos: center -80px
-  variants:
-  - file: /assets/img/posts/artwork/2023-10-31-octsketches_4.jpg
-    label: Humanoid Nira
-- thumbnail: /assets/img/posts/artwork/thumbs/2023-10-31-octsketches_5.jpg
-  thumbpos: center -100px
-  variants:
-  - file: /assets/img/posts/artwork/2023-10-31-octsketches_5.jpg
-    label: Urotsuki
-- thumbnail: /assets/img/posts/artwork/thumbs/2023-10-31-octsketches_6.jpg
-  thumbpos: center -100px
-  variants:
-  - file: /assets/img/posts/artwork/2023-10-31-octsketches_6.jpg
-    label: Urotsuki
-- thumbnail: /assets/img/posts/artwork/thumbs/2023-10-31-octsketches_7.jpg
-  thumbpos: center -50px
-  variants:
-  - file: /assets/img/posts/artwork/2023-10-31-octsketches_7.jpg
-    label: OC, Deicide MC
-- thumbnail: /assets/img/posts/artwork/thumbs/2023-10-31-octsketches_8.jpg
-  thumbpos: center -60px
-  variants:
-  - file: /assets/img/posts/artwork/2023-10-31-octsketches_8.jpg
-    label: Study Me Nira
-thumbnail: /assets/img/posts/artwork/2023-10-31-octsketches_6.jpg
+- label: DNA Nira
+  original: /assets/img/posts/artwork/2023-10-31-octsketches_1.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2023-10-31-octsketches_1.jpg
+  thumbpos: 16
+- label: Humanoid Nira
+  original: /assets/img/posts/artwork/2023-10-31-octsketches_2.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2023-10-31-octsketches_2.jpg
+  thumbpos: 15
+- label: Urotsuki
+  original: /assets/img/posts/artwork/2023-10-31-octsketches_3.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2023-10-31-octsketches_3.jpg
+  thumbpos: 16
+- label: Humanoid Nira
+  original: /assets/img/posts/artwork/2023-10-31-octsketches_4.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2023-10-31-octsketches_4.jpg
+  thumbpos: 16
+- label: Urotsuki
+  original: /assets/img/posts/artwork/2023-10-31-octsketches_5.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2023-10-31-octsketches_5.jpg
+  thumbpos: 20
+- label: Urotsuki
+  original: /assets/img/posts/artwork/2023-10-31-octsketches_6.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2023-10-31-octsketches_6.jpg
+  thumbpos: 20
+- label: OC, Deicide MC
+  original: /assets/img/posts/artwork/2023-10-31-octsketches_7.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2023-10-31-octsketches_7.jpg
+  thumbpos: 10
+- label: Study Me Nira
+  original: /assets/img/posts/artwork/2023-10-31-octsketches_8.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2023-10-31-octsketches_8.jpg
+  thumbpos: 12
 title: October sketches
+version: 3
 ---
 In spite of artblock about to show up at my doorstep again, here's a post with 8 new sketches.
 Character names in picture labels, as usual.

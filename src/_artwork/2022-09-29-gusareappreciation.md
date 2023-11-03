@@ -1,26 +1,23 @@
 ---
 pictures:
-- thumbnail: /assets/img/posts/artwork/thumbs/2022-09-29-gusareappreciation.jpg
-  thumbpos: -80px -105px
-  variants:
-  - file: /assets/img/posts/artwork/2022-09-29-gusareappreciation.png
-    label: Final Drawing
-- thumbnail: /assets/img/posts/artwork/thumbs/2022-09-29-gusareappreciation_sketch1.jpg
-  thumbpos: 0px -155px
-  variants:
-  - file: /assets/img/posts/artwork/2022-09-29-gusareappreciation_sketch1.jpg
-    label: 'Concept Sketch #1'
-- thumbnail: /assets/img/posts/artwork/thumbs/2022-09-29-gusareappreciation_sketch2.jpg
-  thumbpos: -77px -145px
-  variants:
-  - file: /assets/img/posts/artwork/2022-09-29-gusareappreciation_sketch2.jpg
-    label: 'Concept Sketch #2'
-- thumbnail: /assets/img/posts/artwork/thumbs/2022-09-29-gusareappreciation_sketch3.jpg
-  thumbpos: -57px -105px
-  variants:
-  - file: /assets/img/posts/artwork/2022-09-29-gusareappreciation_sketch3.jpg
-    label: 'Concept Sketch #3'
+- label: Final Drawing
+  original: /assets/img/posts/artwork/2022-09-29-gusareappreciation.png
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-09-29-gusareappreciation.jpg
+  thumbpos: 36
+- label: 'Concept Sketch #1'
+  original: /assets/img/posts/artwork/2022-09-29-gusareappreciation_sketch1.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-09-29-gusareappreciation_sketch1.jpg
+  thumbpos: 30
+- label: 'Concept Sketch #2'
+  original: /assets/img/posts/artwork/2022-09-29-gusareappreciation_sketch2.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-09-29-gusareappreciation_sketch2.jpg
+  thumbpos: 45
+- label: 'Concept Sketch #3'
+  original: /assets/img/posts/artwork/2022-09-29-gusareappreciation_sketch3.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-09-29-gusareappreciation_sketch3.jpg
+  thumbpos: 29
 title: Love letter to Gusare
+version: 3
 ---
 
 By far the biggest, most complex drawing I've made so far.

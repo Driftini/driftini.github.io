@@ -1,15 +1,10 @@
 ---
+pictures:
+- original: /assets/img/posts/artwork/2021-10-14-yumwillneverpay.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2021-10-14-yumwillneverpay.jpg
+  thumbpos: 21
 title: Youmu will never pay.
-
-pictures: [
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2021-10-14-yumwillneverpay.jpg",
-		thumbpos: "-70px -110px",
-		lowres: {
-			file: "/assets/img/posts/artwork/2021-10-14-yumwillneverpay.jpg"
-		}
-	}
-]
+version: 3
 ---
 > Let me be clear, Reimu.
 > **[I WILL NEVER PAY.](https://youtu.be/WykFCYIDSbQ?t=798)**

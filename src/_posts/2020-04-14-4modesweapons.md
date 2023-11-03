@@ -1,7 +1,6 @@
 ---
 title: Armed to the teeth
-
-thumbnail: /assets/img/posts/blog/2020-04-14-4modesweapons.png
+version: 3
 ---
 Finally, the weapon set is complete.
 

@@ -1,10 +1,10 @@
 ---
 pictures:
-- thumbnail: /assets/img/posts/artwork/thumbs/2023-08-29-mumafirststeps.jpg
-  thumbpos: -124px -103px
-  variants:
-  - file: /assets/img/posts/artwork/2023-08-29-mumafirststeps.png
+- original: /assets/img/posts/artwork/2023-08-29-mumafirststeps.png
+  thumbnail: /assets/img/posts/artwork/thumbs/2023-08-29-mumafirststeps.jpg
+  thumbpos: 27
 title: First Steps
+version: 3
 ---
 My friend [Theki](https://lethallava.land/@t) got me to play the RPGmaker game [Muma Rope](https://yume.wiki/muma/Muma_Rope_Wiki) with him on [Yume Nikki Online](https://ynoproject.net/muma).
 Its first large area, [First Steps](https://yume.wiki/muma/First_Steps), really surprised me thanks to its awesome contrast between dark gray rocks and neon-green grass.

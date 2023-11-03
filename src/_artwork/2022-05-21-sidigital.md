@@ -1,15 +1,10 @@
 ---
+pictures:
+- original: /assets/img/posts/artwork/2022-05-21-sidigital.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-05-21-sidigital.jpg
+  thumbpos: 20
 title: Going digital, again
-
-pictures: [
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2022-05-21-sidigital.jpg",
-		thumbpos: "-90px -100px",
-		lowres: {
-			file: "/assets/img/posts/artwork/2022-05-21-sidigital.jpg"
-		}
-	}
-]
+version: 3
 ---
 
 I may have not bought that Wacom yet, but I ended up getting back to digital drawing anyway.

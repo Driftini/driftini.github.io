@@ -1,5 +1,6 @@
 ---
 title: Half christmas lights, half souls
+version: 3
 ---
 Collectible souls have been added to Project 4Modes!
 

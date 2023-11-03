@@ -1,15 +1,10 @@
 ---
+pictures:
+- original: /assets/img/posts/artwork/2018-12-18-newshading.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2018-12-18-newshading.jpg
+  thumbpos: 27
 title: New shading technique sketch
-
-pictures: [
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2018-12-18-newshading.jpg",
-		thumbpos: "0 -140px",
-		lowres: {
-			file: "/assets/img/posts/artwork/2018-12-18-newshading.jpg"
-		}
-	}
-]
+version: 3
 ---
 ## Original description
 A little sketch I did last year to test a new shading technique. Doesn't look that nice with pens, but I'm sure that would work on pencil drawings.

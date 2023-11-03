@@ -1,21 +1,19 @@
 ---
 pictures:
-- thumbnail: /assets/img/posts/artwork/thumbs/2023-06-30-junsketches_1.jpg
-  thumbpos: -120px -60px
-  variants:
-  - file: /assets/img/posts/artwork/2023-06-30-junsketches_1.jpg
-    label: Humanoid Nira
-- thumbnail: /assets/img/posts/artwork/thumbs/2023-06-30-junsketches_2.jpg
-  thumbpos: -110px -70px
-  variants:
-  - file: /assets/img/posts/artwork/2023-06-30-junsketches_2.jpg
-    label: UNA, Atlas
-- thumbnail: /assets/img/posts/artwork/thumbs/2023-06-30-junsketches_3.jpg
-  thumbpos: center -40px
-  variants:
-  - file: /assets/img/posts/artwork/2023-06-30-junsketches_3.jpg
-    label: Roguehack/Deicide MC
+- label: Humanoid Nira
+  original: /assets/img/posts/artwork/2023-06-30-junsketches_1.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2023-06-30-junsketches_1.jpg
+  thumbpos: 13
+- label: UNA, Atlas
+  original: /assets/img/posts/artwork/2023-06-30-junsketches_2.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2023-06-30-junsketches_2.jpg
+  thumbpos: 14
+- label: Roguehack/Deicide MC
+  original: /assets/img/posts/artwork/2023-06-30-junsketches_3.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2023-06-30-junsketches_3.jpg
+  thumbpos: 8
 title: June sketches
+version: 3
 ---
 New month sketches post, same old deal. Character names in picture labels.
 

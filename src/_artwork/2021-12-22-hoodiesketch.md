@@ -1,15 +1,10 @@
 ---
+pictures:
+- original: /assets/img/posts/artwork/2021-12-22-hoodiesketch.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2021-12-22-hoodiesketch.jpg
+  thumbpos: 14
 title: Clothing sketch
-
-pictures: [
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2021-12-22-hoodiesketch.jpg",
-		thumbpos: "1px -70px",
-		lowres: {
-			file: "/assets/img/posts/artwork/2021-12-22-hoodiesketch.jpg"
-		}
-	}
-]
+version: 3
 ---
 Just a random attempt at drawing clothing, half decent maybe?
 

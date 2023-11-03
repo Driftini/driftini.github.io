@@ -1,7 +1,6 @@
 ---
 title: The big FumoNet update
-
-thumbnail: /assets/img/posts/blog/thumbs/2022-06-13-smoothieupdate.png
+version: 3
 ---
 
 About two months of work, finally coming to a close.

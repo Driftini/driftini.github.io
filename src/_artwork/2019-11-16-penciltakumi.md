@@ -1,15 +1,10 @@
 ---
+pictures:
+- original: /assets/img/posts/artwork/2019-11-16-penciltakumi.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2019-11-16-penciltakumi.jpg
+  thumbpos: 20
 title: Very short-necked Takumi
-
-pictures: [
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2019-11-16-penciltakumi.jpg",
-		thumbpos: "-50px -90px",
-		lowres: {
-			file: "/assets/img/posts/artwork/2019-11-16-penciltakumi.jpg"
-		}
-	}
-]
+version: 3
 ---
 ## Retrospective (2022)
 No words. Just a picture.

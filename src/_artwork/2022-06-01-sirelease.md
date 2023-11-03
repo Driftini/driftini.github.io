@@ -1,15 +1,10 @@
 ---
+pictures:
+- original: /assets/img/posts/artwork/2022-06-01-sirelease.png
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-06-01-sirelease.jpg
+  thumbpos: 50
 title: Overambitious school project release
-
-pictures: [
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2022-06-01-sirelease.jpg",
-		thumbpos: "center center",
-		lowres: {
-			file: "/assets/img/posts/artwork/2022-06-01-sirelease.png"
-		}
-	}
-]
+version: 3
 ---
 
 Well, here we are - I'm finally done working on Skill Issue.

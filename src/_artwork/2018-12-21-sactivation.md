@@ -1,15 +1,10 @@
 ---
+pictures:
+- original: /assets/img/posts/artwork/2018-12-21-sactivation.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2018-12-21-sactivation.jpg
+  thumbpos: 21
 title: Superactivation Incoming
-
-pictures: [
-	{
-		thumbnail: "/assets/img/posts/artwork/thumbs/2018-12-21-sactivation.jpg",
-		thumbpos: "center -110px",
-		lowres: {
-			file: "/assets/img/posts/artwork/2018-12-21-sactivation.jpg"
-		}
-	}
-]
+version: 3
 ---
 ## Original description
 This is the last drawing I made before joining DeviantArt. What does this mean? Right, from now on I'll upload new drawings!

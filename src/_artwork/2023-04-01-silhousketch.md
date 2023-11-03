@@ -1,10 +1,10 @@
 ---
 pictures:
-- thumbnail: /assets/img/posts/artwork/thumbs/2023-04-01-silhousketch.jpg
-  thumbpos: -40px -262px
-  variants:
-  - file: /assets/img/posts/artwork/2023-04-01-silhousketch.png
+- original: /assets/img/posts/artwork/2023-04-01-silhousketch.png
+  thumbnail: /assets/img/posts/artwork/thumbs/2023-04-01-silhousketch.jpg
+  thumbpos: 51
 title: Silhouette shenanigans
+version: 3
 ---
 The character is a new OC I've only drawn on paper so far (nope, you're not seeing those sketches).
 

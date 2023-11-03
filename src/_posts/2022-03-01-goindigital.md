@@ -1,7 +1,6 @@
 ---
 title: Going Digital
-
-thumbnail: /assets/img/posts/blog/thumbs/2022-03-01-goindigital.png
+version: 3
 ---
 Alright, first post of this year! Today I want to bring up a topic that I've never really talked about in this blog, and that's drawing. Me and my friends seem to more or less agree on my recent improvement in drawing, and I'm starting to get pretty fancy ideas that I just can't pull off on paper anymore.
 

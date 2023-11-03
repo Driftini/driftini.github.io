@@ -1,50 +1,41 @@
 ---
 pictures:
-- thumbnail: /assets/img/posts/artwork/thumbs/2022-09-15-seocsketches_1.jpg
-  thumbpos: -17px -315px
-  variants:
-  - file: /assets/img/posts/artwork/2022-09-15-seocsketches_1.jpg
-    label: Hunch Gray Nira
-- thumbnail: /assets/img/posts/artwork/thumbs/2022-09-15-seocsketches_2.jpg
-  thumbpos: -77px -80px
-  variants:
-  - file: /assets/img/posts/artwork/2022-09-15-seocsketches_2.jpg
-- thumbnail: /assets/img/posts/artwork/thumbs/2022-09-15-seocsketches_3.jpg
-  thumbpos: -37px -45px
-  variants:
-  - file: /assets/img/posts/artwork/2022-09-15-seocsketches_3.jpg
-- thumbnail: /assets/img/posts/artwork/thumbs/2022-09-15-seocsketches_4.jpg
-  thumbpos: -20px -75px
-  variants:
-  - file: /assets/img/posts/artwork/2022-09-15-seocsketches_4.jpg
-    label: Nouriueno Cracker Nira
-- thumbnail: /assets/img/posts/artwork/thumbs/2022-09-15-seocsketches_5.jpg
-  thumbpos: 0px -80px
-  variants:
-  - file: /assets/img/posts/artwork/2022-09-15-seocsketches_5.jpg
-- thumbnail: /assets/img/posts/artwork/thumbs/2022-09-15-seocsketches_6.jpg
-  thumbpos: -120px -90px
-  variants:
-  - file: /assets/img/posts/artwork/2022-09-15-seocsketches_6.jpg
-- thumbnail: /assets/img/posts/artwork/thumbs/2022-09-15-seocsketches_7.jpg
-  thumbpos: -70px -45px
-  variants:
-  - file: /assets/img/posts/artwork/2022-09-15-seocsketches_7.jpg
-- thumbnail: /assets/img/posts/artwork/thumbs/2022-09-15-seocsketches_8.jpg
-  thumbpos: center -165px
-  variants:
-  - file: /assets/img/posts/artwork/2022-09-15-seocsketches_8.jpg
-    label: Humanoid Nira
-- thumbnail: /assets/img/posts/artwork/thumbs/2022-09-15-seocsketches_9.jpg
-  thumbpos: -47px -135px
-  variants:
-  - file: /assets/img/posts/artwork/2022-09-15-seocsketches_9.jpg
-- thumbnail: /assets/img/posts/artwork/thumbs/2022-09-15-seocsketches_10.jpg
-  thumbpos: center -100px
-  variants:
-  - file: /assets/img/posts/artwork/2022-09-15-seocsketches_10.jpg
-    label: Byoushin wo Kamu Nira
+- label: Hunch Gray Nira
+  original: /assets/img/posts/artwork/2022-09-15-seocsketches_1.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-09-15-seocsketches_1.jpg
+  thumbpos: 62
+- original: /assets/img/posts/artwork/2022-09-15-seocsketches_2.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-09-15-seocsketches_2.jpg
+  thumbpos: 17
+- original: /assets/img/posts/artwork/2022-09-15-seocsketches_3.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-09-15-seocsketches_3.jpg
+  thumbpos: 9
+- label: Nouriueno Cracker Nira
+  original: /assets/img/posts/artwork/2022-09-15-seocsketches_4.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-09-15-seocsketches_4.jpg
+  thumbpos: 15
+- original: /assets/img/posts/artwork/2022-09-15-seocsketches_5.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-09-15-seocsketches_5.jpg
+  thumbpos: 16
+- original: /assets/img/posts/artwork/2022-09-15-seocsketches_6.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-09-15-seocsketches_6.jpg
+  thumbpos: 26
+- original: /assets/img/posts/artwork/2022-09-15-seocsketches_7.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-09-15-seocsketches_7.jpg
+  thumbpos: 9
+- label: Humanoid Nira
+  original: /assets/img/posts/artwork/2022-09-15-seocsketches_8.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-09-15-seocsketches_8.jpg
+  thumbpos: 32
+- original: /assets/img/posts/artwork/2022-09-15-seocsketches_9.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-09-15-seocsketches_9.jpg
+  thumbpos: 26
+- label: Byoushin wo Kamu Nira
+  original: /assets/img/posts/artwork/2022-09-15-seocsketches_10.jpg
+  thumbnail: /assets/img/posts/artwork/thumbs/2022-09-15-seocsketches_10.jpg
+  thumbpos: 20
 title: September-October doodles
+version: 3
 ---
 A whole bunch of random sketches I've made between, as the title *very subtly* implies, during September and October, punctually beginning from the first day of school.
 
