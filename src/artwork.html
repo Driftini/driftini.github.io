@@ -1,5 +1,5 @@
 ---
-layout: postIndex
+layout: post_index
 title: Artwork Archive
 
 pagination: 
@@ -7,18 +7,43 @@ pagination:
   indexpage: artwork
   collection: artwork
 ---
-<header>
-  <h1>Artwork Archive</h1>
-</header>
-
+<h1>Artwork Archive</h1>
 <p>
-  As you may have guessed from <a href="/about.html">my about page</a>, drawing is one of my main hobbies.<br>
-  This page contains the vast majority of the stuff I've drawn so far.<br>
-  Why? Well, it's both for myself, to see how I'm improving over the years, and for other people to have a single page
-  containing all of my artwork.<br><br>
+  As you may have guessed from <a href="/about.html">my about page</a>,
+  drawing is pretty much my biggest hobby.<br>
+  
+  This page contains the vast majority of my sketches, high effort drawings,
+  digital paintings... you name it.<br>
+  
+  Why?
+  Well, it's both for myself, to see how I'm improving over the years,
+  and for other people to have a single, tidy page containing all of my artwork.<br><br>
 
-  Why not use something like DeviantArt, Pixiv and the likes? No idea, really. I guess making my own art archive is
-  more fun.<br>
-  Besides, I am not a massive fan of those websites' userbases, so not having to directly interact with them is an
-  added bonus.<br><br>
+  Why not use something like DeviantArt or Pixiv, I hear you ask?
+  Making my own archive is just more fun,
+  gives me more control over how my works are presented and more independence overall.<br>
+  
+  Besides, I have my own gripes with both sites' userbases,
+  so not having to directly interact with them is an added bonus.<br><br>
+
+  That aside, I do share new posts on whichever social media site I happen to be using at the moment,
+  which now would be <a href="https://wetdry.world">Wet-Dry World</a>.<br><br>
+
+  You can hover over any of the thumbnails below to see their post's name and date.
 </p>
+
+<div class="artgrid">
+  {% for post in paginator.posts %}
+  <a href="{{ post.url }}" class="artgrid-item"
+    {% if post.thumbnail %}
+    style="background-image:{{ post.thumbnail }};background-position: center center;"
+    {% else %}
+    style="background-image:url({{ post.pictures[0].thumbnail }});background-position: center {{ post.pictures[0].thumbpos }}%;"
+    {% endif %}>
+    <div class="artgrid-item-slider">
+      <p class="artgrid-item-slider-title">{{ post.title }}</p>
+      <p class="artgrid-item-slider-date">{{ post.date | date_to_long_string}}</p>
+    </div>
+  </a>
+  {% endfor %}
+</div><br>

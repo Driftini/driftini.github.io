@@ -4,73 +4,36 @@ title: Home
 permalink: /
 ---
 
-<div class="cancelPadding">
-	<div class="homeBanner">
-		<div class="homeBanner--cardGrid">
-			<a href="{{ shownArt.url }}" class="box" style="--cardDelay: .4s; translate: -100px 0">
-				<label class="box--label">Featured Artwork: <b>{{ shownArt.title }}</b></label>
+<section>
+  <h1>Welcome to FumoNet!</h1>
+  <h3>(replace with handdrawn pic)</h3>
+  <p>
+    I'm Driftini!<br>
+    I like music, design, drawing and a bunch of other stuff.<br>
+    <a href="/about"><b>You can read more about me here.</b></a>
+  </p>
+</section>
 
-				<div class="homeBanner--cardGrid--picturePost">
-					{% if shownArt.thumbnail %}
-					<img src="{{ shownArt.thumbnail }}">
+{% assign latestArt = site.artwork | last %}
+<article>
+  <h1>Featured artwork</h1>
+  <h3>{{ latestArt.title }} - {{ latestArt.date | date_to_string }}</h3>
+  {% if latestArt.thumbnail %}
+  <img src="{{ latestArt.thumbnail }}">
+  {% elsif latestArt.pictures %}
+  <img src="{{ latestArt.pictures[0].thumbnail }}">
+  {% endif %}
+</article>
 
-					{% elsif shownArt.pictures %}
-					<img src="{{ shownArt.pictures[0].thumbnail }}">
+<article>
+  <h1>Latest blog post</h1>
+  <h3>{{ site.posts[0].title }} - {{ site.posts[0].date | date_to_string }}</h3>
 
-					{% endif %}
-				</div>
-			</a>
+  {% if site.posts[0].thumbnail %}
+  <img src="{{ site.posts[0].thumbnail }}">
+  {% endif %}
 
-			<a href="/about" class="box homeAboutBox" style="--cardDelay: .6s; translate: 100px 0">
-				<label class="box--label">Something about me</label>
-
-				<div class="homeAboutImg"></div>
-
-				<h2>
-					I'm Driftini!<br><br>
-					I like music, design, drawing and a bunch of other stuff.<br><br>
-					<p class="homeReadMore">Read more...</p>
-				</h2>
-
-				
-			</a>
-
-			<a href="{{ site.posts[0].url }}" class="box homeBlogBox" style="--cardDelay: .8s; translate: -100px 0">
-				<label class="box--label">Latest blog post: <b>{{ site.posts[0].title }}</b></label>
-
-				{% if site.posts[0].thumbnail %}
-
-				<div class="homeBanner--cardGrid--picturePost">
-					<img src="{{ site.posts[0].thumbnail }}">
-				</div>
-
-				{% endif %}
-
-				<div class="homeBlogExcerpt">
-					{{ site.posts[0].content | markdownify | strip_html | truncatewords: 100 }}
-				</div>
-
-				<p class="homeReadMore">Read more...</p>
-
-				<p class="homeDate">{{ site.posts[0].date | date_to_string }}</p>
-			</a>
-
-			{% assign latestWall = site.wallpapers | last %}
-			<a href="{{ latestWall.url }}" class="box" style="--cardDelay: 1s; translate: 100px 0">
-				<label class="box--label">Latest wallpaper: <b>{{ latestWall.title }}</b></label>
-
-				<div class="homeBanner--cardGrid--picturePost">
-					{% if latestWall.thumbnail %}
-
-					<img src="{{ latestWall.thumbnail }}">
-
-					{% elsif latestWall.pictures %}
-
-					<img src="{{ latestWall.pictures[0].thumbnail }}">
-
-					{% endif %}
-				</div>
-			</a>
-		</div>
-	</div>
-</div>
+  <p>
+    {{ site.posts[0].content | markdownify | strip_html | truncatewords: 100 }}
+  </p>
+</article>

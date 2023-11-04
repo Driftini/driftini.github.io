@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<!--
+  Thanks to Ankit R Gadiya: https://stackoverflow.com/a/44115360
+  Currently unused, but this might come in handy in the future
+-->
+{% assign posts_by_year = paginator.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+{% for year in posts_by_year %}
+{% assign posts_by_month = year.items | group_by_exp:"post", "post.date | date: '%B'" %}
+{% endfor %}
+
+{{ content }}
+
+{% if paginator.page_trail %}
+<div class="buttonRow">
+  {% for trail in paginator.page_trail %}
+  {% if trail == paginator.page_trail[0] and trail.num != paginator.first_page %}
+  <a href="{{ paginator.first_page_path }}">{{ paginator.first_page }}</a>
+  <span>...</span>
+  {% elsif trail == paginator.page_trail[6] and trail.num != paginator.last_page %}
+  <span>...</span>
+  <a href="{{ paginator.last_page_path }}">{{ paginator.last_page }}</a>
+  {% else %}
+  <a href="{{ trail.path }}">
+    {% if page.url == trail.path %}
+    <b><u>{{ trail.num }}</u></b>
+    {% else %}
+    {{ trail.num }}
+    {% endif %}
+  </a>
+  {% endif %}
+  {% endfor %}
+  </div>
+{% endif %}

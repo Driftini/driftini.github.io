@@ -226,7 +226,7 @@ footer {
     grid-gap: 8px;
     justify-content: space-evenly;
 
-    &-thumb {
+    &-item {
         aspect-ratio: 4/3;
 
         background-size: 200%;
@@ -267,12 +267,12 @@ footer {
             }
 
             // can't use parent selectors here because they don't increase specificity
-            .artgrid-thumb-slider-title {
+            .artgrid-item-slider-title {
                 font-weight: bold;
                 text-align: left;
             }
 
-            .artgrid-thumb-slider-date {
+            .artgrid-item-slider-date {
                 font-size: 10px;
                 text-align: right;
             }
