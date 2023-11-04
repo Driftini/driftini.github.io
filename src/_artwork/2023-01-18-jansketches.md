@@ -8,6 +8,7 @@ pictures:
   original: /assets/img/posts/artwork/2023-01-18-jansketches_2.jpg
   thumbnail: /assets/img/posts/artwork/thumbs/2023-01-18-jansketches_2.jpg
   thumbpos: 18
+prioritythumb: /assets/img/posts/artwork/thumbs/2023-01-18-jansketches_2.jpg
 title: January sketches
 version: 3
 ---

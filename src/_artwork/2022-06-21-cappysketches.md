@@ -6,6 +6,7 @@ pictures:
 - original: /assets/img/posts/artwork/2022-06-21-cappysketches_2.png
   thumbnail: /assets/img/posts/artwork/thumbs/2022-06-21-cappysketches_2.jpg
   thumbpos: 21
+prioritythumb: /assets/img/posts/artwork/thumbs/2022-06-21-cappysketches_2.jpg
 title: Cappy Ishihara sketches
 version: 3
 ---

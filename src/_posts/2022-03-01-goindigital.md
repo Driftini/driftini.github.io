@@ -1,4 +1,5 @@
 ---
+prioritythumb: /assets/img/posts/blog/thumbs/2022-03-01-goindigital.png
 title: Going Digital
 version: 3
 ---

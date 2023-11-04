@@ -1,4 +1,5 @@
 ---
+prioritythumb: /assets/img/posts/blog/thumbs/2023-10-08-blueberrysmoothie_teaser.png
 title: Farewell, Smoothie
 version: 3
 ---

@@ -1,4 +1,5 @@
 ---
+prioritythumb: /assets/img/posts/blog/thumbs/2022-07-05-summernews.jpg
 title: Summer News
 version: 3
 ---

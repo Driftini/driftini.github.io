@@ -32,6 +32,7 @@ pictures:
   original: /assets/img/posts/artwork/2023-10-31-octsketches_8.jpg
   thumbnail: /assets/img/posts/artwork/thumbs/2023-10-31-octsketches_8.jpg
   thumbpos: 12
+prioritythumb: /assets/img/posts/artwork/thumbs/2023-10-31-octsketches_6.jpg
 title: October sketches
 version: 3
 ---
