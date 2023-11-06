@@ -1,5 +1,5 @@
 ---
-prioritythumb: /assets/img/posts/blog/thumbs/2020-04-14-4modesweapons.png
+prioritythumb: /assets/img/posts/blog/thumbs/2020-04-14-4modesweapons.jpg
 title: Armed to the teeth
 version: 3
 ---

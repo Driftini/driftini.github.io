@@ -1,9 +1,10 @@
 ---
-prioritythumb: /assets/img/posts/blog/thumbs/2022-03-01-goindigital.png
+prioritythumb: /assets/img/posts/blog/thumbs/2022-03-01-goindigital.jpg
 title: Going Digital
 version: 3
 ---
-Alright, first post of this year! Today I want to bring up a topic that I've never really talked about in this blog, and that's drawing. Me and my friends seem to more or less agree on my recent improvement in drawing, and I'm starting to get pretty fancy ideas that I just can't pull off on paper anymore.
+Alright, first post of this year! Today I want to bring up a topic that I've never really talked about in this blog, and that's drawing.
+Me and my friends seem to more or less agree on my recent improvement in drawing, and I'm starting to get pretty fancy ideas that I just can't pull off on paper anymore.
 
 My pretty obvious solution to this was turning towards digital art. Mind you, I'm not talking about using Flipnote Studio on my 3DS anymore, but something way more advanced, able to give me more freedom when it comes to colors, layers and so on.
 

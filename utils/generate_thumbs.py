@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 
-from os import listdir, path
+from os import listdir, path, remove
 from textwrap import indent
 from PIL import Image
 
-COLLECTIONS = ["artwork", "walls"]
+COLLECTIONS = ["artwork", "walls", "blog"]
 THUMB_SETTINGS = {
     "extension": "jpg",
     "maxsize": (512, 512),
@@ -33,6 +33,7 @@ for collection in COLLECTIONS:
             if not path.isfile(target_path):
                 try:
                     with Image.open(source_path) as i:
+                        i = i.convert("RGB")
                         i.thumbnail(THUMB_SETTINGS["maxsize"])
                         i.save(
                             target_path,
@@ -40,13 +41,17 @@ for collection in COLLECTIONS:
                             optimize=True,  # for JPEG
                             method=6       # for WebP
                         )
-                        
+
                         print(f"{name} saved.")
                         counters["saved"] += 1
                 except Exception as e:
                     print(f"{name} failed:")
                     print(indent(str(e), "  "))
                     counters["failed"] += 1
+
+                    # cleanup if necessary
+                    if path.isfile(target_path):
+                        remove(target_path)
             else:
                 print(f"{name} skipped, thumbnail already exists.")
                 counters["skipped"] += 1

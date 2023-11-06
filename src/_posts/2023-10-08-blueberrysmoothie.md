@@ -1,11 +1,12 @@
 ---
-prioritythumb: /assets/img/posts/blog/thumbs/2023-10-08-blueberrysmoothie_teaser.png
+prioritythumb: /assets/img/posts/blog/thumbs/2023-10-08-blueberrysmoothie_teaser.jpg
 title: Farewell, Smoothie
 version: 3
 ---
 Almost two years.
 That's how long Smoothie has been FumoNet's theme.
 And now it's time for a change... but not before a little facelift.
+
 By that I mean that right now, Smoothie picks the colors it uses from several CSS variables: this is a feature that I never really toyed around with, ever since I pushed [last summer's massive update to this site](/blog/2022-06-13-smoothieupdate).
 But now, I believe that I have finally found a good usecase for it: briefly move to a more refreshing palette, right before Smoothie will be gone for good.
 

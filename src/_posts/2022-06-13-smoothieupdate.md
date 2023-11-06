@@ -1,5 +1,5 @@
 ---
-prioritythumb: /assets/img/posts/blog/thumbs/2022-06-13-smoothieupdate.png
+prioritythumb: /assets/img/posts/blog/thumbs/2022-06-13-smoothieupdate.jpg
 title: The big FumoNet update
 version: 3
 ---
