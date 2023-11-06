@@ -160,7 +160,7 @@ footer {
 /* Blog index */
 .bloggrid {
     display: grid;
-    grid-template-columns: repeat(2, 305px);
+    grid-template-columns: repeat(2, 50%);
     grid-gap: 8px;
     justify-content: space-evenly;
 
@@ -170,13 +170,13 @@ footer {
 
     &-post {
         display: grid;
-        aspect-ratio: 5/1;
+        // aspect-ratio: 5/1;
         justify-content: space-between;
         align-content: space-between;
 
         padding: 10px;
     
-        background-size: 100%;
+        background-size: cover;
         background-position: center;
         box-shadow: var(--boxshSunkenShadow),
             var(--boxshSunken);

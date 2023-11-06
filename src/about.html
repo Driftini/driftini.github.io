@@ -3,32 +3,11 @@ layout: default
 title: About Me
 permalink: /about
 ---
-<div class="padded">
-	<header>
-		<h1>{{ page.title }}</h1>
-	</header>
+<h1>{{ page.title }}</h1>
 
-	<div class="box aboutTldr">
-		<!-- <img src="/assets/img/misc/tface.png" class="aboutBanner"> -->
-		<div class="aboutTldr--pfp"></div>
-
-		<p>
-			Hey there, I'm Driftini and welcome to my website!<br><br>
-
-			I'm an Italian guy who's got a bunch of hobbies which I like a little too much.<br><br>
-
-			The number 29 has been haunting me throughout my life since the very moment I was born.
-		</p>
-	</div>
-
-	<h2>My interests</h2>
-
-	{% for paragraph in site.data.about %}
-
-	<div class="aboutParagraph">
-		<h3>{{ paragraph.title | markdownify }}</h3>
-		<p>{{ paragraph.body | markdownify }}</p>
-	</div>
-
-	{% endfor %}
-</div>
+{% for paragraph in site.data.about %}
+<section>
+	<h3>{{ paragraph.title | markdownify }}</h3>
+	<p>{{ paragraph.body | markdownify }}</p>
+<section>
+{% endfor %}

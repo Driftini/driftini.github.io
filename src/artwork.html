@@ -33,10 +33,15 @@ pagination:
 </p>
 
 <div class="artgrid">
+  <!--
+    If the post has a priority thumbnail, pretty much cross fingers and hope
+    that the thumbnail offset for the post's first picture works well for
+    the priority thumb as well
+  -->
   {% for post in paginator.posts %}
   <a href="{{ post.url }}" class="artgrid-item"
-    {% if post.thumbnail %}
-    style="background-image:{{ post.thumbnail }};background-position: center center;"
+    {% if post.prioritythumb %}
+    style="background-image:url({{ post.prioritythumb }});background-position: center {{ post.pictures[0].thumbpos }}%;"
     {% else %}
     style="background-image:url({{ post.pictures[0].thumbnail }});background-position: center {{ post.pictures[0].thumbpos }}%;"
     {% endif %}>
