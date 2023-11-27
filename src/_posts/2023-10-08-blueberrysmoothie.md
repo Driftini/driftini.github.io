@@ -2,6 +2,7 @@
 prioritythumb: /assets/img/posts/blog/thumbs/2023-10-08-blueberrysmoothie_teaser.jpg
 title: Farewell, Smoothie
 version: 3
+tags: [Art, test2, Yume 2kki]
 ---
 Almost two years.
 That's how long Smoothie has been FumoNet's theme.

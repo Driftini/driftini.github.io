@@ -28,24 +28,24 @@ defaults:
     scope:
       path: "_posts"
     values:
-      layout: postDetail
+      layout: post_detail
       blogPost: true
   -
     scope:
       path: "_drafts"
     values:
-      layout: postDetail
+      layout: post_detail
       blogPost: true
   -
     scope:
       path: "_artwork"
     values:
-      layout: postDetail
+      layout: post_detail
   -
     scope:
       path: "_wallpapers"
     values:
-      layout: postDetail
+      layout: post_detail
 
 pagination:
   enabled: true

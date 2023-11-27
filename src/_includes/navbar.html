@@ -28,6 +28,11 @@
                         <span class="navbutton-date">{{ post.date | date: "%d/%m/%Y" }}</span>
                         <!-- TODO tags -->
                         <!-- <span class="navbutton-tags">Yume 2kki, SHY, Painting, Drawing, Digital, Yume Nikki Fangame</span> -->
+                        <span class="navbutton-tags">
+                            {% for tag in post.tags %}
+                            {{ tag }}{% if tag != post.tags.last %},{% endif %}
+                            {% endfor %}
+                        </span>
                     </div>
                 </a>
             </li>

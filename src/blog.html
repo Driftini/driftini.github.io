@@ -8,11 +8,6 @@ pagination:
 ---
 <h1>Blog Posts</h1>
 <p>
-  <!-- Here you can find a complete index of my blog.<br>
-  The topics I talk about in each post could be just about anything: photography, technology, drawing... you name it.<br><br>
-
-  The boxes below contain a short excerpt of their respective posts and a thumbnail where available - you can click on them to read the full posts.<br><br>
-  -->
   Here you can find all of my blog posts.
   The topics I talk about vary wildly depending on the post,
   but now you can quickly figure out each one's through the new tag system.<br><br>
@@ -20,7 +15,7 @@ pagination:
   I hope you have as much fun reading them as I did writing them!
 </p>
 
-<ul class="bloggrid">
+<ul id="bloggrid">
   {% for post in paginator.posts %}
   <li class="bloggrid-post"
     style="background-image: linear-gradient(0, #0009, #0009), url({{ post.prioritythumb }})">
@@ -28,8 +23,9 @@ pagination:
       <p class="bloggrid-post-excerpt">{{ post.excerpt | remove: "<p>" | remove: "</p>" }}</p>
       <p class="bloggrid-post-tags">
               <b>Tags:</b>
-              <a href="">Art</a>,
-              <a href="">Music</a>
+              {% for tag in post.tags %}
+              <a href="">{{ tag }}</a>{% if tag != post.tags.last %},{% endif %}
+              {% endfor %}
       </p>
       <p class="bloggrid-post-date">{{ post.date | date_to_long_string }}</p>
   </li>

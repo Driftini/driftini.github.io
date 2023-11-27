@@ -1,0 +1,29 @@
+---
+layout: wrapper
+---
+<div id="complexheader">
+	<h1>{{ page.title }}</h1>
+	<i id="complexheader-date">{{ page.date | date_to_string }}</i>
+	<span id="complexheader-tags">
+		<b>Tags:</b>
+		{% for tag in page.tags %}
+        <a href="">{{ tag }}</a>{% if tag != page.tags.last %},{% endif %}
+        {% endfor %}
+	</span>
+</div>
+
+<ul id="piclist">
+	{% for picture in page.pictures %}
+	<li>
+		<b>{{ picture.label }}</b>
+		<div class="piclist-thumb" tabindex=0
+		style="background-image: url({{ picture.thumbnail }}); background-position-y: {{ picture.thumbpos | append: '%' }}">
+			<img src="{{ picture.original }}" style="background-image: url( {{picture.thumbnail}} );">
+		</div>
+	</li>
+	{% endfor %}
+</ul>
+
+<div id="content">
+	{{ content }}
+</div>
