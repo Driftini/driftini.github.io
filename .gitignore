@@ -4,5 +4,5 @@ priv
 vendor
 .jekyll-cache
 _drafts
-src/assets/img**
+src/assets/img/posts**
 .vscode
