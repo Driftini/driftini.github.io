@@ -370,8 +370,9 @@ footer {
                 margin: auto;
 
                 background-size: 100%;
-                box-shadow: 0 1px 3px #000,
-                    0 0 7px #0005;
+                box-shadow: 0 0 0 1px var(--scolrShadow),
+                    0 0px 3px -3px #000,
+                    0 0 3px #0005;
 
                 cursor: auto;
                 transition: left .4s var(--tfuncSlider);
