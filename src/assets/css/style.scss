@@ -139,6 +139,11 @@ header {
 #content {
     grid-row: 2;
     grid-column: 1;
+
+    // Blogpost pictures
+    >p>img:not([class]) {
+        max-width: 100%;
+    }
 }
 
 footer {
@@ -433,7 +438,7 @@ nav {
 
                 color: #c4ed9b;
                 text-align: center;
-                font-family: Trebuchet MS;
+                font-family: var(--fontHeader);
                 font-size: 13px;
                 font-weight: normal;
                 line-height: 100%;
