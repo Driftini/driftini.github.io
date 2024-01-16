@@ -178,9 +178,10 @@ footer {
     .bloggrid {
         &-post {
             display: grid;
+            grid-template-rows: min-content;
             // aspect-ratio: 5/1;
-            justify-content: space-between;
-            align-content: space-between;
+            // justify-content: space-between;
+            // align-content: space-between;
 
             padding: 10px;
 
@@ -202,9 +203,9 @@ footer {
 
             &-tags, &-date {
                 grid-row: 3;
+                align-self: end;
                 
-                margin: 0;
-                
+                margin: 0;                
             }
 
             &-date {
