@@ -603,10 +603,6 @@ a {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-gap: 8px;
-
-	a {
-
-	}
 }
 
 .monthEntry {
@@ -751,6 +747,10 @@ a {
 		grid-template-columns: minmax(500px, 700px)
 	}
 
+	.doodleMonthIndexBox {
+		grid-template-columns: unset;
+	}
+
 	@media (max-width: 790px) {
 		nav {
 			padding: 4px 0;
@@ -790,6 +790,14 @@ a {
 			}
 		}
 		
+		.doodleMonthIndexBox
+		{
+			.monthEntry {
+				flex-direction: column;
+				height: auto;
+			}
+		}
+
 		.attachmentContainer--details--variantRow {
 			flex-direction: column;
 			height: 70%;
