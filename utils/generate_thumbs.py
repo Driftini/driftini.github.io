@@ -4,7 +4,7 @@ from os import listdir, path, remove
 from textwrap import indent
 from PIL import Image
 
-COLLECTIONS = ["artwork", "walls", "blog"]
+COLLECTIONS = ["artwork", "walls", "blog", "dailies"]
 THUMB_SETTINGS = {
     "extension": "jpg",
     "maxsize": (512, 512),

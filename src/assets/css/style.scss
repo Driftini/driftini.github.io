@@ -114,11 +114,11 @@ pre {
 }
 
 a {
-	&:not(.button):not(.postEntry):not(.box) {
+	&:not(.button):not(.postEntry):not(.monthEntry):not(.box) {
 		@include Hyperlink;
 	}
 
-	&.button, &.postEntry, &.box {
+	&.button, &.postEntry, &.monthEntry, &.box {
 		color: var(--tcolrNormal);
 		text-decoration: none;
 	}
@@ -597,6 +597,126 @@ a {
 	}
 }
 
+/** Daily doodles month index **/
+
+.doodleMonthIndexBox {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 8px;
+
+	a {
+
+	}
+}
+
+.monthEntry {
+	position: relative;
+    display: flex;
+    height: 128px;
+    padding-top: 1px;
+    background-color: var(--wcolrBright);
+    background-image: var(--gradtGlass);
+    border: var(--bordrStandard);
+    border-radius: 4px;
+    box-shadow: var(--shadwBrightOutline), var(--shadwBrightEdges), var(--shadwInset);
+    transition: background-color var(--animtSine);
+
+    &:hover, &:active {
+    	background-color: var(--wcolrAccent);
+	}
+
+	&:active {
+		background-image: var(--gradtGlassReverse);
+	}
+
+	.vertSeparator {
+		margin: 0;
+		height: auto;
+	}
+
+	&--image {
+		display: flex;
+        justify-content: center;
+        min-width: 192px;
+        max-width: 192px;
+        max-height: 100%;
+        margin: auto;
+        padding: 8px;
+	}
+
+	img {
+		max-width: 100%;
+	    border: var(--bordrStandard);
+	    border-radius: 4px;
+	    box-shadow: var(--shadwBrightOutline), var(--shadwInset);
+	    object-fit: cover;
+	}
+
+	&--text {
+		width: 100%;
+		padding: 0 10px;
+		box-shadow: var(--shadwDarken);
+		overflow-y: hidden;
+
+		h2 {
+			margin: 5px 0;
+		}
+	}
+}
+
+/** Daily doodles calendar **/
+
+.doodleMonthBox {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	grid-gap: 4px;
+
+	margin-bottom: 12px;
+
+	.dmb {
+		&-1 { grid-column: 1; }
+		&-2 { grid-column: 2; }
+		&-3 { grid-column: 3; }
+		&-4 { grid-column: 4; }
+		&-5 { grid-column: 5; }
+		&-6 { grid-column: 6; }
+		&-7 { grid-column: 7; }
+	}
+
+	span {
+		text-align: center;
+		font-weight: bold;
+	}
+
+	a.button {
+		position: relative;
+
+		aspect-ratio: 1/1;
+		min-width: unset;
+
+		padding: 4px;
+
+		overflow: hidden;
+
+		.box--label {
+			min-width: 32px;
+
+			padding: 1px;
+		}
+
+		img {
+			width: 100%;
+			height: 100%;
+
+			border: var(--bordrStandard);
+			border-radius: 4px;
+			box-shadow: var(--shadwBrightOutline), var(--shadwInset);
+
+			object-fit: cover;
+		}
+	}
+}
+
 /** Mobile support **/
 
 @media (max-width: 1090px) {
@@ -673,6 +793,18 @@ a {
 		.attachmentContainer--details--variantRow {
 			flex-direction: column;
 			height: 70%;
+		}
+
+		.doodleMonthBox {
+			a.button {
+				padding: 0;
+
+				border: none;
+
+				.box--label {
+					display: none;
+				}
+			}
 		}
 
 		@media (max-width: 420px) {

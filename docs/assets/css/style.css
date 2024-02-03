@@ -75,11 +75,11 @@ code.highlighter-rouge { padding: 2px 4px; color: var(--tcolrCode); font: var(--
 
 pre { padding: 2px 4px; color: var(--tcolrCode); font: var(--fontCode); background-color: var(--wcolrMain); border: var(--bordrStandard); border-radius: 4px; box-shadow: var(--shadwInset); width: fit-content; }
 
-a:not(.button):not(.postEntry):not(.box) { color: var(--tcolrHylink); text-decoration: none; }
+a:not(.button):not(.postEntry):not(.monthEntry):not(.box) { color: var(--tcolrHylink); text-decoration: none; }
 
-a:not(.button):not(.postEntry):not(.box):hover { text-decoration: underline; }
+a:not(.button):not(.postEntry):not(.monthEntry):not(.box):hover { text-decoration: underline; }
 
-a.button, a.postEntry, a.box { color: var(--tcolrNormal); text-decoration: none; }
+a.button, a.postEntry, a.monthEntry, a.box { color: var(--tcolrNormal); text-decoration: none; }
 
 .box { position: relative; padding: 14px 10px; border: var(--bordrStandard); background-color: var(--wcolrMain); background-image: var(--gradtOpaque); box-shadow: var(--shadw3D), var(--shadwBrightEdges), var(--shadwOutset), var(--shadwDropShadow); border-radius: 4px; margin: 0 auto; overflow: hidden; }
 
@@ -249,10 +249,54 @@ a.button, a.postEntry, a.box { color: var(--tcolrNormal); text-decoration: none;
 
 .blogPost img { max-width: 100%; max-height: 400px; background-color: var(--wcolrBright); border: var(--bordrStandard); border-radius: 4px; box-shadow: var(--shadwDropShadow), var(--shadwOutset), var(--shadwBrightOutline), var(--shadwBrightOutline); }
 
+/** Daily doodles month index **/
+.doodleMonthIndexBox { display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 8px; }
+
+.monthEntry { position: relative; display: flex; height: 128px; padding-top: 1px; background-color: var(--wcolrBright); background-image: var(--gradtGlass); border: var(--bordrStandard); border-radius: 4px; box-shadow: var(--shadwBrightOutline), var(--shadwBrightEdges), var(--shadwInset); transition: background-color var(--animtSine); }
+
+.monthEntry:hover, .monthEntry:active { background-color: var(--wcolrAccent); }
+
+.monthEntry:active { background-image: var(--gradtGlassReverse); }
+
+.monthEntry .vertSeparator { margin: 0; height: auto; }
+
+.monthEntry--image { display: flex; justify-content: center; min-width: 192px; max-width: 192px; max-height: 100%; margin: auto; padding: 8px; }
+
+.monthEntry img { max-width: 100%; border: var(--bordrStandard); border-radius: 4px; box-shadow: var(--shadwBrightOutline), var(--shadwInset); object-fit: cover; }
+
+.monthEntry--text { width: 100%; padding: 0 10px; box-shadow: var(--shadwDarken); overflow-y: hidden; }
+
+.monthEntry--text h2 { margin: 5px 0; }
+
+/** Daily doodles calendar **/
+.doodleMonthBox { display: grid; grid-template-columns: repeat(7, 1fr); grid-gap: 4px; margin-bottom: 12px; }
+
+.doodleMonthBox .dmb-1 { grid-column: 1; }
+
+.doodleMonthBox .dmb-2 { grid-column: 2; }
+
+.doodleMonthBox .dmb-3 { grid-column: 3; }
+
+.doodleMonthBox .dmb-4 { grid-column: 4; }
+
+.doodleMonthBox .dmb-5 { grid-column: 5; }
+
+.doodleMonthBox .dmb-6 { grid-column: 6; }
+
+.doodleMonthBox .dmb-7 { grid-column: 7; }
+
+.doodleMonthBox span { text-align: center; font-weight: bold; }
+
+.doodleMonthBox a.button { position: relative; aspect-ratio: 1/1; min-width: unset; padding: 4px; overflow: hidden; }
+
+.doodleMonthBox a.button .box--label { min-width: 32px; padding: 1px; }
+
+.doodleMonthBox a.button img { width: 100%; height: 100%; border: var(--bordrStandard); border-radius: 4px; box-shadow: var(--shadwBrightOutline), var(--shadwInset); object-fit: cover; }
+
 /** Mobile support **/
 @media (max-width: 1090px) { .homeBanner { animation: none; height: 100%; } .homeBanner--welcomeRow img { height: 20vw; } .homeBanner--welcomeRow--text h1 { font-size: 9.3vw; } .homeBanner--welcomeRow--text h2 { font-size: 7vw; } .homeBanner--cardGrid { grid-template-columns: unset; margin: 40px 20px; margin-bottom: 0; } .postIndexBox--grid { grid-template-columns: minmax(500px, 700px); } }
 
-@media (max-width: 1090px) and (max-width: 790px) { nav { padding: 4px 0; } nav a.button { min-width: unset; width: 100%; margin: 0; padding: 4px 5px; border-radius: 0; font-size: 80%; } .aboutTldr { grid-template-columns: unset; } .aboutTldr p { grid-row: 2; } .aboutTldr--pfp { margin: auto; } .postIndexBox { width: unset; } .postIndexBox--grid { grid-template-columns: unset; } .postIndexBox--grid .postEntry { flex-direction: column; height: auto; } .attachmentContainer--details--variantRow { flex-direction: column; height: 70%; } }
+@media (max-width: 1090px) and (max-width: 790px) { nav { padding: 4px 0; } nav a.button { min-width: unset; width: 100%; margin: 0; padding: 4px 5px; border-radius: 0; font-size: 80%; } .aboutTldr { grid-template-columns: unset; } .aboutTldr p { grid-row: 2; } .aboutTldr--pfp { margin: auto; } .postIndexBox { width: unset; } .postIndexBox--grid { grid-template-columns: unset; } .postIndexBox--grid .postEntry { flex-direction: column; height: auto; } .attachmentContainer--details--variantRow { flex-direction: column; height: 70%; } .doodleMonthBox a.button { padding: 0; border: none; } .doodleMonthBox a.button .box--label { display: none; } }
 
 @media (max-width: 1090px) and (max-width: 790px) and (max-width: 420px) { .attachmentContainer { flex-direction: column; width: 100%; } .attachmentContainer--image, .attachmentContainer--image:hover, .attachmentContainer--details { width: 100%; } .attachmentContainer--image, .attachmentContainer--image:hover { height: 128px; background-size: cover; background-position: center !important; } .attachmentContainer--details { margin-top: 10px; padding-left: 5px; } .attachmentContainer--details--variantRow h3 { margin-bottom: 5px; } }
 

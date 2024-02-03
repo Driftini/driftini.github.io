@@ -1,0 +1,38 @@
+---
+layout: default
+title: 2024 Daily Doodles
+---
+<header>
+  <h1>2024 Daily Doodles</h1>
+</header>
+
+<p>
+  This year, I've decided to draw daily!<br>
+  Here is a list of the months I've worked on so far.
+  <br><br>
+</p>
+
+<div class="padded box doodleMonthIndexBox">
+  {% for month in site.dailies %}
+  <a href="{{ month.url }}" class="monthEntry">
+    {% assign month_num = month.date | date: "%m" %}
+
+    {% assign day_num = month.day-reached | append: "" %}
+    <!-- append to convert to string -->
+
+    {% if day_num.size < 2 %}
+    {% assign day_num = day_num | prepend: "0" %}
+    {% endif %}
+
+    <span class="monthEntry--image">
+      <img src="/assets/img/posts/dailies/thumbs/2024-{{ month_num }}-{{ day_num }}.jpg">
+    </span>
+
+    <div class="vertSeparator"></div>
+
+    <span class="monthEntry--text">
+      <h2>{{ month.date | date: "%B" }}</h2>
+    </span>
+  </a>
+  {% endfor %}
+</div>

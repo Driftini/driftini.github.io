@@ -18,6 +18,9 @@ collections:
   wallpapers:
     output: true
 
+  dailies:
+    output: true
+
 defaults:
   -
     scope:
@@ -46,6 +49,11 @@ defaults:
       path: "_wallpapers"
     values:
       layout: postDetail
+  -
+    scope:
+      path: "_dailies"
+    values:
+      layout: doodleMonth
 
 pagination:
   enabled: true
