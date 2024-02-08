@@ -60,7 +60,7 @@ permalink: /
 		    {% endif %}
 
 			<a href="{{ latestDailyMonth.url }}" class="box" style="--cardDelay: .6s; translate: 100px 0">
-				<label class="box--label">Latest daily doodle: <b>{{ latestDailyMonth.date | date: "%B %w" }}</b></label>
+				<label class="box--label">Latest daily doodle: <b>{{ latestDailyMonth.date | date: "%B " | append: day_num }}</b></label>
 				<div class="homeBanner--cardGrid--picturePost">
 					<img src="/assets/img/posts/dailies/thumbs/2024-{{ month_num }}-{{ day_num }}.jpg">
 				</div>
