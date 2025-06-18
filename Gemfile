@@ -8,3 +8,7 @@ git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 gem "webrick"
 gem "jekyll", "~> 4.2.1"
 gem "jekyll-paginate-v2"
+gem "csv"
+gem "bigdecimal"
+gem "base64"
+gem "logger"
