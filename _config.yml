@@ -1,6 +1,6 @@
 source: src
 destination: docs
-include: [src/.nojekyll]
+include: [.nojekyll]
 exclude: [priv/, FumoNet*]
 plugins: [jekyll-paginate-v2]
 
