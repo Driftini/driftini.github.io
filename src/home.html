@@ -36,7 +36,19 @@ permalink: /
 		</div>
 
 		<div class="homeBanner--cardGrid">
-			<a href="{{ shownArt.url }}" class="box" style="--cardDelay: .4s; translate: -100px 0">
+			<a href="/about" class="box homeAboutBox" style="--cardDelay: .4s; translate: 0 -100px">
+				<label class="box--label">Something about me</label>
+
+				<div class="homeAboutImg"></div>
+
+				<h2>
+					I'm Driftini!<br><br>
+					I like music, design, drawing and a bunch of other stuff.<br><br>
+					<p class="homeReadMore">Read more...</p>
+				</h2>
+			</a>
+
+			<a href="{{ shownArt.url }}" class="box" style="--cardDelay: .6s; translate: -100px 0">
 				<label class="box--label">Featured Artwork: <b>{{ shownArt.title }}</b></label>
 
 				<div class="homeBanner--cardGrid--picturePost">
@@ -59,14 +71,7 @@ permalink: /
 		    {% assign day_num = day_num | prepend: "0" %}
 		    {% endif %}
 
-			<a href="{{ latestDailyMonth.url }}" class="box" style="--cardDelay: .6s; translate: 100px 0">
-				<label class="box--label">Latest daily doodle: <b>{{ latestDailyMonth.date | date: "%B " | append: day_num | append: " 2024" }}</b></label>
-				<div class="homeBanner--cardGrid--picturePost">
-					<img src="/assets/img/posts/dailies/thumbs/2024-{{ month_num }}-{{ day_num }}.jpg">
-				</div>
-			</a>
-
-			<a href="{{ site.posts[0].url }}" class="box homeBlogBox" style="--cardDelay: .8s; translate: -100px 0">
+			<a href="{{ site.posts[0].url }}" class="box homeBlogBox" style="--cardDelay: .8s; translate: 100px 0">
 				<label class="box--label">Latest blog post: <b>{{ site.posts[0].title }}</b></label>
 
 				{% if site.posts[0].thumbnail %}
@@ -84,18 +89,6 @@ permalink: /
 				<p class="homeReadMore">Read more...</p>
 
 				<p class="homeDate">{{ site.posts[0].date | date_to_string }}</p>
-			</a>
-
-			<a href="/about" class="box homeAboutBox" style="--cardDelay: 1s; translate: 100px 0">
-				<label class="box--label">Something about me</label>
-
-				<div class="homeAboutImg"></div>
-
-				<h2>
-					I'm Driftini!<br><br>
-					I like music, design, drawing and a bunch of other stuff.<br><br>
-					<p class="homeReadMore">Read more...</p>
-				</h2>
 			</a>
 		</div>
 	</div>

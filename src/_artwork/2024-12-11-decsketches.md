@@ -15,6 +15,7 @@ pictures:
   variants:
   - file: /assets/img/posts/artwork/2024-12-11-decsketches_3.jpg
     label: Ryoultran Sakane
+thumbnail: /assets/img/posts/artwork/thumbs/2024-12-11-decsketches_thumb.jpg
 title: December sketches
 ---
 Welp, looks like I didn't manage to make any more big exciting drawings in the last month of this year after all.
