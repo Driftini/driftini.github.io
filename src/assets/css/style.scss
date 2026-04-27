@@ -1,6 +1,6 @@
 ---
 ---
-@import "Pannacotta";
+@use "Pannacotta";
 
 :root {
     --tfuncSlider: cubic-bezier(.39, .58, .57, 1);
@@ -63,7 +63,7 @@ header {
     box-shadow: var(--boxshShineR);
 
     h1 {
-        @include Header;
+        @include Pannacotta.Header;
     }
 
     p {
@@ -72,7 +72,7 @@ header {
     }
 
     a:not([class]) {
-        @include Hyperlink;
+        @include Pannacotta.Hyperlink;
 
         &.button {
             color: var(--tcolrNormal);
@@ -81,23 +81,23 @@ header {
     }
 
     blockquote>p {
-        @include Blockquote;
+        @include Pannacotta.Blockquote;
     }
 
     code {
-        @include CodeInline;
+        @include Pannacotta.CodeInline;
     }
 
     pre {
-        @include CodeBlock;
+        @include Pannacotta.CodeBlock;
     }
 
     hr {
-        @include Separator;
+        @include Pannacotta.Separator;
     }
 
     .verticalseparator {
-        @include SeparatorVertical;
+        @include Pannacotta.SeparatorVertical;
 
         // this should be just for pics
         grid-column: 2;
